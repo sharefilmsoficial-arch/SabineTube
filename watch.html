@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MyTube — Ver</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="watch.css">
+  <link rel="shortcut icon" href="iconos/MyTube(2).png" type="image/x-icon">
+</head>
+
+<body>
+
+<!-- ===== TOP BAR ===== -->
+<header class="top-bar">
+  <button class="hamburger" aria-label="Menú">☰</button>
+
+  <a href="index.html" class="logo-2">
+    <img src="iconos/MyTube.png" alt="MyTube">
+  </a>
+
+  <input type="text" id="search" placeholder="Buscar">
+</header>
+
+<div class="layout">
+
+  <!-- ===== SIDEBAR (MISMO QUE INDEX) ===== -->
+  <aside class="sidebar">
+
+    <a href="index.html" class="side-item">
+      <img src="iconos/home.png">
+      <span>Inicio</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/shorts.png">
+      <span>Shorts</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/subs.png">
+      <span>Suscripciones</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/tu.png">
+      <span>Tú</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/descargas.png">
+      <span>Descargas</span>
+    </a>
+
+    <a href="todas.html" class="side-item">
+      <img src="iconos/todas.png">
+      <span>Todas</span>
+    </a>
+
+    <a href="series.html" class="side-item">
+      <img src="iconos/series.png">
+      <span>Series</span>
+    </a>
+
+    <a href="https://sharefilmsoficial-arch.github.io/SabineClear.com/" class="side-item">
+      <img src="iconos/SabineClear.png">
+      <span>SabineClear</span>
+    </a>
+
+    <a href="../facebook/facebook.com.html" class="side-item">
+      <img src="iconos/FaceClone.png">
+      <span>MyPost</span>
+    </a>
+
+    <a href="../whatsapp/web.whatsapp.html" class="side-item">
+      <img src="iconos/MyChat.png">
+      <span>MyChat</span>
+    </a>
+
+  </aside>
+
+<div class="watch-layout">
+
+  <!-- VIDEO + INFO -->
+  <main class="watch-main">
+
+    <div class="player">
+      <iframe
+        id="moviePlayer"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <h1 id="movieTitle"></h1>
+
+    <div class="channel-info">
+      <img src="perfil/apeiros173.jpg">
+      <span>Apeiros173</span>
+    </div>
+
+
+    <div class="actions">
+      <button><img src="iconos/un-like.png"> Me gusta</button>
+      <button><img src="iconos/un-dislike.png"> No me gusta</button>
+      <button><img src="iconos/share.png"> Compartir</button>
+      <button><img src="iconos/save.png"> Guardar</button>
+    </div>
+
+    <div class="movie-info">
+      <img id="movieImage" class="poster">
+      <p id="movieDescription"></p>
+    </div>
+
+  </main>
+
+  <!-- SIDEBAR -->
+  <aside class="watch-sidebar" id="relatedMovies"></aside>
+
+</div>
+
+<!-- DATA -->
+<script src="movies.js"></script>
+<script src="serie.js"></script>
+
+<!-- LOGIC -->
+<script src="watch.js"></script>
+
+</body>
+</html>

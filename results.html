@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultados</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="top-bar">
+  <!-- Botón hamburguesa -->
+  <button class="hamburger" aria-label="Menú">☰</button>
+
+  <div class="logo-2">
+    <img src="iconos/MyTube.png" alt="MyTube">
+  </div>
+
+  <input type="text" id="search" placeholder="Buscar">
+</header>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <a href="index.html" class="side-item">
+      <img src="iconos/home.png" alt="Principal">
+      <span>Inicio</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/shorts.png" alt="Shorts">
+      <span>Shorts</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/subs.png" alt="Suscripciones">
+      <span>Suscripciones</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/tu.png" alt="Tú">
+      <span>Tú</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/descargas.png" alt="Descargas">
+      <span>Descargas</span>
+    </a>
+
+    <a href="todas.html" class="side-item">
+      <img src="iconos/todas.png" alt="Todas">
+      <span>Todas</span>
+    </a>
+  </aside>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="content">
+    <h2 class="results-title" id="resultsTitle"></h2>
+    <div class="grid" id="moviesGrid"></div>
+  </main>
+
+</div>
+
+<script src="movies.js"></script>
+<script src="resultados.js"></script>
+
+</body>
+</html>

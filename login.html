@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Iniciar sesión | SabineTube</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="style-login.css">
+
+  <!-- PROTECCIÓN: si ya está logueado, no vuelve al login -->
+  <script>
+    if (localStorage.getItem("login") === "true") {
+      location.href = "index-login.html";
+    }
+  </script>
+</head>
+<body>
+
+  <div class="login-wrapper">
+    <div class="login-box">
+      <a href="login.html" class="logo-2"><img src="iconos/MyTube.png" alt="MyTube"></a>
+      <p>Inicia sesión</p>
+
+      <input
+        type="text"
+        id="user"
+        placeholder="Usuario"
+        autocomplete="off"
+      >
+
+      <input
+        type="password"
+        id="pass"
+        placeholder="Contraseña"
+      >
+
+      <button onclick="login()">Entrar</button>
+
+      <p id="msg"></p>
+    </div>
+  </div>
+
+  <!-- LOGIC -->
+  <script src="login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MyTube2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://img.icons8.com/nolan/64/youtube-play.png" type="image/x-icon">
+</head>
+<body>
+
+<header class="top-bar">
+   <!-- Botón hamburguesa (decoración) -->
+  <button class="hamburger" aria-label="Menú">
+    ☰
+  </button>
+  <a href="index.html" class="logo-2"><img src="iconos/MyTube.png" alt="MyTube"></a>
+  <input type="text" id="search" placeholder="Buscar">
+</header>
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <a href="index.html" class="side-item">
+      <img src="iconos/home.png" alt="Principal">
+      <span>Inicio</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/shorts.png" alt="Shorts">
+      <span>Shorts</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/subs.png" alt="Suscripciones">
+      <span>Suscripciones</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/tu.png" alt="Tú">
+      <span>Tú</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/descargas.png" alt="descargas">
+      <span>Descargas</span>
+    </a>
+
+    <a href="todas.html" class="side-item">
+      <img src="iconos/en-todas.png" alt="todas">
+      <span>Todas</span>
+    </a>
+
+    <a href="series.html" class="side-item">
+      <img src="iconos/series.png" alt="series">
+      <span>Series</span>
+    </a>
+
+    <a href="../facebook/facebook.com.html" class="side-item">
+      <img src="iconos/FaceClone.png" alt="facebook">
+      <span>MyPost</span>
+    </a>
+
+    <a href="../whatsapp/web.whatsapp.html" class="side-item">
+      <img src="iconos/MyChat.png" alt="whatsapp">
+      <span>MyChat</span>
+    </a>
+
+  </aside>
+
+<div class="grid" id="moviesGrid">
+  <!-- Las cards se generan desde movies.js -->
+</div>
+
+<script src="movies.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

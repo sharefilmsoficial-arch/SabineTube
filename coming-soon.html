@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Próximamente | MyTube</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon"
+        href="https://img.icons8.com/nolan/64/youtube-play.png">
+
+  <!-- Protección -->
+  <script>
+    if (localStorage.getItem("login") !== "true") {
+      location.href = "login.html";
+    }
+  </script>
+
+  <style>
+    /* Mensaje centrado */
+    .coming-soon {
+      height: calc(100vh - 64px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .coming-box {
+      max-width: 600px;
+    }
+
+    .coming-box h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .coming-box p {
+      font-size: 20px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="top-bar">
+  <button class="hamburger">☰</button>
+  <a href="index-login.html" class="logo-2">
+    <img src="iconos/MyTube.png" alt="MyTube">
+  </a>
+  <input type="text" id="search" placeholder="Buscar">
+</header>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <a href="index-login.html" class="side-item">
+      <img src="iconos/home.png">
+      <span>Inicio</span>
+    </a>
+
+    <a href="coming-soon.html" class="side-item">
+      <img src="iconos/shorts.png">
+      <span>Shorts</span>
+    </a>
+
+    <a href="coming-soon.html" class="side-item">
+      <img src="iconos/subs.png">
+      <span>Suscripciones</span>
+    </a>
+
+    <a href="coming-soon.html" class="side-item">
+      <img src="iconos/tu.png">
+      <span>Tú</span>
+    </a>
+
+    <a href="coming-soon.html" class="side-item">
+      <img src="iconos/descargas.png">
+      <span>Descargas</span>
+    </a>
+
+    <a href="series.html" class="side-item">
+      <img src="iconos/series.png">
+      <span>Series</span>
+    </a>
+
+    <a href="anime.html" class="side-item">
+      <img src="iconos/anime.png">
+      <span>Anime</span>
+    </a>
+
+  </aside>
+
+  <!-- CONTENIDO -->
+  <main class="content">
+    <div class="coming-soon">
+      <div class="coming-box">
+        <h1>😅 Ups… llegaste temprano</h1>
+        <p>
+          Aún se está trabajando en esta sección.<br>
+          Vuelve más tarde 😉
+        </p>
+      </div>
+    </div>
+  </main>
+
+</div>
+
+<script>
+  const search = document.getElementById("search");
+  search.addEventListener("keydown", e => {
+    if (e.key === "Enter" && search.value.trim()) {
+      location.href =
+        `results.html?query=${encodeURIComponent(search.value)}`;
+    }
+  });
+</script>
+
+</body>
+</html>

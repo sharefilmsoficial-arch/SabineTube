@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Trailer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="trailer.css">
+</head>
+<body>
+
+<header class="top-bar">
+  <button class="hamburger">☰</button>
+  <input class="search" type="text" placeholder="Buscar">
+</header>
+
+<div class="layout">
+
+  <!-- SIDEBAR (copiada de index) -->
+  <aside class="sidebar">
+    <a href="index.html" class="side-item">
+      <img src="iconos/home.png">
+      <span>Inicio</span>
+    </a>
+    <a class="side-item">
+      <img src="iconos/shorts.png">
+      <span>Shorts</span>
+    </a>
+    <a class="side-item">
+      <img src="iconos/subs.png">
+      <span>Suscripciones</span>
+    </a>
+    <a class="side-item">
+      <img src="iconos/tu.png">
+      <span>Tú</span>
+    </a>
+    <a class="side-item">
+      <img src="iconos/descargas.png">
+      <span>Descargas</span>
+    </a>
+  </aside>
+
+  <!-- ÁREA SHORT -->
+  <main class="short-wrapper">
+
+    <div class="short-card">
+
+      <div class="video-bg">
+        <video id="trailerVideo" autoplay muted loop playsinline></video>
+      </div>
+
+      <div class="right-bar">
+        <div class="icon">👍<span>36 k</span></div>
+        <div class="icon">👎</div>
+        <div class="icon">💬<span>72</span></div>
+        <div class="icon">↗</div>
+      </div>
+
+      <div class="info">
+        <h1 id="title"></h1>
+        <p id="subtitle"></p>
+      </div>
+
+    </div>
+
+  </main>
+</div>
+
+<script src="movies.js"></script>
+<script src="trailer.js"></script>
+</body>

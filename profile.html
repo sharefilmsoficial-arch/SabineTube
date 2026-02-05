@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tu perfil | MyTube</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* ===== PERFIL ===== */
+
+    .profile-header {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      padding: 30px;
+      border-bottom: 1px solid #2a2a2a;
+    }
+
+    .profile-avatar img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .profile-info h1 {
+      font-size: 32px;
+      margin-bottom: 5px;
+    }
+
+    .profile-info span {
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    /* ===== TABS ===== */
+
+    .profile-tabs {
+      display: flex;
+      gap: 25px;
+      padding: 15px 30px;
+      border-bottom: 1px solid #2a2a2a;
+    }
+
+    .profile-tab {
+      color: #aaa;
+      cursor: pointer;
+      padding-bottom: 10px;
+    }
+
+    .profile-tab.active {
+      color: #fff;
+      border-bottom: 2px solid #fff;
+    }
+
+    /* ===== CONTENIDO ===== */
+
+    .profile-content {
+      padding: 30px;
+    }
+
+    .empty-history {
+      text-align: center;
+      margin-top: 80px;
+      color: #aaa;
+    }
+
+    .empty-history img {
+      width: 90px;
+      opacity: 0.6;
+      margin-bottom: 20px;
+    }
+
+    .empty-history h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="top-bar">
+  <button class="hamburger">☰</button>
+  <a href="index-login.html" class="logo-2">
+    <img src="iconos/MyTube.png">
+  </a>
+  <input type="text" placeholder="Buscar">
+</header>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <a href="index-login.html" class="side-item">
+      <img src="iconos/home.png">
+      <span>Inicio</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/shorts.png">
+      <span>Shorts</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/subs.png">
+      <span>Suscripciones</span>
+    </a>
+
+    <a href="profile .html" class="side-item active">
+      <img src="iconos/tu.png">
+      <span>Tú</span>
+    </a>
+
+    <a class="side-item">
+      <img src="iconos/descargas.png">
+      <span>Descargas</span>
+    </a>
+
+  </aside>
+
+  <!-- CONTENIDO -->
+  <main class="content">
+
+    <!-- PERFIL -->
+    <section class="profile-header">
+      <div class="profile-avatar">
+        <img src="iconos/tu.png">
+      </div>
+
+      <div class="profile-info">
+        <h1>Tu perfil</h1>
+        <span>@usuario • MyTube</span>
+      </div>
+    </section>
+
+    <!-- TABS -->
+    <section class="profile-tabs">
+      <div class="profile-tab active">Historial</div>
+    </section>
+
+    <!-- CONTENIDO HISTORIAL -->
+    <section class="profile-content">
+      <div class="empty-history">
+        <img src="iconos/tu.png">
+        <h2>Aún no hay historial</h2>
+        <p>Cuando veas videos, aparecerán aquí.</p>
+      </div>
+    </section>
+
+  </main>
+
+</div>
+<img src="foto-perfil/<?= $data['foto_perfil'] ?>" class="avatar">
+
+<h1><?= $data['nombre'] ?></h1>
+<span>@<?= $data['username'] ?></span>
+
+<form action="subir-foto.php" method="POST" enctype="multipart/form-data">
+  <input type="file" name="foto" accept="image/*" onchange="this.form.submit()">
+</form>
+
+</body>
+</html>

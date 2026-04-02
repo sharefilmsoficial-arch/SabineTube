@@ -503,7 +503,7 @@ const MOVIES = [
   },
   {
     id: "kpop-demon-hunters",
-    title: "Las Guerreras K-Pop",
+    title: "Las Guerreras K-Pop - Kpop Demon Hunters",
     year: 2025,
     duration: "1h 36min",
     rating: "PG-13",
@@ -1048,7 +1048,7 @@ const MOVIES = [
     duration: "2h 6m",
     rating: "PG-13",
     genres: ["Acción","Ciencia ficción"],
-    description:"",
+    description:"ony Stark, un multimillonario fabricante de armas, quien tras ser secuestrado en Afganistán y gravemente herido, utiliza su ingenio para construir una armadura de alta tecnología y escapar. Al volver, decide cerrar su división de armas, perfeccionar la armadura y usarla para combatir el crimen, enfrentándose a la corrupción interna de su propia empresa. ",
     trailerUrl: sampleTrailer,
     image: "images/ironman.webp",
     post: "posters/ironman.webp",
@@ -1422,6 +1422,20 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/19t0x3ixt8Xbf9ZV9dqhqdGWZevUsnt-K/preview"
   },
   {
+    id: "inside-out2-720",
+    title: "Intensamente 2 - 720",
+    year: 2024,
+    duration: "1h 36m",
+    rating: "PG-13",
+    calidad: "360p",
+    genres: ["Infantil","Comedia","Animación"],
+    description:"Ahora que es adolescente, Riley experimenta nuevos sentimientos como Ansiedad y Envidia, que se imponen a los viejos mientras ella duda sobre si abandonar a sus antiguas amigas por otras de la escuela secundaria.",
+    trailerUrl: sampleTrailer,
+    image: "images/inside-out2.webp",
+    post: "posters/inside-out2.webp",
+    movie: "https://drive.google.com/file/d/1be-AUboq2_1vzBWt41QBXdoW0YWb_ljn/preview"
+  },
+  {
     id: "thor",
     title: "Thor | Próximamente",
     year: 2017,
@@ -1743,7 +1757,7 @@ const MOVIES = [
     description:"F",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/transporter.webp",
+    post: "posters/the-transporter.webp",
     movie: ""
 },
 {
@@ -1757,7 +1771,7 @@ const MOVIES = [
     description:"F",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/transporter-2.webp",
+    post: "posters/the-transporter-2.webp",
     movie: ""
 },
 {
@@ -1871,7 +1885,7 @@ const MOVIES = [
     description:"",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/the-king-lion_live-action.webp",
+    post: "posters/the-king-lion-live-action.webp",
     movie: ""
 },
 {
@@ -1959,7 +1973,7 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/1zjbTZeN-QK0j1rTOssyAqmAdryejPp3E/preview"
 },
 {
-    id: "pistolero-desperado",
+    id: "pistolero-desperado-castellano",
     title: "Pistolero (Desperado)",
     year: 1995,
     duration: "1h 44m",
@@ -2074,12 +2088,12 @@ const MOVIES = [
     trailerUrl: "trailers/",
     image: image,
     post: "posters/avengers-age-of-ultron.webp",
-    movie: "",
+    movie: "https://drive.google.com/file/d/1vaW01zBNUZd7bCZiKgjXetSSdeBwGMfH/preview",
     estreno: "Próximamente"
 },
 {
     id: "movie-9",
-    title: "Proximamente | Avengers",
+    title: "Proximamente | Los Vengadores - Avengers",
     year: 2014,
     duration: "1h ",
     rating: "B",
@@ -2089,12 +2103,12 @@ const MOVIES = [
     trailerUrl: "trailers/",
     image: image,
     post: "posters/avengers.webp",
-    movie: "",
+    movie: "https://drive.google.com/file/d/1Jor72y4Oqn1Hj_Mdd7qC3LSVPdHeSdtr/preview",
     estreno: "Próximamente"
 },
 {
     id: "os-vingadores",
-    title: "Os Vingadores - Português",
+    title: "Os Vingadores - Português - Avengers",
     year: 2014,
     duration: "1h ",
     rating: "B",
@@ -2261,9 +2275,9 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-19",
+    id: "leo-2023",
     title: "Proximamente | Leo",
-    year: 2014,
+    year: 2023,
     duration: "1h ",
     rating: "B",
     calidad: "360p",
@@ -2271,7 +2285,7 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/.webp",
+    post: "posters/leo-2023.webp",
     movie: "",
     estreno: "Próximamente"
 },
@@ -2307,7 +2321,7 @@ const MOVIES = [
 },
 {
     id: "movie-21.1",
-    title: "Proximamente | Los Increibles 2",
+    title: "Proximamente | Los Increibles 3",
     year: 2014,
     duration: "1h ",
     rating: "B",
@@ -2486,7 +2500,7 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-33",
+    id: "movie-33-the-mandalorian-&-grogu",
     title: "Proximamente | The Mandalorian & Grogu |  21 de Mayo sólo en cines",
     year: 2026,
     duration: "1h ",
@@ -2496,7 +2510,7 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/.webp",
+    post: "posters/The-Mandalorian-&-Grogu.webp",
     movie: "",
     estreno: "Próximamente"
 },
@@ -2756,7 +2770,7 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-51",
+    id: "movie-51-mortal-kombat-2",
     title: "Proximamente | Mortal Kombat II | 8 de mayo sólo en cines",
     year: 2026,
     duration: "1h ",
@@ -2766,12 +2780,12 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/.webp",
+    post: "posters/mortal-kombat-II.webp",
     movie: "",
     estreno: "Próximamente"
 },
 {
-    id: "movie-52",
+    id: "movie-52-raya-y-el-ultimo-dragon",
     title: "Proximamente | Raya y El Último Dragón",
     year: 2024,
     duration: "1h ",
@@ -2781,12 +2795,12 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/.webp",
+    post: "posters/raya-y-el-ultimo-dragon.webp",
     movie: "",
     estreno: "Próximamente"
 },
 {
-    id: "movie-53",
+    id: "movie-53-megalodon",
     title: "Proximamente | Megadolon",
     year: 2012,
     duration: "1h ",
@@ -2796,7 +2810,7 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/.webp",
+    post: "posters/megalodon.webp",
     movie: "",
     estreno: "Próximamente"
 },
@@ -2811,12 +2825,12 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/.webp",
+    post: "posters/megalodon2.avif",
     movie: "",
     estreno: "Próximamente"
 },
 {
-    id: "movie-55",
+    id: "movie-55-transfomers-one",
     title: "Proximamente | Transformers One",
     year: 2012,
     duration: "1h ",
@@ -2826,12 +2840,12 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/.webp",
+    post: "posters/transformers-one.webp",
     movie: "",
     estreno: "Próximamente"
 },
 {
-    id: "movie-56",
+    id: "movie-56-los-pitufos-2025",
     title: "Proximamente | Pitufos",
     year: 2012,
     duration: "1h ",
@@ -2841,13 +2855,13 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/.webp",
+    post: "posters/los-pitufos-2025.webp",
     movie: "",
     estreno: "Próximamente"
 },
 {
     id: "movie-57",
-    title: "Proximamente | Scooby-Doo",
+    title: "Proximamente | Scooby!",
     year: 2012,
     duration: "1h ",
     rating: "B",
@@ -2856,7 +2870,7 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/.webp",
+    post: "posters/scooby.webp",
     movie: "",
     estreno: "Próximamente"
 },
@@ -2888,6 +2902,36 @@ const MOVIES = [
     image: image,
     post: "posters/chainsaw-man-arco-de-reze.jpg",
     movie: "https://drive.google.com/file/d/1RuAAICpX5bXmT6Oqcshjn-QI9pI6QrcR/preview",
+    estreno: "Próximamente"
+},
+{
+    id: "movie-58",
+    title: "Próximamente | Los Backrooms",
+    year: 2026,
+    duration: "1h 45m",
+    rating: "B",
+    calidad: "480p",
+    genres: ["..."],
+    description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
+    trailerUrl: "trailers/",
+    image: image,
+    post: "posters/backrooms.webp",
+    movie: "",
+    estreno: "Próximamente"
+},
+{
+    id: "movie-59",
+    title: "Próximamente | Buscando",
+    year: 2026,
+    duration: "1h 45m",
+    rating: "B",
+    calidad: "480p",
+    genres: ["..."],
+    description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
+    trailerUrl: "trailers/",
+    image: image,
+    post: "posters/buscando.webp",
+    movie: "",
     estreno: "Próximamente"
 }
 ];

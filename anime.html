@@ -10,13 +10,19 @@
 <body>
 
 <header class="top-bar">
-   <!-- Botón hamburguesa (decoración) -->
+  <!-- Botón hamburguesa -->
   <button class="hamburger" aria-label="Menú">
     ☰
   </button>
-  <a href="index.html" class="logo-2"><img src="iconos/MyTube.png" alt="MyTube"></a>
-  <input type="text" id="search" placeholder="Buscar">
+
+  <a href="index.html" class="logo-2">
+    <img src="iconos/MyTube.png" alt="MyTube">
+  </a>
+
+  <!-- 🔥 IMPORTANTE: ID correcto -->
+  <input type="text" id="search" placeholder="Buscar anime...">
 </header>
+
 <div class="layout">
 
   <!-- SIDEBAR -->
@@ -55,6 +61,8 @@
       <img src="iconos/series.png" alt="series">
       <span>Series</span>
     </a>
+
+    <!-- 🔥 ACTIVA -->
     <a href="anime.html" class="side-item">
       <img src="iconos/anime.png" alt="anime">
       <span>Anime</span>
@@ -69,18 +77,23 @@
       <img src="iconos/MyChat.png" alt="whatsapp">
       <span>MyChat</span>
     </a>
-
   </aside>
 
-<main class="content">
-  <section class="grid" id="animeGrid"></section>
-</main>
+  <!-- 🔥 IMPORTANTE: ID que usa anime.js -->
+  <main class="content">
+    <div class="grid" id="animeGrid"></div>
+  </main>
+
 </div>
+
 <!-- DATA -->
 <script src="movies.js"></script>
-<script src="series.js"></script>
 
-<!-- PAGE LOGIC -->
+<!-- 🔥 CORRECCIÓN: tu archivo es serie.js (no series.js) -->
+<script src="serie.js"></script>
+
+<!-- LOGIC -->
 <script src="anime.js"></script>
+
 </body>
 </html>

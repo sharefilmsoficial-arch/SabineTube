@@ -4,6 +4,7 @@ const SERIES = [
     title: "What If...? Temporada 1",
     year: 2021,
     image: "series/What-If-TP1.webp",
+    genres: ["Animación"],
     episodes: [
     {
       id: "episode-1",
@@ -84,6 +85,7 @@ const SERIES = [
   title: "What If...? Temporada 2",
   year: 2023,
   image: "series/What-If-TP2.webp",
+  genres: ["Animación"],
   episodes: [
     {
       id: "episode-1",
@@ -164,6 +166,7 @@ const SERIES = [
     title: "Seven Scissors Temporada 3",
     year: 2024,
     image: "series/scissor-seven-TP3.jpg",
+  genres: ["Anime"],
    episodes: [
     {
       id: "episode-1",
@@ -252,6 +255,7 @@ const SERIES = [
     title: "Miraculous Sexta Temporada",
     year: 2025,
     image: "series/miraculous-TP6.jpg",
+  genres: ["Animación"],
     episodes: [
       {
         id: "episode-1",
@@ -267,7 +271,7 @@ const SERIES = [
         name: "La Ilustra-Odiosa",
         thumb: "series/miraculous-TP6-EP2.jpg",
         image: "series/miraculous-TP6-EP2.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP2-the-ilustrhater.mp4"
+        drive: "https://drive.google.com/file/d/1tVZdaQCbNE57DZ_pcVz-04fWm3Mn4x8U/preview"
       },
       {
         id: "episode-3",
@@ -275,7 +279,7 @@ const SERIES = [
         name: "Sublimación",
         thumb: "series/miraculous-TP6-EP3.jpg",
         image: "series/miraculous-TP6-EP3.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP3-sublimation.mp4"
+        drive: "https://drive.google.com/file/d/1nlsau42usIAuNg184unapDJQtsDPVOJu/preview"
       },
       {
         id: "episode-4",
@@ -385,80 +389,80 @@ const SERIES = [
         id: "episode-17",
         n: 17,
         name: "Próximamente: El Hada de las Buenas Noches",
-        thumb: "icons/image-loading.gif",
-        image: "icons/image-loading.gif",
+        thumb: "series/miraculous-TP6-EP17.png",
+        image: "series/miraculous-TP6-EP17.png",
         drive: "series/miraculous-TP6/Miraculous-TP6-EP17-a-fairy-good-night.mp4"
       },
       {
         id: "episode-18",
         n: 18,
         name: "Próximamente: The Dirtifiers",
-        thumb: "icons/image-loading.gif",
-        image: "icons/image-loading.gif",
+        thumb: "icons/loading.gif",
+        image: "icons/loading.gif",
         drive: "series/miraculous-TP6/Miraculous-TP6-EP18-the-dirtifiers.mp4"
       },
       {
         id: "episode-19",
         n: 19,
         name: "Próximamente: Riginazarione",
-        thumb: "icons/image-loading.gif",
-        image: "icons/image-loading.gif",
+        thumb: "icons/loading.gif",
+        image: "icons/loading.gif",
         drive: "series/miraculous-TP6/Miraculous-TP6-EP19-riginazarione.mp4"
       },
       {
         id: "episode-20",
         n: 20,
         name: "Próximamente: Heartfixer",
-        thumb: "icons/image-loading.gif",
-        image: "icons/image-loading.gif",
+        thumb: "icons/loading.gif",
+        image: "icons/loading.gif",
         drive: "series/miraculous-TP6/Miraculous-TP6-EP20-hearfixer.mp4"
       },
       {
         id: "episode-21",
         n: 21,
         name: "Próximamente: The Chained Titans",
-        thumb: "icons/image-loading.gif",
-        image: "icons/image-loading.gif",
+        thumb: "icons/loading.gif",
+        image: "icons/loading.gif",
         drive: "series/miraculous-TP6/Miraculous-TP6-EP21-the-chained-titans.mp4"
       },
       {
         id: "episode-22",
         n: 22,
         name: "Próximamente: Lady Caos",
-        thumb: "icons/image-loading.gif",
-        image: "icons/image-loading.gif",
+        thumb: "icons/loading.gif",
+        image: "icons/loading.gif",
         drive: "series/miraculous-TP6/Miraculous-TP6-EP22-lady-caos.mp4"
       },
       {
         id: "episode-23",
         n: 23,
         name: "Próximamente: Sadnansi",
-        thumb: "icons/image-loading.gif",
-        image: "icons/image-loading.gif",
+        thumb: "icons/loading.gif",
+        image: "icons/loading.gif",
         drive: "series/miraculous-TP6/Miraculous-TP6-EP23-sadnansi.mp4"
       },
       {
         id: "episode-24",
         n: 24,
         name: "Próximamente: Reina de la Zona del Terror",
-        thumb: "icons/image-loading.gif",
-        image: "icons/image-loading.gif",
+        thumb: "icons/loading.gif",
+        image: "icons/loading.gif",
         drive: "series/miraculous-TP6/Miraculous-TP6-EP24-queen-of-the-dreadzone.mp4"
       },
       {
         id: "episode-25",
         n: 25,
         name: "Próximamente: Protocolo Secreto",
-        thumb: "icons/image-loading.gif",
-        image: "icons/image-loading.gif",
+        thumb: "icons/loading.gif",
+        image: "icons/loading.gif",
         drive: "series/miraculous-TP6/Miraculous-TP6-EP25-secret-protocol.mp4"
       },
       {
         id: "episode-26",
         n: 26,
         name: "Próximamente: Némesis",
-        thumb: "icons/image-loading.gif",
-        image: "icons/image-loading.gif",
+        thumb: "icons/loading.gif",
+        image: "icons/loading.gif",
         drive: "series/miraculous-TP6/Miraculous-TP6-EP26-nemesis.mp4"
       }
     ]
@@ -469,6 +473,7 @@ const SERIES = [
     year: 2025,
     image: "series/welcome-to-derry.jpg",
     video: "trailers/clip/welcome-to-derry.mp4",
+  genres: ["Terror"],
     episodes: [
       {
         id: "episode-1",

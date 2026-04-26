@@ -36,7 +36,7 @@ function renderAnime(filter = "") {
 
     card.innerHTML = `
       <div class="thumb">
-        <img src="${movie.image}" alt="${movie.title}">
+        <img src="${movie.post}" alt="${movie.title}">
         <span class="time">${movie.duration || ""}</span>
       </div>
       <div class="info">
@@ -56,7 +56,7 @@ function renderAnime(filter = "") {
 
     card.innerHTML = `
       <div class="thumb">
-        <img src="${serie.image}" alt="${serie.title}">
+        <img src="${serie.post}" alt="${serie.title}">
       </div>
       <div class="info">
         <h3>${serie.title}</h3>

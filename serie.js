@@ -166,8 +166,9 @@ const SERIES = [
     title: "Seven Scissors Temporada 3",
     year: 2024,
     image: "series/scissor-seven-TP3.jpg",
-  genres: ["Anime"],
-   episodes: [
+    post: "series/scissor-seven-tp-3-poster.webp",
+    genres: ["Anime"],
+    episodes: [
     {
       id: "episode-1",
       n: 1,

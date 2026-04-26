@@ -581,7 +581,7 @@ const MOVIES = [
   },
   {
     id: "miraculous-world5",
-    title: "Muy Proximamente (2026): Miraculous World Tokio: Fuerza Estelar",
+    title: "Miraculous World Tokio: Fuerza Estelar",
     year: 2025,
     duration: "52min",
     rating: "TV-G",
@@ -591,7 +591,7 @@ const MOVIES = [
     image: "images/miraculous-world-5.webp",
     post : "posters/miraculous-tokio.jpg",
     movie: "aun no",
-    estreno: "Próximamente"
+    estreno: "https://drive.google.com/file/d/1e9r7j8CkkhBpx0EPWwxoIshq3ZklTO06/preview"
   },
   {
     id: "miraculous-awakening",
@@ -1136,7 +1136,7 @@ const MOVIES = [
   },
   {
     id: "toy-story-2",
-    title: "Toy Story 2: Próximamente",
+    title: "Toy Story 2",
     year: 1999,
     duration: "1h 37min",
     rating: "PG-13",
@@ -1145,8 +1145,7 @@ const MOVIES = [
     trailerUrl: sampleTrailer,
     image: "https://m.media-amazon.com/images/S/pv-target-images/b14b33a4a541520ab9d9d217678375991e5adc5e400dfcd7ff4bde8966669863.jpg",
     post: "posters/toy-story-2.webp",
-    movie: "https://drive.google.com/file/d/1x5il-6bRAx6IGrwWnZlNrNwbc-GW16WK/preview",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1dhMaqKuJinz85Zx0-GSuheIFWgSbOQ-d/preview"
   },
   {
     id: "toy-story-3",
@@ -1593,7 +1592,7 @@ const MOVIES = [
 },
   {
     id: "the-super-mario-galaxy-movie",
-    title: "Super Mario Bros Galaxy | Próximamente",
+    title: "Super Mario Bros Galaxy",
     year: 2028,
     duration: "1h 32m ",
     rating: "PG-13",
@@ -1603,7 +1602,7 @@ const MOVIES = [
     trailerUrl: "trailers/Super-Mario-Galaxy.mp4",
     image: "images/the-super-mario-galaxy-movie.webp",
     post: "posters/the-super-mario-galaxy-movie.webp",
-    movie: "https://drive.google.com/file/d/1tPHwylgsP2hoEYEJdMs_SBTLZDlKePq0/preview"
+    movie: "https://drive.google.com/file/d/1CG3fAe1UowfrOQtL9asUD-z8ruLPZ60h/preview"
 },
   {
     id: "captain-marvel",
@@ -1834,13 +1833,13 @@ const MOVIES = [
 },
 {
     id: "demon-slayer-kimetsu-no-yaiba-infinity-castle",
-    title: "Demon Slayer - Kimetsu no Yaiba: El Castillo Infinito",
-    year: 2000,
-    duration: "1h 58m",
+    title: "Demon Slayer: El Castillo Infinito",
+    year: 2025,
+    duration: "2h 35m",
     rating: "B",
     calidad: "360p",
     genres: ["Acción","Aventura","Anime"],
-    description:"",
+    description:"Después de recuperarse de la trampa de Kagaya Ubuyashiki y someter a Tamayo , Muzan Kibutsuji se retira a su fortaleza dimensional, el Castillo Infinito, y atrapa al Cuerpo de Cazadores de Demonios dentro. [ b ] Los Cazadores de Demonios se separan y se enfrentan a hordas de demonios de nivel de Rango Inferior mientras buscan a Muzan y Tamayo. El hijo de Kagaya, Kiriya , y sus hijas, Kuina y Kanata , lideran la operación mapeando el Castillo Infinito con los cuervos Kasugai y localizando a sus habitantes, con los antiguos Hashiras Tengen Uzui y Shinjuro Rengoku haciendo guardia.",
     trailerUrl: "trailers/",
     image: "images/demon-slayer-kimetsu-no-yaiba-infinity-castle.webp",
     post: "posters/demon-slayer-kimetsu-no-yaiba-infinity-castle.webp",
@@ -1987,6 +1986,20 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/1EkxM67tdGXVt8i1e2ZJn2PrOuXwQB83L/preview"
 },
 {
+    id: "el-tiempo-contigo",
+    title: "El Tiempo Contigo",
+    year: 2019,
+    duration: "1h 54m",
+    rating: "B",
+    calidad: "360p",
+    genres: ["Romance","Anime","Fantasía"],
+    description:"Un adolescente se escapa a Tokio y entabla una amistad con una joven que parece ser capaz de manipular el clima.",
+    trailerUrl: "trailers/",
+    image: "images/el-tiempo-contigo.webp",
+    post: "posters/el-tiempo-contigo.webp",
+    movie: "https://drive.google.com/file/d/17-jwn6MaaXOzYeBM_jjMGBzSk4xcN2ih/preview"
+},
+{
     id: "movie-4.1",
     title: "Proximamente | Spiderman: Lejos de Casa",
     year: 2017,
@@ -2078,7 +2091,7 @@ const MOVIES = [
 },
 {
     id: "movie-8",
-    title: "Proximamente | Avengers: Era de Ultrón",
+    title: "Los Vengadores - Avengers: Era de Ultrón",
     year: 2014,
     duration: "1h ",
     rating: "B",
@@ -2093,7 +2106,7 @@ const MOVIES = [
 },
 {
     id: "movie-9",
-    title: "Proximamente | Los Vengadores - Avengers",
+    title: "Los Vengadores - Avengers",
     year: 2014,
     duration: "1h ",
     rating: "B",
@@ -2876,7 +2889,7 @@ const MOVIES = [
 },
 {
     id: "chainsaw-man-arco-de-reze-720",
-    title: "Chainsaw Man  - Arco de Reze - Película completa en Español Latino 🇲🇽",
+    title: "Chainsawman - Arco de Reze - Película completa en Español Latino 🇲🇽",
     year: 2025,
     duration: "1h 45m",
     rating: "B",
@@ -2891,7 +2904,7 @@ const MOVIES = [
 },
 {
     id: "chainsaw-man-arco-de-reze-480",
-    title: "Chainsaw Man – La Película - Arco de Reze - SUB ESPAÑOL",
+    title: "Chainsawman – La Película - Arco de Reze - SUB ESPAÑOL",
     year: 2025,
     duration: "1h 45m",
     rating: "B",

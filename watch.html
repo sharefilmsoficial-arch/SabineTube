@@ -2,11 +2,11 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>MyTube — Ver</title>
+  <title>SabineTube — Ver</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="watch.css">
-  <link rel="shortcut icon" href="iconos/MyTube(2).png" type="image/x-icon">
+  <link id="dynamic-favicon" rel="shortcut icon" href="iconos/MyTube(2).png" type="image/x-icon">
 </head>
 
 <body>
@@ -93,7 +93,6 @@
       </iframe>
     </div>
     <h1 id="movieTitle"></h1>
-
     <div class="channel-info">
       <img src="perfil/apeiros173.jpg">
       <span>Apeiros173</span>
@@ -103,8 +102,8 @@
     <div class="actions">
       <button><img src="iconos/un-like.png"> Me gusta</button>
       <button><img src="iconos/un-dislike.png"> No me gusta</button>
-      <button><img src="iconos/share.png"> Compartir</button>
-      <button><img src="iconos/save.png"> Guardar</button>
+      <button id="shareBtn"><img src="iconos/compartir-96.png">Compartir</button>
+      <button><img src="iconos/icons8-add-bookmark-96.png"> Guardar</button>
     </div>
 
     <div class="movie-info">
@@ -125,6 +124,47 @@
 
 <!-- LOGIC -->
 <script src="watch.js"></script>
+
+<!-- MODAL PARA COMPARTIR -->
+<div id="shareModal" class="share-modal">
+
+  <div class="share-content">
+
+    <span class="close-share" onclick="closeShareMenu()">✕</span>
+
+    <h3>Compartir en</h3>
+
+    <div class="share-options">
+
+      <!-- COPIAR -->
+      <div id="copyLink" class="copy-option">
+        <div class="share-icon">
+          <img src="iconos/clipboard.png">
+        </div>
+        Copiar link
+      </div>
+
+      <!-- WHATSAPP -->
+      <a id="shareWhatsapp" target="_blank">
+        <div class="share-icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+        </div>
+        WhatsApp
+      </a>
+
+      <!-- FACEBOOK -->
+      <a id="shareFacebook" target="_blank">
+        <div class="share-icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
+        </div>
+        Facebook
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
 
 </body>
 </html>

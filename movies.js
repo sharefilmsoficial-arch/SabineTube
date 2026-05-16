@@ -326,6 +326,16 @@ const MOVIES = [
     genres: ["Animación", "Aventura"],
     description: "Buzz Lightyear se embarca en una aventura intergaláctica con un grupo de reclutas ambiciosos y su compañero robot. Los amigos tendrán que aprender a trabajar juntos para escapar del malvado Zurg y su ejército de robots.",
     trailerUrl: "trailers/lightyear.mp4",
+    keywords: [
+    "toy story",
+    "toystory",
+    "buzz",
+    "buzz lightyear",
+    "buzzlightyear",
+    "woody",
+    "pixar",
+    "lighyear"
+    ],
     image: "images/lightyear.webp",
     post: "https://cdn.bolivia.com/sdi/2022/07/21/lightyear-fecha-estreno-chris-evans-disney-plus-1050224.jpg",
     movie: "https://drive.google.com/file/d/1m5gLKdgBV2loj5qCDIgLakOnUS7SN5T4/preview"
@@ -1848,12 +1858,12 @@ const MOVIES = [
 {
     id: "hotaru-no-mori-e",
     title: "En el bosque de la luz de las luciérnagas - Castellano",
-    year: 2000,
-    duration: "1h 58m",
-    rating: "B",
+    year: 2011,
+    duration: "45m",
+    rating: "Apto para todo público.",
     calidad: "360p",
-    genres: ["Acción","Aventura","Anime"],
-    description:"",
+    genres: ["Romance","Drama","Anime"],
+    description:" una película de anime de 45 minutos centrada en la tierna pero trágica historia de amor y amistad entre Hotaru, una niña humana, y Gin, un joven espíritu enmascarado que habita en un bosque encantado. La trama sigue cómo su vínculo crece cada verano, enfrentando la barrera de que Gin desaparecerá si es tocado por un humano.",
     trailerUrl: "trailers/",
     image: "images/hotaru-no-mori-e.webp",
     post: "posters/hotaru-no-mori-e.webp",
@@ -1931,7 +1941,7 @@ const MOVIES = [
 },
 {
     id: "rampage",
-    title: "Rampage: Devastatión",
+    title: "Rampage: Devastación",
     year: 2018,
     duration: "1h ",
     rating: "B",
@@ -2889,7 +2899,7 @@ const MOVIES = [
 },
 {
     id: "chainsaw-man-arco-de-reze-720",
-    title: "Chainsawman - Arco de Reze - Película completa en Español Latino 🇲🇽",
+    title: "Chainsaw Man  - Arco de Reze - Película completa en Español Latino 🇲🇽",
     year: 2025,
     duration: "1h 45m",
     rating: "B",
@@ -2904,7 +2914,7 @@ const MOVIES = [
 },
 {
     id: "chainsaw-man-arco-de-reze-480",
-    title: "Chainsawman – La Película - Arco de Reze - SUB ESPAÑOL",
+    title: "Chainsaw Man – La Película - Arco de Reze - SUB ESPAÑOL",
     year: 2025,
     duration: "1h 45m",
     rating: "B",

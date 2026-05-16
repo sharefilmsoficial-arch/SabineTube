@@ -253,3 +253,68 @@ body{
   background: #272727;
   border-left: 3px solid red;
 }
+
+/* =========================
+   📤 SHARE MODAL
+========================= */
+
+.share-modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.7);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  z-index:9999;
+}
+
+.share-content{
+  background:#202020;
+  width:320px;
+  border-radius:16px;
+  padding:20px;
+  position:relative;
+}
+
+.share-content h3{
+  margin-top:0;
+  margin-bottom:20px;
+}
+
+.close-share{
+  position:absolute;
+  right:15px;
+  top:10px;
+  font-size:20px;
+  cursor:pointer;
+}
+
+.share-options{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.share-options a,
+.copy-option{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:12px;
+  background:#2a2a2a;
+  border-radius:12px;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  transition:.2s;
+}
+
+.share-options a:hover,
+.copy-option:hover{
+  background:#3a3a3a;
+}
+
+.share-icon img{
+  width:28px;
+  height:28px;
+}

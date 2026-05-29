@@ -38,7 +38,7 @@ if (params.has("serie")) {
   player.src = episodio.drive;
 
   // 📝 Info
-  titleEl.textContent = `${serie.title} — Episodio ${episodio.n}`;
+  titleEl.textContent = `${serie.title} — Episodio ${episodio.n}: ${episodio.name}`;
   imgEl.src = episodio.image || serie.image;
   descEl.textContent = episodio.name;
 

@@ -2,70 +2,173 @@ const grid = document.getElementById("moviesGrid");
 const title = document.getElementById("resultsTitle");
 const searchInput = document.getElementById("search");
 
-
-// función para quitar acentos
-function normalize(text) {
+// 🔎 Normalizar texto
+function normalize(text = "") {
   return text
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
+    .replace(/[\u0300-\u036f]/g, "") // quitar acentos
+    .replace(/[^\w\s]/g, "") // quitar comas, puntos, etc
+    .replace(/\s+/g, " ") // espacios dobles
+    .trim();
 }
-// leer parámetro ?q=
+
+// 📌 Parámetro ?query=
 const params = new URLSearchParams(window.location.search);
-const query = params.get("query")?.toLowerCase() || "";
+const query = params.get("query") || "";
 
 searchInput.value = query;
 
-// filtrar películas
-const results = MOVIES.filter(movie => {
+const normalizedQuery = normalize(query);
 
-  // buscar en título
-  const titleMatch =
-    normalize(movie.title).includes(normalize(query));
+// 🔍 Función de coincidencia inteligente
+function matchesSearch(text) {
+  if (!text) return false;
 
-  // buscar en keywords
+  const normalizedText = normalize(text);
+
+  // coincidencia completa
+  if (normalizedText.includes(normalizedQuery)) {
+    return true;
+  }
+
+  // coincidencia por palabras
+  const queryWords = normalizedQuery.split(" ");
+  return queryWords.every(word =>
+    normalizedText.includes(word)
+  );
+}
+
+// 🎬 Buscar películas y series
+const ALL_CONTENT = [...MOVIES, ...SERIES];
+
+const results = [];
+
+ALL_CONTENT.forEach(movie => {
+
+  // 🎬 título principal
+  const titleMatch = matchesSearch(movie.title);
+
+  // 🏷 keywords
   const keywordMatch =
     movie.keywords?.some(keyword =>
-      normalize(keyword).includes(normalize(query))
+      matchesSearch(keyword)
     );
 
-  return titleMatch || keywordMatch;
+  // 📺 episodios
+  let matchedEpisode = null;
+
+  if (movie.episodes) {
+
+    matchedEpisode = movie.episodes.find(ep =>
+      matchesSearch(ep.name) ||
+      matchesSearch(
+        `${movie.title} episodio ${ep.n} ${ep.name}`
+      )
+    );
+  }
+
+  // 📌 agregar episodio específico
+  if (matchedEpisode) {
+
+    results.push({
+      type: "episode",
+      series: movie,
+      episode: matchedEpisode
+    });
+
+  }
+
+  // 📌 agregar serie/película normal
+  else if (titleMatch || keywordMatch) {
+
+    results.push(movie);
+  }
 });
 
-// título tipo YouTube
+// 📝 Título
 title.textContent = results.length
   ? `Resultados para "${query}"`
   : `No se encontraron resultados para "${query}"`;
 
-// render
-results.forEach(movie => {
+// 🎨 Render
+results.forEach(item => {
+
   const card = document.createElement("div");
   card.className = "card";
 
-  card.innerHTML = ` 
-    <div class="thumb">
-      <img src="${movie.post || movie.image}" alt="${movie.title}">
-      <span class="time">${movie.duration ?? ""}</span>
-    </div>
+  // 🎬 SI ES EPISODIO
+  if (item.type === "episode") {
 
-    <div class="info">
-      <h3>${movie.title}</h3>
-      <p class="channel">${movie.genres?.join(" · ") ?? ""}</p>
-      <p>${movie.year}</p>
-    </div>
-  `;
+    card.innerHTML = `
+      <div class="thumb">
+        <img src="${item.episode.image || item.series.image}"
+             alt="${item.series.title}">
+      </div>
 
-  card.onclick = () => {
-    window.location.href = `watch.html?id=${movie.id}`;
-  };
+      <div class="info">
+        <h3>
+          ${item.series.title} — Episodio ${item.episode.n}: ${item.episode.name}
+        </h3>
+
+        <p class="channel">
+          ${item.series.genres?.join(" · ") ?? ""}
+        </p>
+      </div>
+    `;
+
+    card.onclick = () => {
+      window.location.href =
+        `watch.html?serie=${item.series.id}&ep=${item.episode.n}`;
+    };
+
+  }
+
+  // 🎥 SI ES PELÍCULA O SERIE NORMAL
+  else {
+
+    card.innerHTML = `
+      <div class="thumb">
+        <img src="${item.post || item.image}" alt="${item.title}">
+        <span class="time">${item.duration ?? ""}</span>
+      </div>
+
+      <div class="info">
+        <h3>${item.title}</h3>
+        <p class="channel">${item.genres?.join(" · ") ?? ""}</p>
+        <p>${item.year ?? ""}</p>
+      </div>
+    `;
+
+    card.onclick = () => {
+
+      // 📺 series
+      if (item.episodes) {
+        window.location.href =
+          `watch.html?serie=${item.id}`;
+      }
+
+      // 🎬 películas
+      else {
+        window.location.href =
+          `watch.html?id=${item.id}`;
+      }
+    };
+  }
 
   grid.appendChild(card);
 });
+
+// ⌨️ Buscar al presionar Enter
 searchInput.addEventListener("keydown", e => {
+
   if (e.key === "Enter") {
+
     const value = searchInput.value.trim();
+
     if (value) {
-      window.location.href = `results.html?query=${encodeURIComponent(value)}`;
+      window.location.href =
+        `results.html?query=${encodeURIComponent(value)}`;
     }
   }
 });

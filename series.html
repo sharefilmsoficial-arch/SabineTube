@@ -57,6 +57,15 @@
     <a href="series.html" class="side-item">
       <img src="iconos/en-series.png" alt="series">
       <span>Series</span>
+    
+    <a href="anime.html" class="side-item">
+      <img src="iconos/anime.png" alt="anime">
+      <span>Anime</span>
+    </a>
+
+    <a href="R-18.html" class="side-item">
+      <img src="iconos/fuera-de-r-18.png" alt="r-18">
+      <span>R-18</span>
     </a>
 
     <a href="../facebook/facebook.com.html" class="side-item">
@@ -91,7 +100,7 @@ function createSeriesCard(serie){
 
   card.innerHTML = `
     <div class="thumb">
-      <img src="${serie.image}" loading="lazy">
+      <img src="${serie.post}" loading="lazy">
     </div>
     <div class="info">
       <h3>${serie.title}</h3>

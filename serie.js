@@ -4,6 +4,7 @@ const SERIES = [
     title: "What If...? Temporada 1",
     year: 2021,
     image: "series/What-If-TP1.webp",
+    post:"series/What-If-TP1-post.webp",
     genres: ["Animación"],
     episodes: [
     {
@@ -85,6 +86,7 @@ const SERIES = [
   title: "What If...? Temporada 2",
   year: 2023,
   image: "series/What-If-TP2.webp",
+    post:"series/What-If-TP2-post.webp",
   genres: ["Animación"],
   episodes: [
     {
@@ -162,9 +164,221 @@ const SERIES = [
   ]
 },
 {
+    id: "scissor-seven-TP1",
+    title: "Scissors Seven Temporada 1",
+    year: 2018,
+    image: "series/scissor-seven-TP1.jpg",
+    post: "series/scissor-seven-tp-1-poster.webp",
+    genres: ["Anime"],
+    episodes: [
+    {
+      id: "episode-1",
+      n: 1,
+      name: "Cómo hacerse rico",
+      thumb: "series/scissor-seven-TP1-EP1.png",
+      image: "series/scissor-seven-TP1-EP1.png",
+      drive: "https://drive.google.com/file/d/1cr3AiwEr_g-vu31diKHABTNB7QWeOsdK/preview"
+    },
+    {
+      id: "episode-2",
+      n: 2,
+      name: "Dejarte Ciego",
+      thumb: "series/scissor-seven-TP1-EP2.png",
+      image: "series/scissor-seven-TP1-EP2.png",
+      drive: "https://drive.google.com/file/d/1RUeLzGjhMIwqBy9Cc2YGssyaw5woW8A3/preview"
+    },
+    {
+      id: "episode-3",
+      n: 3,
+      name: "Seven vs Thirteen",
+      thumb: "series/scissor-seven-TP1-EP3.png",
+      image: "series/scissor-seven-TP1-EP3.png",
+      drive: "https://drive.google.com/file/d/1MHGslrrI-aK8PyDgYClRLjHXlFBM7s_R/preview"
+    },
+    {
+      id: "episode-4",
+      n: 4,
+      name: "El asesinato del coleccionista de ropa interior",
+      thumb: "series/scissor-seven-TP1-EP4.png",
+      image: "series/scissor-seven-TP1-EP4.png",
+      drive: "https://drive.google.com/file/d/197DoMnTlgAVvkJ9ATG2M-KiN-g9By7PD/preview"
+    },
+    {
+      id: "episode-5",
+      n: 5,
+      name: "El asesinato de la abuela dominatriz",
+      thumb: "series/scissor-seven-TP1-EP5.png",
+      image: "series/scissor-seven-TP1-EP5.png",
+      drive: "https://drive.google.com/file/d/1cg5mHGcT09XsHAdzP7-c9_p8KOvaGIeI/preview"
+    },
+    {
+      id: "episode-6",
+      n: 6,
+      name: "El asesinato de una niña bonita",
+      thumb: "series/scissor-seven-TP1-EP6.png",
+      image: "series/scissor-seven-TP1-EP6.png",
+      drive: "https://drive.google.com/file/d/1GPEwOaPQdGp344pzJyLpm14MvO0Begat/preview"
+    },
+    {
+      id: "episode-7",
+      n: 7,
+      name: "El asesinato del capitán Jack",
+      thumb: "series/scissor-seven-TP1-EP7.png",
+      image: "series/scissor-seven-TP1-EP7.png",
+      drive: "https://drive.google.com/file/d/1Ol--WqkuEiO4V3rnzFxpOQbbxkR5vngj/preview"
+    },
+    {
+      id: "episode-8",
+      n: 8,
+      name: "El guardaespaldas DaChun",
+      thumb: "series/scissor-seven-TP1-EP8.png",
+      image: "series/scissor-seven-TP1-EP8.png",
+      drive: "https://drive.google.com/file/d/1weO6BuIhxMOKKyDaTHRXt13lwg10OMA4/preview"
+    },
+    {
+      id: "episode-9",
+      n: 9,
+      name: "Crisis en la isla",
+      thumb: "series/scissor-seven-TP1-EP9.png",
+      image: "series/scissor-seven-TP1-EP9.png",
+      drive: "https://drive.google.com/file/d/1nAjN3zcrwOVig60UmT9IYszq8ECLTb0Y/preview"
+    },
+    {
+      id: "episode-10",
+      n: 10,
+      name: "La Espada de las Mil Piezas Demoniacas",
+      thumb: "series/scissor-seven-TP1-EP10.png",
+      image: "series/scissor-seven-TP1-EP10.png",
+      drive: "https://drive.google.com/file/d/1CE4SNeHTIkMv0IWMhD7yyqssOd-vC9If/preview"
+    },
+    {
+      id: "episode-11",
+      n: 11,
+      name: "Thirteen",
+      thumb: "series/scissor-seven-TP1-EP11.png",
+      image: "series/scissor-seven-TP1-EP11.png",
+      drive: "https://drive.google.com/file/d/1tTecJ7kdswYWB3Cx3dA8zetcGvIL4_NA/preview"
+    },
+    {
+      id: "episode-12",
+      n: 12,
+      name: "El rey de los pollos",
+      thumb: "series/scissor-seven-TP1-EP12.png",
+      image: "series/scissor-seven-TP1-EP12.png",
+      drive: "https://drive.google.com/file/d/119mpub2bjHK7DRXzRSCyvemJ7TYKj-51/preview"
+    },
+    {
+      id: "episode-13",
+      n: 13,
+      name: "El rey de los pollos pt.2",
+      thumb: "series/scissor-seven-TP1-EP13.png",
+      image: "series/scissor-seven-TP1-EP13.png",
+      drive: "https://drive.google.com/file/d/1J7VEZuiCxPgJKAxbbmDOxgNQ9FLPos0T/preview"
+    },
+    {
+      id: "episode-14",
+      n: 14,
+      name: "El rey de los pollos pt.3",
+      thumb: "series/scissor-seven-TP1-EP14.png",
+      image: "series/scissor-seven-TP1-EP14.png",
+      drive: "https://drive.google.com/file/d/1pckfvBMkXnoZfxY1NaF1TsgwLr0UTj9-/preview"
+    }
+  ]
+  },
+  {
+    id: "scissor-seven-TP2",
+    title: "Scissors Seven Temporada 2 >> El peluquero más fuerte",
+    year: 2019,
+    image: "series/scissor-seven-TP1.jpg",
+    post: "series/scissor-seven-tp-2-poster.webp",
+    genres: ["Anime"],
+    episodes: [
+    {
+      id: "episode-1",
+      n: 1,
+      name: "Supertijeras",
+      thumb: "series/scissor-seven-TP2-EP1.png",
+      image: "series/scissor-seven-TP2-EP1.png",
+      drive: "https://drive.google.com/file/d/1pBLNsnWai2ElLEJu9yERrQPxEWcnX-_y/preview"
+    },
+    {
+      id: "episode-2",
+      n: 2,
+      name: "Thirteen VS Seven",
+      thumb: "series/scissor-seven-TP2-EP2.png",
+      image: "series/scissor-seven-TP2-EP2.png",
+      drive: "https://drive.google.com/file/d/15kZTu2fBu-pT_JtdkdrJ-q49c-2vW7EX/preview"
+    },
+    {
+      id: "episode-3",
+      n: 3,
+      name: "Protege a Ladrido Loco",
+      thumb: "series/scissor-seven-TP2-EP3.png",
+      image: "series/scissor-seven-TP2-EP3.png",
+      drive: "https://drive.google.com/file/d/1QGEzlXr-GYO_FzRZFSeyuHJ98Vkh--kK/preview"
+    },
+    {
+      id: "episode-4",
+      n: 4,
+      name: "Viaje Hacia Stan",
+      thumb: "series/scissor-seven-TP2-EP4.png",
+      image: "series/scissor-seven-TP2-EP4.png",
+      drive: "https://drive.google.com/file/d/1NRu2aUD8ANrX99sEqhBfp0eJCv76tzbJ/preview"
+    },
+    {
+      id: "episode-5",
+      n: 5,
+      name: "Otra Vez Nos Encontramos, Capitán Jack",
+      thumb: "series/scissor-seven-TP2-EP5.png",
+      image: "series/scissor-seven-TP2-EP5.png",
+      drive: "https://drive.google.com/file/d/14TmH4Begm156hnF227d5GevPcAnmCD-_/preview"
+    },
+    {
+      id: "episode-6",
+      n: 6,
+      name: "La Venganza del Rey Faisán",
+      thumb: "series/scissor-seven-TP2-EP6.png",
+      image: "series/scissor-seven-TP2-EP6.png",
+      drive: "https://drive.google.com/file/d/1qa_3AEvmD2otYV0B_mJrfeHzNy3yxIla/preview"
+    },
+    {
+      id: "episode-7",
+      n: 7,
+      name: "Flor de Ciruelo Eleven",
+      thumb: "series/scissor-seven-TP2-EP7.png",
+      image: "series/scissor-seven-TP2-EP7.png",
+      drive: "https://drive.google.com/file/d/1Oy0AqEIskg8JyHApzpAOJ8yiT9zmA8rS/preview"
+    },
+    {
+      id: "episode-8",
+      n: 8,
+      name: "Dos Héroes",
+      thumb: "series/scissor-seven-TP2-EP8.png",
+      image: "series/scissor-seven-TP2-EP8.png",
+      drive: "https://drive.google.com/file/d/1RPnJZP7cCCYRpsNZUsKxVyySb3u7GN7T/preview"
+    },
+    {
+      id: "episode-9",
+      n: 9,
+      name: "Diente Rojo",
+      thumb: "series/scissor-seven-TP2-EP9.png",
+      image: "series/scissor-seven-TP2-EP9.png",
+      drive: "https://drive.google.com/file/d/1aR1LKN15UsEqT1DERx9Ik_uNinOL1WbV/preview"
+    },
+    {
+      id: "episode-10",
+      n: 10,
+      name: "Destino",
+      thumb: "series/scissor-seven-TP2-EP10.png",
+      image: "series/scissor-seven-TP2-EP10.png",
+      drive: "https://drive.google.com/file/d/1OqCgX2wgILsrOoDe78Kl3-ZBk5Ohe5_5/preview"
+    }
+  ]
+  },
+{
     id: "scissor-seven-TP3",
-    title: "Seven Scissors Temporada 3",
-    year: 2024,
+    title: "Scissors Seven Temporada 3",
+    year: 2021,
     image: "series/scissor-seven-TP3.jpg",
     post: "series/scissor-seven-tp-3-poster.webp",
     genres: ["Anime"],
@@ -251,11 +465,192 @@ const SERIES = [
     }
   ]
   },
+{
+    id: "scissor-seven-TP4",
+    title: "Scissors Seven Temporada 4: Shadow Fate Próximamente",
+    year: 2023,
+    image: "series/scissor-seven-TP4.jpg",
+    post: "series/scissor-seven-tp-4-poster.webp",
+    genres: ["Anime"],
+    episodes: [
+    {
+      id: "episode-1",
+      n: 1,
+      name: "Ave Negra Inmortal",
+      thumb: "series/scissor-seven-TP4-EP1.png",
+      image: "series/scissor-seven-TP4-EP1.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-2",
+      n: 2,
+      name: "El asesinato del Líder",
+      thumb: "series/scissor-seven-TP4-EP2.png",
+      image: "series/scissor-seven-TP4-EP2.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-3",
+      n: 3,
+      name: "Rescate de Seven",
+      thumb: "series/scissor-seven-TP4-EP3.png",
+      image: "series/scissor-seven-TP4-EP3.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-4",
+      n: 4,
+      name: "Una Noche en la Tienda",
+      thumb: "series/scissor-seven-TP4-EP4.png",
+      image: "series/scissor-seven-TP4-EP4.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-5",
+      n: 5,
+      name: "Crisis en la isla 2",
+      thumb: "series/scissor-seven-TP4-EP5.png",
+      image: "series/scissor-seven-TP4-EP5.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-6",
+      n: 6,
+      name: "El pasado de Huilian",
+      thumb: "series/scissor-seven-TP4-EP6.png",
+      image: "series/scissor-seven-TP4-EP6.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-7",
+      n: 7,
+      name: "El pasado de Diente Rojo",
+      thumb: "series/scissor-seven-TP4-EP7.png",
+      image: "series/scissor-seven-TP4-EP7.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-8",
+      n: 8,
+      name: "La decisión",
+      thumb: "series/scissor-seven-TP4-EP8.png",
+      image: "series/scissor-seven-TP4-EP8.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-9",
+      n: 9,
+      name: "La Batalla Campal en la Isla Pollo",
+      thumb: "series/scissor-seven-TP4-EP9.png",
+      image: "series/scissor-seven-TP4-EP9.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-10",
+      n: 10,
+      name: " La venganza de Fénix Azul ",
+      thumb: "series/scissor-seven-TP4-EP10.png",
+      image: "series/scissor-seven-TP4-EP10.png",
+      drive: ""
+    }
+  ]
+  },
+{
+    id: "scissor-seven-TP5",
+    title: "Scissors Seven Temporada 5: Memorias Fragmentadas Próximamente",
+    year: 2024,
+    image: "series/scissor-seven-TP5.jpg",
+    post: "series/scissor-seven-tp-5-poster.webp",
+    genres: ["Anime","Comedia","Acción"],
+    episodes: [
+    {
+      id: "episode-1",
+      n: 1,
+      name: "Ave Negra Inmortal",
+      thumb: "series/scissor-seven-TP4-EP1.png",
+      image: "series/scissor-seven-TP4-EP1.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-2",
+      n: 2,
+      name: "El asesinato del Líder",
+      thumb: "series/scissor-seven-TP4-EP2.png",
+      image: "series/scissor-seven-TP4-EP2.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-3",
+      n: 3,
+      name: "Rescate de Seven",
+      thumb: "series/scissor-seven-TP4-EP3.png",
+      image: "series/scissor-seven-TP4-EP3.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-4",
+      n: 4,
+      name: "Una Noche en la Tienda",
+      thumb: "series/scissor-seven-TP4-EP4.png",
+      image: "series/scissor-seven-TP4-EP4.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-5",
+      n: 5,
+      name: "Crisis en la isla 2",
+      thumb: "series/scissor-seven-TP4-EP5.png",
+      image: "series/scissor-seven-TP4-EP5.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-6",
+      n: 6,
+      name: "El pasado de Huilian",
+      thumb: "series/scissor-seven-TP4-EP6.png",
+      image: "series/scissor-seven-TP4-EP6.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-7",
+      n: 7,
+      name: "El pasado de Diente Rojo",
+      thumb: "series/scissor-seven-TP4-EP7.png",
+      image: "series/scissor-seven-TP4-EP7.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-8",
+      n: 8,
+      name: "La decisión",
+      thumb: "series/scissor-seven-TP4-EP8.png",
+      image: "series/scissor-seven-TP4-EP8.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-9",
+      n: 9,
+      name: "La Batalla Campal en la Isla Pollo",
+      thumb: "series/scissor-seven-TP4-EP9.png",
+      image: "series/scissor-seven-TP4-EP9.png",
+      drive: "/preview"
+    },
+    {
+      id: "episode-10",
+      n: 10,
+      name: " La venganza de Fénix Azul ",
+      thumb: "series/scissor-seven-TP4-EP10.png",
+      image: "series/scissor-seven-TP4-EP10.png",
+      drive: ""
+    }
+  ]
+  },
   {
     id: "miraculous-TP6",
     title: "Miraculous Sexta Temporada",
     year: 2025,
     image: "series/miraculous-TP6.jpg",
+    post: "series/miraculous-TP6-poster.webp",
   genres: ["Animación"],
     episodes: [
       {
@@ -470,19 +865,20 @@ const SERIES = [
   },
   {
     id: "welcome-to-derry",
-    title: "Bienvenidos a Derry | Próximamente",
+    title: "Bienvenidos a Derry",
     year: 2025,
     image: "series/welcome-to-derry.jpg",
     video: "trailers/clip/welcome-to-derry.mp4",
+    post: "series/welcome-to-derry-post.webp",
   genres: ["Terror"],
     episodes: [
       {
         id: "episode-1",
         n: 1,
-        name: "El Piloto",
+        name: "El Piloto>",
         thumb: "https://i.ytimg.com/vi/ADyR_AtSnRU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBswYkuiH817WJG714ppddceme-nQ",
         image: "https://i.ytimg.com/vi/ADyR_AtSnRU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBswYkuiH817WJG714ppddceme-nQ",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP1-climatiqueen.mp4"
+        drive: "https://drive.google.com/file/d/1Ncm0sZ54tnRtAvrzh9Q6jrDemF2VUHiG/preview"
       },
       {
         id: "episode-2",
@@ -490,7 +886,7 @@ const SERIES = [
         name: "La Cosa en la Oscuridad",
         thumb: "https://i.ytimg.com/vi/85pVCEyD44E/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCICo_MrJXI45LsXATdgYwk0B715Q",
         image: "https://i.ytimg.com/vi/85pVCEyD44E/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCICo_MrJXI45LsXATdgYwk0B715Q",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP1-climatiqueen.mp4"
+        drive: "https://drive.google.com/file/d/10L_PTmypRkOhzX-NDyCDb-lGBxdVb16L/preview"
       },
       {
         id: "episode-3",
@@ -498,47 +894,47 @@ const SERIES = [
         name: "Ahora lo Vez",
         thumb: "https://i.ytimg.com/vi/NE2q3Fu0HMo/maxresdefault.jpg",
         image: "https://i.ytimg.com/vi/NE2q3Fu0HMo/maxresdefault.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP1-climatiqueen.mp4"
+        drive: "https://drive.google.com/file/d/1FoK4YQIR1EiM-ZQWn_daWlPBsJAfHdmd/preview"
       },
       {
         id: "episode-4",
         n: 4,
         name: "El Gran Mecanismo Giratorio del Funcionamiento de Nuestro Planeta",
-        thumb: "series/miraculous-TP6-EP1.jpg",
-        image: "series/miraculous-TP6-EP1.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP1-climatiqueen.mp4"
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-4.png",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-4.png",
+        drive: "https://drive.google.com/file/d/1MLlEfAuWGH4qVLYPJKGopnr4YP2lfkki/preview"
       },
       {
         id: "episode-5",
         n: 5,
         name: "Calle Neibolt 29",
-        thumb: "series/miraculous-TP6-EP1.jpg",
-        image: "series/miraculous-TP6-EP1.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP1-climatiqueen.mp4"
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-5.avif",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-5.avif",
+        drive: "https://drive.google.com/file/d/15U69xUxJf6eGY16AhhaLF6Lwk5YzenJZ/preview"
       },
       {
         id: "episode-6",
         n: 6,
-        name: "En el Nombre del Padre...",
-        thumb: "series/miraculous-TP6-EP1.jpg",
-        image: "series/miraculous-TP6-EP1.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP1-climatiqueen.mp4"
+        name: "En el Nombre del Padre",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-6.png",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-6.png",
+        drive: "https://drive.google.com/file/d/1ro4dx-Aalrbfh_H5iHjBoGJaMBIDbi3B/preview"
       },
       {
         id: "episode-7",
         n: 7,
         name: "El punto Negro",
-        thumb: "series/miraculous-TP6-EP1.jpg",
-        image: "series/miraculous-TP6-EP1.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP1-climatiqueen.mp4"
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-7.avif",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-7.avif",
+        drive: "https://drive.google.com/file/d/1piVhozW5RS1Z8jIfxq8jF1qgWi6VvcTI/preview"
       },
       {
         id: "episode-8",
         n: 8,
         name: "Fuego Infernal",
-        thumb: "series/miraculous-TP6-EP1.jpg",
-        image: "series/miraculous-TP6-EP1.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP1-climatiqueen.mp4"
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
+        drive: "https://drive.google.com/file/d/1Qb7fp3il6EnIYB8jq8wCo0_qedwcuJ2Q/preview"
       }
     ]
   }

@@ -11,7 +11,7 @@ const MOVIES = [
     description: "Elvira sueña con amor del príncipe Julián y está dispuesta a hacer lo que sea necesario para ajustarse a los ideales de belleza del reino.",
     trailerUrl: sampleTrailer,
     image: "R-18/images/the-ugly-stepsister.webp",
-    post: "https://sharefilmsoficial-arch.github.io/SabineClear.com/R-18/posters/the-ugly-stepsister.webp",
+    post: "posters/la-hermanastra-fea.webp",
     movie: "https://drive.google.com/file/d/1x-44SfqShcU8_FamhccxsLxXZoJygCJ4/preview"
   },
   {
@@ -24,7 +24,7 @@ const MOVIES = [
     description: "David, un distribuidor de marihuana de poca monta,aprende por las malas que ninguna buena acción queda sin castigo. Al intentar ayudar a unos jóvenes, es sorprendido por unos criminales, perdiendo su dinero y producto. David está endeudado con su proveedor y para solucionarlo, debe ir a México para recoger el nuevo cargamento. Para lograr la misión, David idea un plan infalible: reúne a una familia falsa y la sube a una casa rodante para dirigirse al sur durante un fin de semana salvaje.",
     trailerUrl: sampleTrailer,
     image: "R-18/images/quienes-son-los-millers.webp",
-    post: "https://sharefilmsoficial-arch.github.io/SabineClear.com/R-18/posters/quienes-son-los-millers.webp",
+    post: "posters/quienes-son-los-miller.webp",
     movie: ""
   },
   {

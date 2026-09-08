@@ -10,6 +10,7 @@ const titleEl = document.getElementById("movieTitle");
 const imgEl = document.getElementById("movieImage");
 const descEl = document.getElementById("movieDescription");
 const sidebar = document.getElementById("relatedMovies");
+const favicon = document.getElementById("dynamic-favicon");
 
 /* =========================
    🎬 MOVIES R-18
@@ -36,6 +37,8 @@ if (params.has("id")) {
   // ⭐ Cambiar título de la pestaña
   document.title = `${movie.title} — ShareFilms`;
 
+  // ⭐ FAVICON DINÁMICO
+  favicon.href = movie.post || movie.image;
 
   // 🎞️ Películas relacionadas
   const related = shuffle(
@@ -64,7 +67,6 @@ if (params.has("id")) {
   });
 
 }
-
 
 /* =========================
    ❌ NADA VÁLIDO
@@ -110,10 +112,8 @@ const shareModal = document.getElementById("shareModal");
 
 shareBtn.addEventListener("click", async () => {
 
-  // URL y título actuales
   const currentUrl = window.location.href;
   const currentTitle = document.title;
-
 
   // 📱 Compartir nativo
   if (navigator.share) {
@@ -136,7 +136,6 @@ shareBtn.addEventListener("click", async () => {
 
   }
 
-
   // 💻 Navegadores sin navigator.share
   else {
 
@@ -158,13 +157,11 @@ function openShareMenu() {
   const currentUrl = window.location.href;
   const currentTitle = document.title;
 
-
   // 🟢 WhatsApp
   document.getElementById("shareWhatsapp").href =
     `https://wa.me/?text=${encodeURIComponent(
       "Mira esto en SabineTube: " + currentTitle + " " + currentUrl
     )}`;
-
 
   // 🔵 Facebook
   document.getElementById("shareFacebook").href =

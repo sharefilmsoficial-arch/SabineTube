@@ -13,6 +13,11 @@ const MOVIES = [
     genres: ["Animación", "Aventura","Infantil","Acción"],
     description: "Luego de ser mordido por una araña radioactiva, el joven Miles Morales desarrolla misteriosos poderes que lo transforman en el Hombre Araña. Ahora deberá usar sus nuevas habilidades ante el malvado Kingpin, un enorme demente que puede abrir portales hacia otros universos.",
     trailerUrl: "trailers/spiderman-into-the-spiderverse.mp4",
+    keywords: [
+    "miles morales",
+    "Spiderman Negro",
+    "spider-man"
+    ],
     image: "images/spiderman-into-the-spiderverse.webp",
     post : "posters/spiderman-into-the-spiderverse.webp",
     movie: "https://drive.google.com/file/d/1Gp-v1xvRausPDh9c88yxOSFusXM9dkwE/preview",
@@ -29,6 +34,11 @@ const MOVIES = [
     image: "images/spiderman2-across-the-spiderverse.webp",
     post: "posters/spiderman2-across-the-spiderverse.webp",
     trailerUrl: "trailers/across-the-spiderverse.mp4",
+    keywords: [
+    "miles morales",
+    "Spiderman Negro",
+    "spider-man"
+    ],
     movie: "https://drive.google.com/file/d/11SMv4hmFUM71MWcPYm5qXf5j-tJgeAWp/preview"
   },
   {
@@ -40,8 +50,13 @@ const MOVIES = [
     genres: ["Animación", "Acción", "Aventura", "Superhéroes"],
     description: "[Próximamente]",
     image: "images/beyond-the-spiderverse.jpg",
-    post: "posters/spiderman3-beyond-into-the-spiderverse.webp",
+    post: "posters/spiderman3-beyond-into-the-spiderverse_2.webp",
     trailerUrl: "",
+    keywords: [
+    "miles morales",
+    "Spiderman Negro",
+    "spider-man"
+    ],
     movie: "aun-no"
   },
   {
@@ -302,7 +317,7 @@ const MOVIES = [
     trailerUrl: "trailers/venom-3.mp4",
     image: "images/venom-the-last-dance.webp",
     post: "posters/venom-the-last-dance.webp",
-    movie: "https://drive.google.com/file/d/1-I98WaJ_C622i2YMeBFjcEn43808KgmR/preview"
+    movie: "https://drive.google.com/file/d/1EzlGowXWGeeclR-BkFD89-dgqsiFJDd1/preview"
   },
   {
     id: "clockstoppers",
@@ -441,8 +456,7 @@ const MOVIES = [
     trailerUrl: "trailers/avatar3-fireandash.mp4",
     image: "images/avatar3-fireandash.webp",
     post: "posters/avatar3-fireandash.webp",
-    movie: "Próximamente",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1M5mcUc2cCFHQ5QpEfAKMyzzfjEWfhEDc/preview"
   },
   {
     id: "avatar4-the-tulkun-rider",
@@ -869,7 +883,7 @@ const MOVIES = [
   },
   {
     id: "Deep-Sea-Mutant-Snake",
-    title: "Anaconda El Despertar: Próximamente",
+    title: "Anaconda El Despertar",
     year: 2016,
     duration: "1h 37min",
     rating: "PG-13",
@@ -878,8 +892,7 @@ const MOVIES = [
     trailerUrl: sampleTrailer,
     image: "images/Deep-Sea-Mutant-Snake.webp",
     post: "posters/Deep-Sea-Mutant-Snake.webp",
-    movie: "aun no",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1-g5oqm5rNMhNexPMfe5REEzktyEgnDrM/preview"
   },
   {
     id: "oni-goroshi",
@@ -1142,7 +1155,7 @@ const MOVIES = [
     trailerUrl: sampleTrailer,
     image: "images/toy-story.webp",
     post: "posters/toy-story.webp",
-    movie: "https://drive.google.com/file/d/1-7nmin65M_jCfI6gOuoc_P113sbaMr-K/preview"
+    movie: "https://drive.google.com/file/d/1uIxX0_HB9OZ0uNDxIaAcyQJeymY65MHj/preview"
   },
   {
     id: "toy-story-2",
@@ -1282,11 +1295,17 @@ const MOVIES = [
     id: "kung-fu-panda",
     title: "Kung fu Panda: Próximamente",
     year: 2008,
-    duration: "1h 37min",
-    rating: "PG-13",
+    duration: "1h 32min",
+    rating: "A",
     genres: ["Acción", "Aventura","Comedia","Animación"],
-    description:"Cuando Dory, la olvidadiza pez cirujano, recuerda que tiene una familia que podría estar buscándola, va en una aventura con Marlin y Nemo para encontrarla con ayuda de Hank, un pulpo gruñón, Bailey, una beluga convencida de que sus sonar biológico anda mal, y Destiny, una tiburón ballena miope.",
+    description:"Un panda llamado Po fanático del Kung-fu es elegido para cumplir una antigua profecía: debe convertirse en el Guerrero Dragón y defender a su gente de un poderoso enemigo.",
     trailerUrl: sampleTrailer,
+    keywords: [
+    "tigresa",
+    "panda",
+    "shifu",
+    "cinco furiosos"
+    ],
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTND_aT98Q9K37HgTKJwBqZZVCPQGrMTMV44w&s",
     post:"posters/kung-fu-panda.webp",
     movie: "https://drive.google.com/file/d/1x5il-6bRAx6IGrwWnZlNrNwbc-GW16WK/preview",
@@ -1294,31 +1313,41 @@ const MOVIES = [
   },
   {
     id: "kung-fu-panda-2",
-    title: "Kunfu Panda 2: Próximamente",
+    title: "Kunfu Panda 2",
     year: 2011,
-    duration: "1h 37min",
-    rating: "PG-13",
+    duration: "1h 35min",
+    rating: "AA",
     genres: ["Acción", "Aventura","Comedia","Animación"],
-    description:"Cuando Dory, la olvidadiza pez cirujano, recuerda que tiene una familia que podría estar buscándola, va en una aventura con Marlin y Nemo para encontrarla con ayuda de Hank, un pulpo gruñón, Bailey, una beluga convencida de que sus sonar biológico anda mal, y Destiny, una tiburón ballena miope.",
+    description:"Po debe descubrir los secretos de su pasado con el fin de vencer a un formidable villano que planea acabar con el kung-fu y conquistar China.",
     trailerUrl: sampleTrailer,
+    keywords: [
+    "tigresa",
+    "panda",
+    "shifu",
+    "cinco furiosos"
+    ],
     image: "https://es.web.img3.acsta.net/medias/nmedia/18/82/36/56/19734959.jpg",
     post: "posters/kung-fu-panda-2.webp",
-    movie: "https://drive.google.com/file/d/1x5il-6bRAx6IGrwWnZlNrNwbc-GW16WK/preview",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1o78SVgTFPM9qwNXA0rM5CLONGWbG8qPP/preview"
   },
   {
     id: "kung-fu-panda-3",
-    title: "Kung fu Panda 3: Próximamente",
+    title: "Kung fu Panda 3",
     year: 2016,
-    duration: "1h 37min",
-    rating: "PG-13",
+    duration: "1h 35min",
+    rating: "AA",
     genres: ["Acción", "Aventura","Comedia","Animación"],
-    description:"Cuando Dory, la olvidadiza pez cirujano, recuerda que tiene una familia que podría estar buscándola, va en una aventura con Marlin y Nemo para encontrarla con ayuda de Hank, un pulpo gruñón, Bailey, una beluga convencida de que sus sonar biológico anda mal, y Destiny, una tiburón ballena miope.",
+    description:"En esta tercera aventura panda, Po deberá enfrentar dos desafíos épicos: uno, de origen sobrenatural, y el otro, muy cerca de su hogar, con la aparición de quien dice ser su padre biológico.",
     trailerUrl: sampleTrailer,
+    keywords: [
+    "tigresa",
+    "panda",
+    "shifu",
+    "cinco furiosos"
+    ],
     image: "https://zoomf7.net/wp-content/uploads/2016/03/24qz9huzy8k3cdo4hrwkmztt7gh.jpg",
     post:"posters/kung-fu-panda-3.webp",
-    movie: "https://drive.google.com/file/d/1x5il-6bRAx6IGrwWnZlNrNwbc-GW16WK/preview",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1ob5WilVSS6O94euoJ1imPykFNPSe904b/preview"
   },
   {
     id: "kung-fu-panda-4",
@@ -1329,6 +1358,12 @@ const MOVIES = [
     genres: ["Acción", "Aventura","Comedia","Animación"],
     description:"Cuando Dory, la olvidadiza pez cirujano, recuerda que tiene una familia que podría estar buscándola, va en una aventura con Marlin y Nemo para encontrarla con ayuda de Hank, un pulpo gruñón, Bailey, una beluga convencida de que sus sonar biológico anda mal, y Destiny, una tiburón ballena miope.",
     trailerUrl: sampleTrailer,
+    keywords: [
+    "tigresa",
+    "panda",
+    "shifu",
+    "cinco furiosos"
+    ],
     image: "https://m.media-amazon.com/images/S/pv-target-images/1b2855d75a12c03f471c8fa132bb2bae77aeaadd4e8fbf76fd879378424133f8.jpg",
     post: "posters/kung-fu-panda-4.webp",
     movie: "https://drive.google.com/file/d/1x5il-6bRAx6IGrwWnZlNrNwbc-GW16WK/preview",
@@ -1686,7 +1721,7 @@ const MOVIES = [
 },
 {
     id: "free-guy",
-    title: "Free Guy : Tómando el Control | Próximamente",
+    title: "Free Guy : Tómando el Control",
     year: 2006,
     duration: "1h 48m",
     rating: "B",
@@ -1696,8 +1731,7 @@ const MOVIES = [
     trailerUrl: "trailers/",
     image: "images/free-guy.webp",
     post: "posters/free-guy.webp",
-    movie: "",
-    estreno:"Próximamente"
+    movie: "https://drive.google.com/file/d/1w8r-K33s2Go-82ZagwgoVjkF-JPyA7kP/preview" 
 },
 {
     id: "zootopia",
@@ -1843,7 +1877,7 @@ const MOVIES = [
 },
 {
     id: "demon-slayer-kimetsu-no-yaiba-infinity-castle",
-    title: "Demon Slayer: El Castillo Infinito",
+    title: "Kimetsu No Yaiba - Demon Slayer: El Castillo Infinito",
     year: 2025,
     duration: "2h 35m",
     rating: "B",
@@ -1857,7 +1891,7 @@ const MOVIES = [
 },
 {
     id: "hotaru-no-mori-e",
-    title: "En el bosque de la luz de las luciérnagas - Castellano",
+    title: "Hotaru No Mori E: En el bosque de la luz de las luciérnagas - Castellano",
     year: 2011,
     duration: "45m",
     rating: "Apto para todo público.",
@@ -1982,10 +2016,10 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/1zjbTZeN-QK0j1rTOssyAqmAdryejPp3E/preview"
 },
 {
-    id: "pistolero-desperado-castellano",
-    title: "Pistolero (Desperado)",
+    id: "pistolero-desperado-castellano-720",
+    title: "Pistolero (Desperado) | Español Castellano | 720p",
     year: 1995,
-    duration: "1h 44m",
+    duration: "1h 44m 33s",
     rating: "B-15",
     calidad: "360p",
     genres: ["Acción","Wéstern"],
@@ -1996,6 +2030,20 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/1EkxM67tdGXVt8i1e2ZJn2PrOuXwQB83L/preview"
 },
 {
+    id: "pistolero-desperado-esp-latino",
+    title: "Pistolero (Desperado) | Español Latino",
+    year: 1995,
+    duration: "1h 44m 33s",
+    rating: "B-15",
+    calidad: "360p",
+    genres: ["Acción","Wéstern"],
+    description:"Como todo hombre que lleva un arma, el Mariachi tienen problemas. Ya no es aquel joven inocente que acabó haciéndose pistolero por culpa de las circunstancias. Ahora se ha convertido en un auténtico hombre de acción, que esconde cualquier tipo de pistolas en el viejo estuche de su guitarra.",
+    trailerUrl: "trailers/",
+    image: "images/desperado.webp",
+    post: "posters/desperado.webp",
+    movie: "https://drive.google.com/file/d/1BdctMj7tOLCiFmjyTmhnvMLC4zzuSVnU/preview"
+},
+{
     id: "el-tiempo-contigo",
     title: "El Tiempo Contigo",
     year: 2019,
@@ -2003,7 +2051,7 @@ const MOVIES = [
     rating: "B",
     calidad: "360p",
     genres: ["Romance","Anime","Fantasía"],
-    description:"Un adolescente se escapa a Tokio y entabla una amistad con una joven que parece ser capaz de manipular el clima.",
+    description:"Cuando Hodaka Morishima,un adolescente se escapa de su casa en una isla para irse a Tokio y entabla una amistad con Hina Amano, quien es una chica huérfana que vive con su hermano menor. Hina tiene el poder mágico de hacer que salga el sol mediante plegarias y juntos forman un negocio para detener la lluvia en un Tokio gris. El problema es que el poder de Hina tiene un costo muy alto. Ella debe sacrificarse como la 'chica del sol'. Hodaka se niega a perderla y sube al cielo para rescatarla. Él elige el amor por encima del buen clima de la ciudadque parece ser capaz de manipular el clima.",
     trailerUrl: "trailers/",
     image: "images/el-tiempo-contigo.webp",
     post: "posters/el-tiempo-contigo.webp",
@@ -2463,8 +2511,8 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-30",
-    title: "Proximamente | Goat: El Cabrón Que Cambió EL Juego | 12 de Febrero sólo en cines",
+    id: "the-goat-that-changed-the-game",
+    title: "Goat: El Cabrón Que Cambió EL Juego",
     year: 2026,
     duration: "1h ",
     rating: "B",
@@ -2472,10 +2520,14 @@ const MOVIES = [
     genres: ["..."],
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
+    keywords: [
+    "cabra",
+    "La Cabra Que Cambió EL Juego",
+    "Goat"
+    ],
     image: image,
     post: "posters/goat.webp",
-    movie: "",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1p1o6NMaA-tguMzmsuWUijS77LOVWjBTV/preview"
 },
 {
     id: "movie-31",
@@ -2493,8 +2545,8 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-32",
-    title: "Proximamente | Michael: El Rey del Pop | 24 de Abril sólo en cines",
+    id: "michael",
+    title: "Michael: El Rey del Pop",
     year: 2026,
     duration: "1h ",
     rating: "B",
@@ -2502,10 +2554,13 @@ const MOVIES = [
     genres: ["..."],
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
+    keywords: [
+    "michael jackson",
+    "jackson"
+    ],
     image: image,
     post: "posters/michael.webp",
-    movie: "",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1jDVBJCskPOH3p3cct7kJX52d3wlRxw16/preview"
 },
 {
     id: "movie-32-1",
@@ -2538,19 +2593,18 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-34",
-    title: "Proximamente | Scary Movie  6 | 11 de Junio sólo en cines",
+    id: "scary-movie-6",
+    title: "Scary Movie 6 - Terroríficamente Incorrecta",
     year: 2026,
-    duration: "1h ",
+    duration: "1h 36min",
     rating: "B",
-    calidad: "360p",
-    genres: ["..."],
-    description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
+    calidad: "720p",
+    genres: ["Terror","Comedia"],
+    description:"Un nuevo grupo de víctimas desprevenidas termina atrapado en una serie de situaciones absurdas y cada vez más ridículas, mientras la última entrega de la franquicia de terror-parodia se burla de las películas de terror modernas y de la cultura pop.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/scary-movie-6.webp",
-    movie: "",
-    estreno: "Próximamente"
+    post: "posters/scary-movie-6.png",
+    movie: "https://drive.google.com/file/d/18qUf4wQScqwvKqEhSYG2NZunyPtuRR5u/preview"
 },
 {
     id: "movie-35",
@@ -2898,19 +2952,46 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
+    id: "chainsaw-man-arco-de-reze-1080",
+    title: "Chainsaw Man  - Arco de Reze - Película completa en Español Latino Cálidad 1080p",
+    year: 2025,
+    duration: "1h 45m",
+    rating: "B",
+    calidad: "1080p",
+    genres: ["Animación","Anime","Terror","Acción"],
+    description:"En medio de una guerra sangrienta entre demonios y cazadores, comienza otra batalla en el corazón de Denji al conocer a una misteriosa chica llamada Reze. Denji se prepara para su batalla más letal.",
+    trailerUrl: "trailers/",
+    keywords: [
+    "chainsawman",
+    "chainsawMan",
+    "chainsaw-man",
+    "denji",
+    "reze"
+    ],
+    image: image,
+    post: "posters/chainsaw-man-arco-de-reze.webp",
+    movie: "https://drive.google.com/file/d/1ZExdDZPZ6Dh4eJ7CnT2jaEH4p89Vh5qa/preview"
+},
+{
     id: "chainsaw-man-arco-de-reze-720",
     title: "Chainsaw Man  - Arco de Reze - Película completa en Español Latino 🇲🇽",
     year: 2025,
     duration: "1h 45m",
     rating: "B",
     calidad: "720p",
-    genres: ["..."],
+    genres: ["Animación","Anime","Terror","Acción"],
     description:"En medio de una guerra sangrienta entre demonios y cazadores, comienza otra batalla en el corazón de Denji al conocer a una misteriosa chica llamada Reze. Denji se prepara para su batalla más letal.",
     trailerUrl: "trailers/",
+    keywords: [
+    "chainsawman",
+    "chainsawMan",
+    "chainsaw-man",
+    "denji",
+    "reze"
+    ],
     image: image,
     post: "posters/chainsaw-man-arco-de-reze.webp",
-    movie: "https://drive.google.com/file/d/1bz_9jKz7Ko-yIl07zRlzMfiQI9-d8OWO/preview",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1bz_9jKz7Ko-yIl07zRlzMfiQI9-d8OWO/preview"
 },
 {
     id: "chainsaw-man-arco-de-reze-480",
@@ -2919,17 +3000,23 @@ const MOVIES = [
     duration: "1h 45m",
     rating: "B",
     calidad: "480p",
-    genres: ["..."],
+    genres: ["Animación","Anime","Terror","Acción"],
     description:"En medio de una guerra sangrienta entre demonios y cazadores, comienza otra batalla en el corazón de Denji al conocer a una misteriosa chica llamada Reze. Denji se prepara para su batalla más letal.",
     trailerUrl: "trailers/",
+    keywords: [
+    "chainsawman",
+    "chainsawMan",
+    "chainsaw-man",
+    "denji",
+    "reze"
+    ],
     image: image,
     post: "posters/chainsaw-man-arco-de-reze.jpg",
-    movie: "https://drive.google.com/file/d/1RuAAICpX5bXmT6Oqcshjn-QI9pI6QrcR/preview",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1RuAAICpX5bXmT6Oqcshjn-QI9pI6QrcR/preview"
 },
 {
-    id: "movie-58",
-    title: "Próximamente | Los Backrooms",
+    id: "backrooms",
+    title: "Backrooms",
     year: 2026,
     duration: "1h 45m",
     rating: "B",
@@ -2939,8 +3026,7 @@ const MOVIES = [
     trailerUrl: "trailers/",
     image: image,
     post: "posters/backrooms.webp",
-    movie: "",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1LrsINOtkH4aDJod5K-Gh37i9ONCgISrq/preview"
 },
 {
     id: "movie-59",
@@ -2956,6 +3042,65 @@ const MOVIES = [
     post: "posters/buscando.webp",
     movie: "",
     estreno: "Próximamente"
+},
+{
+    id: "una-voz-silenciosa",
+    title: "Una Voz Silenciosa",
+    year: 2016,
+    duration: "2h 9m",
+    rating: "A",
+    calidad: "480p",
+    genres: ["Romance","Drama","Anime","Animación"],
+    description:"Shôko Nishimiya, una estudiante de primaria sorda, empieza a sentir el bullying de sus nuevos compañeros cuando se cambia de colegio. El peor de todos es Ishida Shôya, quien termina por forzar que Nishimiya se cambie de escuela. Años después, Ishida buscará la redención de sus malas acciones.",
+    trailerUrl: "trailers/",
+    image: image,
+    post: "posters/a-silent-voice.webp",
+    movie: "https://drive.google.com/file/d/151F3ZBRqkM6gBjw-si4wCj5AffCP83X_/preview"
+},
+{
+    id: "your-name",
+    title: "Your Name ( Kimi no Na Wa ) - Tu Nombre | Próximamente",
+    year: 2016,
+    duration: "1h 50m",
+    rating: "A",
+    calidad: "480p",
+    genres: ["Romance","Fantasía","Anime","Animación"],
+    description:"Mitsuha es una adolescente que detesta su vida rural en el campo. Por otro lado, Taki es un chico que vive en Tokio y sueña con ser un artista o un arquitecto. Los destinos de estos jóvenes se entrelazan la noche en que dos estrellas caen del cielo, y comienzan a intercambiar sus cuerpos de la noche a la mañana. Con el pasar del tiempo, desarrollan maneras de comunicarse entre ellos y un creciente anhelo de conocerse en persona.",
+    trailerUrl: "trailers/",
+    image: image,
+    post: "posters/your-name.webp",
+    movie: "https://drive.google.com/file/d/151F3ZBRqkM6gBjw-si4wCj5AffCP83X_/preview"
+},
+{
+    id: "the-monkey",
+    title: "El Mono",
+    year: 2025,
+    duration: "1h 38m",
+    rating: "A",
+    calidad: "1060p",
+    genres: ["Terror"],
+    description:"Dos hermanos gemelos encuentran un misterioso mono de cuerda y una serie de muertes atroces separan a su familia. Veinticinco años más tarde, el mono reanuda su macabra trayectoria, obligando a los hermanos separados a enfrentarse al juguete maldito.",
+    trailerUrl: "trailers/",
+    image: image,
+    post: "posters/the-monkey.webp",
+    movie: "https://drive.google.com/file/d/1qIld9JeSOp3iCoy_nwEVwq5CTm79tcDf/preview"
+},
+{
+    id: "where-hope-grows",
+    title: "Dónde Crece La Esperanza",
+    year: 2025,
+    duration: "1h 38m",
+    rating: "A",
+    calidad: "1060p",
+    genres: ["Terror"],
+    keywords: [
+    "el poder de la esperanza"
+    ],
+    description:"Dos hermanos gemelos encuentran un misterioso mono de cuerda y una serie de muertes atroces separan a su familia. Veinticinco años más tarde, el mono reanuda su macabra trayectoria, obligando a los hermanos separados a enfrentarse al juguete maldito.",
+    trailerUrl: "trailers/",
+    image: image,
+    post: "posters/where-hope-grows.webp",
+    movie: "https://drive.google.com/file/d/1e2hRpDECb77HHVmEVR0lx9qb5xHaM9Y-/preview"
 }
 ];
 

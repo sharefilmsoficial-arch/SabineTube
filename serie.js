@@ -937,5 +937,171 @@ const SERIES = [
         drive: "https://drive.google.com/file/d/1Qb7fp3il6EnIYB8jq8wCo0_qedwcuJ2Q/preview"
       }
     ]
+  },
+  {
+    id: "among-us-la-serie",
+    title: "Among Us",
+    year: 2025,
+    image: "series/among-us-tp1.webp",
+    video: "trailers/clip/welcome-to-derry.mp4",
+    post: "series/among-us-tp1.webp",
+  genres: ["Terror"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: "Una Fiesta de Pizza Dónde No Pasa Nada Malo",
+        thumb: "series/among-us-tp1-ep1.png",
+        image: "series/among-us-tp1-ep1.png",
+        drive: "https://drive.google.com/file/d/1lSqRA9yK66NiA6xFGQA4svmhFizot2T8/preview"
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: "No Puedes Ser Listo y Atractivo",
+        thumb: "series/among-us-tp1-ep2.png",
+        image: "series/among-us-tp1-ep2.png",
+        drive: "https://drive.google.com/file/d/1mklvxwzT9e8Pf3miixgwV_r8Xls9fLRo/preview"
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: "El Caos Encontró Un Nuevo Hogar",
+        thumb: "series/among-us-tp1-ep3.png",
+        image: "series/among-us-tp1-ep3.png",
+        drive: "https://drive.google.com/file/d/1YBT3hIx3jcPTJk1fZ9gkXD1aookhladK/preview"
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: "Y Les Gusta Matar",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-4.png",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-4.png",
+        drive: "https://drive.google.com/file/d/1DsPGrH4V8N8aiMAPP8vufZWm5oDS311e/preview"
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: "Solo Buenas Vibras",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-5.avif",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-5.avif",
+        drive: "https://drive.google.com/file/d/15tCtB5s2HoTGE71xXxd1OPWfm-R8Jrwi/preview"
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: "Inseguridad En La Seguridad",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-6.png",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-6.png",
+        drive: "https://drive.google.com/file/d/1ro4dx-Aalrbfh_H5iHjBoGJaMBIDbi3B/preview"
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: "E6 Tripulantes Enojados",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-7.avif",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-7.avif",
+        drive: "https://drive.google.com/file/d/1piVhozW5RS1Z8jIfxq8jF1qgWi6VvcTI/preview"
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: "Síndrome Del Impostor",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
+        drive: "https://drive.google.com/file/d/1Qb7fp3il6EnIYB8jq8wCo0_qedwcuJ2Q/preview"
+      },
+      {
+        id: "episode-9",
+        n: 9,
+        name: "Solo Me Desahogo",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
+        drive: "https://drive.google.com/file/d/1Qb7fp3il6EnIYB8jq8wCo0_qedwcuJ2Q/preview"
+      },
+      {
+        id: "episode-10",
+        n: 10,
+        name: "Todos Siguen Vivos, Nadie Esta Muerto",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
+        drive: "https://drive.google.com/file/d/1Qb7fp3il6EnIYB8jq8wCo0_qedwcuJ2Q/preview"
+      }
+    ]
+  },
+  {
+    id: "spider-noir",
+    title: "Spider Noir",
+    year: 2025,
+    image: "series/spider-noir-tp1.webp",
+    video: "trailers/clip/welcome-to-derry.mp4",
+    post: "series/spider-noir-tp1.webp",
+  genres: ["Terror"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: "El Piloto>",
+        thumb: "https://i.ytimg.com/vi/ADyR_AtSnRU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBswYkuiH817WJG714ppddceme-nQ",
+        image: "https://i.ytimg.com/vi/ADyR_AtSnRU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBswYkuiH817WJG714ppddceme-nQ",
+        drive: "https://drive.google.com/file/d/1Ncm0sZ54tnRtAvrzh9Q6jrDemF2VUHiG/preview"
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: "La Cosa en la Oscuridad",
+        thumb: "https://i.ytimg.com/vi/85pVCEyD44E/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCICo_MrJXI45LsXATdgYwk0B715Q",
+        image: "https://i.ytimg.com/vi/85pVCEyD44E/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCICo_MrJXI45LsXATdgYwk0B715Q",
+        drive: "https://drive.google.com/file/d/10L_PTmypRkOhzX-NDyCDb-lGBxdVb16L/preview"
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: "Ahora lo Vez",
+        thumb: "https://i.ytimg.com/vi/NE2q3Fu0HMo/maxresdefault.jpg",
+        image: "https://i.ytimg.com/vi/NE2q3Fu0HMo/maxresdefault.jpg",
+        drive: "https://drive.google.com/file/d/1FoK4YQIR1EiM-ZQWn_daWlPBsJAfHdmd/preview"
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: "El Gran Mecanismo Giratorio del Funcionamiento de Nuestro Planeta",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-4.png",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-4.png",
+        drive: "https://drive.google.com/file/d/1MLlEfAuWGH4qVLYPJKGopnr4YP2lfkki/preview"
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: "Calle Neibolt 29",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-5.avif",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-5.avif",
+        drive: "https://drive.google.com/file/d/15U69xUxJf6eGY16AhhaLF6Lwk5YzenJZ/preview"
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: "En el Nombre del Padre",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-6.png",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-6.png",
+        drive: "https://drive.google.com/file/d/1ro4dx-Aalrbfh_H5iHjBoGJaMBIDbi3B/preview"
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: "El punto Negro",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-7.avif",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-7.avif",
+        drive: "https://drive.google.com/file/d/1piVhozW5RS1Z8jIfxq8jF1qgWi6VvcTI/preview"
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: "Fuego Infernal",
+        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
+        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
+        drive: "https://drive.google.com/file/d/1Qb7fp3il6EnIYB8jq8wCo0_qedwcuJ2Q/preview"
+      }
+    ]
   }
 ];

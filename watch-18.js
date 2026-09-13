@@ -94,7 +94,7 @@ searchInput.addEventListener("keydown", e => {
     if (value) {
 
       window.location.href =
-        `results.html?query=${encodeURIComponent(value)}`;
+        `results.html?search_query=${encodeURIComponent(value)}`;
 
     }
 

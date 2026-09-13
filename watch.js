@@ -143,7 +143,7 @@ searchInput.addEventListener("keydown", e => {
   if (e.key === "Enter") {
     const value = searchInput.value.trim();
     if (value) {
-      window.location.href = `results.html?query=${encodeURIComponent(value)}`;
+      window.location.href = `results.html?search_query=${encodeURIComponent(value)}`;
     }
   }
 });

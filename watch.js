@@ -43,7 +43,7 @@ if (params.has("serie")) {
   descEl.textContent = episodio.name;
 
 // ⭐ Cambiar título de la pestaña
-document.title = `${serie.title} Ep.${episodio.n} — SabineTube`;
+document.title = `${serie.title} Ep.${episodio.n} — ShareFilms`;
 
   // ⭐ FAVICON DINÁMICO
   favicon.href = episodio.image || serie.image;
@@ -96,7 +96,7 @@ else if (params.has("id")) {
   descEl.textContent = movie.description || "";
 
   // ⭐ Cambiar título de la pestaña
-document.title = `${movie.title} — SabineTube`;
+document.title = `${movie.title} — ShareFilms`;
 
   // ⭐ FAVICON DINÁMICO
   favicon.href = movie.post || movie.image;
@@ -148,28 +148,26 @@ searchInput.addEventListener("keydown", e => {
   }
 });
 
-
-
 /* =========================
    📤 COMPARTIR
 ========================= */
 
 const shareBtn = document.getElementById("shareBtn");
-
-// URL actual
-const currentUrl = window.location.href;
-
-// Título actual
-const currentTitle = document.title;
+const shareModal = document.getElementById("shareModal");
 
 shareBtn.addEventListener("click", async () => {
 
-  // 📱 Compartir nativo (móviles y navegadores compatibles)
+  // Obtener datos actuales
+  const currentUrl = window.location.href;
+  const currentTitle = document.title;
+
+  // 📱 Compartir nativo
   if (navigator.share) {
     try {
+
       await navigator.share({
         title: currentTitle,
-        text: `Mira esto en SabineTube: ${currentTitle}`,
+        text: `Mira esto en *SabineTube* : *${currentTitle}*`,
         url: currentUrl
       });
 
@@ -180,7 +178,7 @@ shareBtn.addEventListener("click", async () => {
     }
   }
 
-  // 💻 Si no existe navigator.share → abrir modal
+  // 💻 Navegadores sin navigator.share
   else {
     openShareMenu();
   }
@@ -192,20 +190,26 @@ shareBtn.addEventListener("click", async () => {
    📦 MODAL SHARE
 ========================= */
 
-const shareModal = document.getElementById("shareModal");
-
 function openShareMenu() {
 
   shareModal.style.display = "flex";
 
+  const currentUrl = window.location.href;
+  const currentTitle = document.title;
+
   // WhatsApp
   document.getElementById("shareWhatsapp").href =
-    `https://wa.me/?text=${encodeURIComponent(currentTitle + " " + currentUrl)}`;
+    `https://wa.me/?text=${encodeURIComponent(
+      "*Mira esto en SabineTube* : " + "*" + currentTitle + "*" + " " + currentUrl
+    )}`;
 
   // Facebook
   document.getElementById("shareFacebook").href =
-    `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
+    `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+      currentUrl
+    )}`;
 }
+
 
 function closeShareMenu() {
   shareModal.style.display = "none";
@@ -218,7 +222,10 @@ function closeShareMenu() {
 
 document.getElementById("copyLink").addEventListener("click", async () => {
 
+  const currentUrl = window.location.href;
+
   try {
+
     await navigator.clipboard.writeText(currentUrl);
 
     alert("Link copiado");
@@ -226,7 +233,9 @@ document.getElementById("copyLink").addEventListener("click", async () => {
     closeShareMenu();
 
   } catch {
+
     alert("No se pudo copiar");
+
   }
 
 });
@@ -237,7 +246,9 @@ document.getElementById("copyLink").addEventListener("click", async () => {
 ========================= */
 
 window.addEventListener("click", e => {
+
   if (e.target === shareModal) {
     closeShareMenu();
   }
+
 });

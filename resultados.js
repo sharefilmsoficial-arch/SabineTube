@@ -15,7 +15,7 @@ function normalize(text = "") {
 
 // 📌 Parámetro ?query=
 const params = new URLSearchParams(window.location.search);
-const query = params.get("query") || "";
+const query = params.get("search_query") || "";
 
 searchInput.value = query;
 
@@ -168,7 +168,7 @@ searchInput.addEventListener("keydown", e => {
 
     if (value) {
       window.location.href =
-        `results.html?query=${encodeURIComponent(value)}`;
+        `results.html?search_query=${encodeURIComponent(value)}`;
     }
   }
 });

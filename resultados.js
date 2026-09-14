@@ -88,8 +88,8 @@ ALL_CONTENT.forEach(movie => {
 
 // 📝 Título
 title.textContent = results.length
-  ? `Resultados para "${search_query}"`
-  : `No se encontraron resultados para "${search_query}"`;
+  ? `Resultados para "${query}"`
+  : `No se encontraron resultados para "${query}"`;
 
 // 🎨 Render
 results.forEach(item => {

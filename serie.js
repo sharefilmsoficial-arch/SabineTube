@@ -975,57 +975,57 @@ const SERIES = [
         id: "episode-4",
         n: 4,
         name: "Y Les Gusta Matar",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-4.png",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-4.png",
+        thumb: "series/among-us-tp1-ep4.png",
+        image: "series/among-us-tp1-ep4.png",
         drive: "https://drive.google.com/file/d/1DsPGrH4V8N8aiMAPP8vufZWm5oDS311e/preview"
       },
       {
         id: "episode-5",
         n: 5,
         name: "Solo Buenas Vibras",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-5.avif",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-5.avif",
+        thumb: "series/among-us-tp1-ep5.png",
+        image: "series/among-us-tp1-ep5.png",
         drive: "https://drive.google.com/file/d/15tCtB5s2HoTGE71xXxd1OPWfm-R8Jrwi/preview"
       },
       {
         id: "episode-6",
         n: 6,
         name: "Inseguridad En La Seguridad",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-6.png",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-6.png",
-        drive: "https://drive.google.com/file/d/1ro4dx-Aalrbfh_H5iHjBoGJaMBIDbi3B/preview"
+        thumb: "series/among-us-tp1-ep6.png",
+        image: "series/among-us-tp1-ep6.png",
+        drive: "https://drive.google.com/file/d/17RJGtHXNQ1nf-XZtg30N38SSgE4XVD_P/preview"
       },
       {
         id: "episode-7",
         n: 7,
-        name: "E6 Tripulantes Enojados",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-7.avif",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-7.avif",
-        drive: "https://drive.google.com/file/d/1piVhozW5RS1Z8jIfxq8jF1qgWi6VvcTI/preview"
+        name: "6 Tripulantes Enojados",
+        thumb: "series/among-us-tp1-ep7.png",
+        image: "series/among-us-tp1-ep7.png",
+        drive: "https://drive.google.com/file/d/1P4KRVR9UqMYgiXpAwd-BpUHQ5g820pHJ/preview"
       },
       {
         id: "episode-8",
         n: 8,
         name: "Síndrome Del Impostor",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
-        drive: "https://drive.google.com/file/d/1Qb7fp3il6EnIYB8jq8wCo0_qedwcuJ2Q/preview"
+        thumb: "series/among-us-tp1-ep8.png",
+        image: "series/among-us-tp1-ep8.png",
+        drive: "https://drive.google.com/file/d/1oLVcGQU2ris1ICguISZQIezH2fxAxNer/preview"
       },
       {
         id: "episode-9",
         n: 9,
         name: "Solo Me Desahogo",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
-        drive: "https://drive.google.com/file/d/1Qb7fp3il6EnIYB8jq8wCo0_qedwcuJ2Q/preview"
+        thumb: "series/among-us-tp1-ep9.png",
+        image: "series/among-us-tp1-ep9.png",
+        drive: "https://drive.google.com/file/d/1YcHGTcb6u4czQrtMIJpiQ8iFR-nNdHQR/preview"
       },
       {
         id: "episode-10",
         n: 10,
-        name: "Todos Siguen Vivos, Nadie Esta Muerto",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
-        drive: "https://drive.google.com/file/d/1Qb7fp3il6EnIYB8jq8wCo0_qedwcuJ2Q/preview"
+        name: "Todos Siguen Vivos, Nadie Está Muerto",
+        thumb: "series/among-us-tp1-ep10.png",
+        image: "series/among-us-tp1-ep10.png",
+        drive: "https://drive.google.com/file/d/140v5ZfbLVRY3eTfYM_l5IrZD9Arje75P/preview"
       }
     ]
   },

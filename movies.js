@@ -2548,15 +2548,16 @@ const MOVIES = [
     id: "michael",
     title: "Michael: El Rey del Pop",
     year: 2026,
-    duration: "1h ",
+    duration: "2h 7m",
     rating: "B",
-    calidad: "360p",
-    genres: ["..."],
-    description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
+    calidad: "720p",
+    genres: ["Musical","Drama Musical"],
+    description:"Un retrato fílmico de la vida y el legado de uno de los artistas más influyentes que el mundo ha conocido. La historia de la vida de Michael Jackson más allá de la música, reconstruyendo su camino desde que se descubrió su extraordinario talento como figura central de los Jackson Five hasta que se convirtió en el artista más importante del mundo.",
     trailerUrl: "trailers/",
     keywords: [
     "michael jackson",
-    "jackson"
+    "jackson",
+    "maicol"
     ],
     image: image,
     post: "posters/michael.webp",

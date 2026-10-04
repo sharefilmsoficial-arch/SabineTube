@@ -646,220 +646,100 @@ const SERIES = [
   ]
   },
   {
-    id: "miraculous-TP6",
-    title: "Miraculous Sexta Temporada",
+    id: "smoking-behind-the-supermarket-with-you",
+    title: "Super no Ura de Yani Sū Futari (Smoking Behind the Supermarket with You) | Próximamente",
+    keywords:[
+    "Fumando juntos detrás del súper",
+    "Fumando juntos detrás del súper contigo",
+    "Fumando juntos atrás del súper",
+    "Fumando juntos atrás del súper contigo",
+    "Fumando juntos detrás del súpermercado",
+    "YaniSuu"
+    ],
     year: 2025,
-    image: "series/miraculous-TP6.jpg",
-    post: "series/miraculous-TP6-poster.webp",
-  genres: ["Animación"],
+    image: "series/smoking-behind-the-supermarket-with-you-tp1.webp",
+    post: "series/smoking-behind-the-supermarket-with-you-tp1.webp",
+    genres: ["Animación","Anime"],
     episodes: [
       {
         id: "episode-1",
         n: 1,
-        name: "Reina Climática",
-        thumb: "series/miraculous-TP6-EP1.jpg",
-        image: "series/miraculous-TP6-EP1.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP1-climatiqueen.mp4"
+        name: "Fumando juntos detrás del súper",
+        thumb: "series/sbtswy-tp1-ep1.png",
+        image: "series/sbtswy-tp1-ep1.png",
+        drive: "https://drive.google.com/file/d/1a7J9wOam6I0LuBgzok1d7_-MLy5HJ3Hk/preview"
       },
       {
         id: "episode-2",
         n: 2,
-        name: "La Ilustra-Odiosa",
-        thumb: "series/miraculous-TP6-EP2.jpg",
-        image: "series/miraculous-TP6-EP2.jpg",
-        drive: "https://drive.google.com/file/d/1tVZdaQCbNE57DZ_pcVz-04fWm3Mn4x8U/preview"
+       name: "Coincidiendo juntos detrás del súper",
+        thumb: "series/sbtswy-tp1-ep2.png",
+        image: "series/sbtswy-tp1-ep2.png",
+        drive: "https://drive.google.com/file/d/1BijZemJuexzAGhRjIX5pblBZbnBnQ3rf/preview"
       },
       {
         id: "episode-3",
         n: 3,
-        name: "Sublimación",
-        thumb: "series/miraculous-TP6-EP3.jpg",
-        image: "series/miraculous-TP6-EP3.jpg",
-        drive: "https://drive.google.com/file/d/1nlsau42usIAuNg184unapDJQtsDPVOJu/preview"
+        name: "Dando regalos detrás del súper",
+        thumb: "series/sbtswy-tp1-ep3.png",
+        image: "series/sbtswy-tp1-ep3.png",
+        drive: "https://drive.google.com/file/d/1RnWOeBLITAyRIiFvz4zGz9VNmokjjN0L/preview"
       },
       {
         id: "episode-4",
         n: 4,
-        name: "Papá Policía",
-        thumb: "series/miraculous-TP6-EP4.jpg",
-        image: "series/miraculous-TP6-EP4.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP4-daddycop.mp4"
+        name: "Aprendiendo detrás del súper",
+        thumb: "series/sbtswy-tp1-ep4.png",
+        image: "series/sbtswy-tp1-ep4.png",
+        drive: "https://drive.google.com/file/d/1jSep67-rQYa9YewBKMus2HYioz3By2a4/preview"
       },
       {
         id: "episode-5",
         n: 5,
-        name: "AbueLobos",
-        thumb: "series/miraculous-TP6-EP5.jpg",
-        image: "series/miraculous-TP6-EP5.jpg",
-        drive: ""
+        name: "Mojándose detrás del súper",
+        thumb: "series/sbtswy-tp1-ep5.png",
+        image: "series/sbtswy-tp1-ep5.png",
+        drive: "https://drive.google.com/file/d/1hBU3oXF3S7kmawRdzfBQfpwdHbBv-vR_/preview"
       },
       {
         id: "episode-6",
         n: 6,
-        name: "Sirena Durmiente",
-        thumb: "series/miraculous-TP6-EP6.jpg",
-        image: "series/miraculous-TP6-EP6.jpg",
-        drive: "https://drive.google.com/file/d/1CMOAGtUfWFtCO9IdXlmvdHoL5lNq5uAI/preview"
+        name: "El olor que queda detrás del súper",
+        thumb: "series/sbtswy-tp1-ep6.png",
+        image: "series/sbtswy-tp1-ep6.png",
+        drive: "https://drive.google.com/file/d/1EtZmCoxTYKoKygFQ3ovW23YbrCC9DXse/preview"
       },
       {
-        id: "EP7-El-toro-de-piedra",
+        id: "episode-7",
         n: 7,
-        name: "El Toro de Piedra",
-        thumb: "series/miraculous-TP6-EP7.jpg",
-        image: "series/miraculous-TP6-EP7.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP7-El-toro-de-piedra.mp4"
+        name: "Despidiendo el verano detrás del súper",
+        thumb: "series/sbtswy-tp1-ep7.png",
+        image: "series/sbtswy-tp1-ep7.png",
+        drive: "https://drive.google.com/file/d/1cWgFf5tJSNdIewCQsfi5NtAkOGeJ2CM1/preview"
       },
       {
         id: "episode-8",
         n: 8,
-        name: "Próximamente: Vampigami ",
-        thumb: "series/miraculous-TP6-EP8.jpg",
-        image: "series/miraculous-TP6-EP8.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP8-vampigami.mp4"
+        name: "La búsqueda de ambos desde detrás del súper",
+        thumb: "series/sbtswy-tp1-ep8.png",
+        image: "series/sbtswy-tp1-ep8.png",
+        drive: "https://drive.google.com/file/d/1lqD9EhRRurpuqzXAU4P7MraY3FVequrC/preview"
       },
       {
         id: "episode-9",
         n: 9,
-        name: "Señor Agreste:Estreno [3 de diciembre de 2025]",
-        thumb: "series/miraculous-TP6-EP9.jpg",
-        image: "series/miraculous-TP6-EP9.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP9-mister-agreste.mp4"
+        name: "Conociendo mejor a uno detrás del súper",
+        thumb: "series/sbtswy-tp1-ep9.png",
+        image: "series/sbtswy-tp1-ep9.png",
+        drive: "https://drive.google.com/file/d/1KGpl2cjAarRnyJfKAE1o6xylFIudOK9y/preview"
       },
       {
         id: "episode-10",
         n: 10,
-        name: "El Castillo Oscuro: Estreno [3 de diciembre de 2025]",
-        thumb: "series/miraculous-TP6-EP10.jpg",
-        image: "series/miraculous-TP6-EP10.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP10-the-darkcastle.mp4"
-      },
-      {
-        id: "episode-11",
-        n: 11,
-        name: "Próximamente: Revelador",
-        thumb: "series/miraculous-TP6-EP11.jpg",
-        image: "series/miraculous-TP6-EP11.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP11-revelator.mp4"
-      },
-      {
-        id: "episode-12",
-        n: 12,
-        name: "Psiconductora(Wreckless Driver): Estreno [3 de diciembre de 2025]",
-        thumb: "series/miraculous-TP6-EP12.jpg",
-        image: "series/miraculous-TP6-EP12.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP12-wreckless-driver.mp4"
-      },
-      {
-        id: "episode-13",
-        n: 13,
-        name: "Yaksi Gozen: Estreno [3 de diciembre de 2025]",
-        thumb: "series/miraculous-TP6-EP13.jpg",
-        image: "series/miraculous-TP6-EP13.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP13-yaksi-gozen"
-      },
-      {
-        id: "episode-14",
-        n: 14,
-        name: "Próximamente: Grendiaper",
-        thumb: "series/miraculous-TP6-EP14.jpg",
-        image: "series/miraculous-TP6-EP14.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP14-grendiaper.mp4"
-      },
-      {
-        id: "episode-15",
-        n: 15,
-        name: "Próximamente: The Ruler",
-        thumb: "series/miraculous-TP6-EP15.jpg",
-        image: "series/miraculous-TP6-EP15.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP15-the-ruler.mp4"
-      },
-      {
-        id: "episode-16",
-        n: 16,
-        name: "Próximamente: Noe",
-        thumb: "series/miraculous-TP6-EP16.jpg",
-        image: "series/miraculous-TP6-EP16.jpg",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP16-noe.mp4"
-      },
-      {
-        id: "episode-17",
-        n: 17,
-        name: "Próximamente: El Hada de las Buenas Noches",
-        thumb: "series/miraculous-TP6-EP17.png",
-        image: "series/miraculous-TP6-EP17.png",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP17-a-fairy-good-night.mp4"
-      },
-      {
-        id: "episode-18",
-        n: 18,
-        name: "Próximamente: The Dirtifiers",
-        thumb: "icons/loading.gif",
-        image: "icons/loading.gif",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP18-the-dirtifiers.mp4"
-      },
-      {
-        id: "episode-19",
-        n: 19,
-        name: "Próximamente: Riginazarione",
-        thumb: "icons/loading.gif",
-        image: "icons/loading.gif",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP19-riginazarione.mp4"
-      },
-      {
-        id: "episode-20",
-        n: 20,
-        name: "Próximamente: Heartfixer",
-        thumb: "icons/loading.gif",
-        image: "icons/loading.gif",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP20-hearfixer.mp4"
-      },
-      {
-        id: "episode-21",
-        n: 21,
-        name: "Próximamente: The Chained Titans",
-        thumb: "icons/loading.gif",
-        image: "icons/loading.gif",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP21-the-chained-titans.mp4"
-      },
-      {
-        id: "episode-22",
-        n: 22,
-        name: "Próximamente: Lady Caos",
-        thumb: "icons/loading.gif",
-        image: "icons/loading.gif",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP22-lady-caos.mp4"
-      },
-      {
-        id: "episode-23",
-        n: 23,
-        name: "Próximamente: Sadnansi",
-        thumb: "icons/loading.gif",
-        image: "icons/loading.gif",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP23-sadnansi.mp4"
-      },
-      {
-        id: "episode-24",
-        n: 24,
-        name: "Próximamente: Reina de la Zona del Terror",
-        thumb: "icons/loading.gif",
-        image: "icons/loading.gif",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP24-queen-of-the-dreadzone.mp4"
-      },
-      {
-        id: "episode-25",
-        n: 25,
-        name: "Próximamente: Protocolo Secreto",
-        thumb: "icons/loading.gif",
-        image: "icons/loading.gif",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP25-secret-protocol.mp4"
-      },
-      {
-        id: "episode-26",
-        n: 26,
-        name: "Próximamente: Némesis",
-        thumb: "icons/loading.gif",
-        image: "icons/loading.gif",
-        drive: "series/miraculous-TP6/Miraculous-TP6-EP26-nemesis.mp4"
+        name: "Iluminando juntos detrás del súper | No Disponible",
+        thumb: "series/sbtswy-tp1-ep10.png",
+        image: "series/sbtswy-tp1-ep10.png",
+        drive: ""
       }
     ]
   },
@@ -1031,7 +911,7 @@ const SERIES = [
   },
   {
     id: "spider-noir",
-    title: "Spider Noir",
+    title: "Spider Noir - Próximamente",
     year: 2025,
     image: "series/spider-noir-tp1.webp",
     video: "trailers/clip/welcome-to-derry.mp4",
@@ -1041,66 +921,66 @@ const SERIES = [
       {
         id: "episode-1",
         n: 1,
-        name: "El Piloto>",
-        thumb: "https://i.ytimg.com/vi/ADyR_AtSnRU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBswYkuiH817WJG714ppddceme-nQ",
-        image: "https://i.ytimg.com/vi/ADyR_AtSnRU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBswYkuiH817WJG714ppddceme-nQ",
-        drive: "https://drive.google.com/file/d/1Ncm0sZ54tnRtAvrzh9Q6jrDemF2VUHiG/preview"
+        name: "[No Data]",
+        thumb: "",
+        image: "",
+        drive: ""
       },
       {
         id: "episode-2",
         n: 2,
-        name: "La Cosa en la Oscuridad",
-        thumb: "https://i.ytimg.com/vi/85pVCEyD44E/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCICo_MrJXI45LsXATdgYwk0B715Q",
-        image: "https://i.ytimg.com/vi/85pVCEyD44E/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCICo_MrJXI45LsXATdgYwk0B715Q",
-        drive: "https://drive.google.com/file/d/10L_PTmypRkOhzX-NDyCDb-lGBxdVb16L/preview"
+        name: "[No Data]",
+        thumb: "",
+        image: "",
+        drive: ""
       },
       {
         id: "episode-3",
         n: 3,
-        name: "Ahora lo Vez",
-        thumb: "https://i.ytimg.com/vi/NE2q3Fu0HMo/maxresdefault.jpg",
-        image: "https://i.ytimg.com/vi/NE2q3Fu0HMo/maxresdefault.jpg",
-        drive: "https://drive.google.com/file/d/1FoK4YQIR1EiM-ZQWn_daWlPBsJAfHdmd/preview"
+        name: "[No Data]",
+        thumb: "",
+        image: "",
+        drive: ""
       },
       {
         id: "episode-4",
         n: 4,
-        name: "El Gran Mecanismo Giratorio del Funcionamiento de Nuestro Planeta",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-4.png",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-4.png",
-        drive: "https://drive.google.com/file/d/1MLlEfAuWGH4qVLYPJKGopnr4YP2lfkki/preview"
+        name: "[No Data]",
+        thumb: "",
+        image: "",
+        drive: ""
       },
       {
         id: "episode-5",
         n: 5,
-        name: "Calle Neibolt 29",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-5.avif",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-5.avif",
-        drive: "https://drive.google.com/file/d/15U69xUxJf6eGY16AhhaLF6Lwk5YzenJZ/preview"
+        name: "[No Data]",
+        thumb: "",
+        image: "",
+        drive: ""
       },
       {
         id: "episode-6",
         n: 6,
-        name: "En el Nombre del Padre",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-6.png",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-6.png",
-        drive: "https://drive.google.com/file/d/1ro4dx-Aalrbfh_H5iHjBoGJaMBIDbi3B/preview"
+        name: "[No Data]",
+        thumb: "",
+        image: "",
+        drive: ""
       },
       {
         id: "episode-7",
         n: 7,
-        name: "El punto Negro",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-7.avif",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-7.avif",
-        drive: "https://drive.google.com/file/d/1piVhozW5RS1Z8jIfxq8jF1qgWi6VvcTI/preview"
+        name: "[No Data]",
+        thumb: "",
+        image: "",
+        drive: ""
       },
       {
         id: "episode-8",
         n: 8,
-        name: "Fuego Infernal",
-        thumb: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
-        image: "series/welcome-to-derry/bienvenidos-a-derry-temp-1-ep-8.png",
-        drive: "https://drive.google.com/file/d/1Qb7fp3il6EnIYB8jq8wCo0_qedwcuJ2Q/preview"
+        name: "[No Data]",
+        thumb: "",
+        image: "",
+        drive: ""
       }
     ]
   }

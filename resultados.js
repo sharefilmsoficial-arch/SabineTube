@@ -13,7 +13,7 @@ function normalize(text = "") {
     .trim();
 }
 
-// 📌 Parámetro ?query=
+// 📌 Parámetro ?search_query=
 const params = new URLSearchParams(window.location.search);
 const query = params.get("search_query") || "";
 
@@ -34,6 +34,7 @@ function matchesSearch(text) {
 
   // coincidencia por palabras
   const queryWords = normalizedQuery.split(" ");
+
   return queryWords.every(word =>
     normalizedText.includes(word)
   );
@@ -68,7 +69,8 @@ ALL_CONTENT.forEach(movie => {
     );
   }
 
-  // 📌 agregar episodio específico
+  // 📌 Si coincide con un episodio específico,
+  // abrir directamente ese episodio
   if (matchedEpisode) {
 
     results.push({
@@ -79,11 +81,33 @@ ALL_CONTENT.forEach(movie => {
 
   }
 
-  // 📌 agregar serie/película normal
-  else if (titleMatch || keywordMatch) {
+  // 📌 Si coincide el título, mostrar la serie/película normal
+  else if (titleMatch) {
 
     results.push(movie);
+
   }
+
+  // 📌 Si coincide únicamente un keyword,
+  // tratar el resultado como episodio 1
+  else if (keywordMatch) {
+
+    if (movie.episodes?.length) {
+
+      results.push({
+        type: "episode",
+        series: movie,
+        episode: movie.episodes[0]
+      });
+
+    } else {
+
+      // Si es una película con keyword,
+      // mantener el comportamiento normal
+      results.push(movie);
+    }
+  }
+
 });
 
 // 📝 Título

@@ -647,7 +647,7 @@ const SERIES = [
   },
   {
     id: "smoking-behind-the-supermarket-with-you",
-    title: "Super no Ura de Yani Sū Futari (Smoking Behind the Supermarket with You) | Próximamente",
+    title: "Super no Ura de Yani Sū Futari (Smoking Behind the Supermarket with You) (9 episodios disponibles)",
     keywords:[
     "Fumando juntos detrás del súper",
     "Fumando juntos detrás del súper contigo",
@@ -665,8 +665,8 @@ const SERIES = [
         id: "episode-1",
         n: 1,
         name: "Fumando juntos detrás del súper",
-        thumb: "series/sbtswy-tp1-ep1.png",
-        image: "series/sbtswy-tp1-ep1.png",
+        thumb: "series/sbtswy-tp1-ep1.webp",
+        image: "series/sbtswy-tp1-ep1.webp",
         drive: "https://drive.google.com/file/d/1a7J9wOam6I0LuBgzok1d7_-MLy5HJ3Hk/preview"
       },
       {
@@ -746,6 +746,10 @@ const SERIES = [
   {
     id: "welcome-to-derry",
     title: "Bienvenidos a Derry",
+    keywords:[
+      "eso",
+      "it"
+    ],
     year: 2025,
     image: "series/welcome-to-derry.jpg",
     video: "trailers/clip/welcome-to-derry.mp4",

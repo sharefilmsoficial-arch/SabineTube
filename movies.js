@@ -1082,7 +1082,7 @@ const MOVIES = [
   },
   {
     id: "ironman-2",
-    title: "Ironman 2",
+    title: "Ironman 2 | Próximamente",
     year: 2008,
     duration: "2h 6m",
     rating: "PG-13",
@@ -1096,7 +1096,7 @@ const MOVIES = [
   },
   {
     id: "ironman-3",
-    title: "Ironman 3",
+    title: "Ironman 3 | Próximamente",
     year: 2008,
     duration: "2h 6m",
     rating: "PG-13",
@@ -1201,7 +1201,7 @@ const MOVIES = [
   },
   {
     id: "toy-story-5",
-    title: "Toy Story 5: Próximamente",
+    title: "Toy Story 5",
     year: 2026,
     duration: "1h 37min",
     rating: "PG-13",
@@ -1210,8 +1210,7 @@ const MOVIES = [
     trailerUrl: sampleTrailer,
     image: "https://lumiere-a.akamaihd.net/v1/images/toy_story_c00b8d79.jpeg?region=0,0,1080,1350",
     post: "posters/toy-story-5.webp",
-    movie: "https://drive.google.com/file/d/1x5il-6bRAx6IGrwWnZlNrNwbc-GW16WK/preview",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1dpCvmTc6mRO38j9leJkY1s4Z6d-Pf5b4/preview"
   },
   {
     id: "guardians-of-the-galaxy",
@@ -1296,7 +1295,7 @@ const MOVIES = [
   },
   {
     id: "kung-fu-panda",
-    title: "Kung fu Panda: Próximamente",
+    title: "Kung fu Panda",
     year: 2008,
     duration: "1h 32min",
     rating: "A",
@@ -1311,8 +1310,7 @@ const MOVIES = [
     ],
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTND_aT98Q9K37HgTKJwBqZZVCPQGrMTMV44w&s",
     post:"posters/kung-fu-panda.webp",
-    movie: "https://drive.google.com/file/d/1x5il-6bRAx6IGrwWnZlNrNwbc-GW16WK/preview",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1WygWaW2Np--CT8VvqQ1BzQaP1IQyYC2X/preview"
   },
   {
     id: "kung-fu-panda-2",
@@ -1584,7 +1582,7 @@ const MOVIES = [
 },
   {
     id: "the-croods2-a-new-age",
-    title: "Los Croods 2",
+    title: "Los Croods 2 | Próximamente",
     year: 2020,
     duration: "1h ",
     rating: "PG-13",
@@ -1594,7 +1592,7 @@ const MOVIES = [
     trailerUrl: sampleTrailer,
     image: "images/the-croods2-a-new-age.webp",
     post: "posters/the-croods2-a-new-age.webp",
-    movie: "https://drive.google.com/file/d/1GDj_YxfaBTa_unp8qSydMOsSk-JeQHpB/preview"
+    movie: ""
 },
   {
     id: "wonder-woman",
@@ -1612,7 +1610,7 @@ const MOVIES = [
 },
   {
     id: "wonder-woman-84",
-    title: "La Mujer Maravilla 1984",
+    title: "La Mujer Maravilla 1984 | Próximamente",
     year: 2002,
     duration: "1h ",
     rating: "PG-13",
@@ -1794,7 +1792,7 @@ const MOVIES = [
 },
 {
     id: "transporter",
-    title: "El Transportador",
+    title: "El Transportador | Próximamente",
     year: 2008,
     duration: "1h 44m",
     rating: "B-15",
@@ -1808,7 +1806,7 @@ const MOVIES = [
 },
 {
     id: "transporter-2",
-    title: "El Transportador 2",
+    title: "El Transportador 2 | Próximamente",
     year: 2008,
     duration: "1h 44m",
     rating: "B-15",
@@ -2274,23 +2272,22 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-14",
-    title: "Proximamente | Batman Azteca",
+    id: "aztec-batman_clash-of-empires",
+    title: "Batman Azteca: Choque de Imperios",
     year: 2025,
-    duration: "1h ",
+    duration: "1h 29m",
     rating: "B",
-    calidad: "360p",
-    genres: ["..."],
-    description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
+    calidad: "720p",
+    genres: ["Acción","Aventura","Animación"],
+    description:"Yohualli Coatl vive una tragedia cuando su padre es asesinado por españoles. Yohualli escapa a Tenochtitlán para advertir a Moctezuma. En el templo de Tzinacan, el dios murciélago, Yohualli se entrena con su mentor, para vengar la muerte de su padre.",
     trailerUrl: "trailers/",
     image: image,
     post: "posters/batman-azteca.webp",
-    movie: "",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/16LnZFr5E2OaH57lu9zIDo9Kl8NXP8I7N/preview"
 },
 {
-    id: "movie-15",
-    title: "Proximamente | Alerta Roja",
+    id: "red-notice",
+    title: "Muy Proximamente | Alerta Roja",
     year: 2021,
     duration: "1h ",
     rating: "B",
@@ -2500,7 +2497,7 @@ const MOVIES = [
 },
 {
     id: "movie-29",
-    title: "Muy Proximamente | Retorno a Silent Hill | 22 de Enero sólo en cines",
+    title: "Muy Proximamente | Retorno a Silent Hill",
     year: 2026,
     duration: "1h ",
     rating: "B",
@@ -2568,7 +2565,7 @@ const MOVIES = [
 },
 {
     id: "movie-32-1",
-    title: "Proximamente | El Diablo Viste a la Moda 2 | 1 de Mayo sólo en cines",
+    title: "Muy Proximamente | El Diablo Viste a la Moda 2",
     year: 2026,
     duration: "1h ",
     rating: "B",
@@ -2671,8 +2668,8 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-39",
-    title: "Proximamente | Coyote vs. Acme | 27 de Agosto sólo en cines",
+    id: "coyote-vs-acme",
+    title: "Muy Proximamente | Coyote vs. Acme",
     year: 2026,
     duration: "1h ",
     rating: "B",
@@ -2681,7 +2678,7 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/.webp",
+    post: "posters/coyote-vs-acme.webp",
     movie: "",
     estreno: "Próximamente"
 },
@@ -3108,6 +3105,34 @@ const MOVIES = [
     image: image,
     post: "posters/where-hope-grows.webp",
     movie: "https://drive.google.com/file/d/1e2hRpDECb77HHVmEVR0lx9qb5xHaM9Y-/preview"
+},
+{
+    id: "movie-60",
+    title: "Hoopers",
+    year: 2026,
+    duration: "0h",
+    rating: "B",
+    calidad: "1060p",
+    genres: ["..."],
+    description:"...",
+    trailerUrl: "trailers/",
+    image: image,
+    post: "posters/Hoopers.webp",
+    movie: "..."
+},
+{
+    id: "movie-61",
+    title: "He-Man",
+    year: 2026,
+    duration: "0h",
+    rating: "B",
+    calidad: "1060p",
+    genres: ["..."],
+    description:"...",
+    trailerUrl: "trailers/",
+    image: image,
+    post: "posters/master-of-universe.webp",
+    movie: "..."
 }
 ];
 

@@ -467,7 +467,7 @@ const SERIES = [
   },
 {
     id: "scissor-seven-TP4",
-    title: "Scissors Seven Temporada 4: Shadow Fate Próximamente",
+    title: "Scissors Seven Temporada 4: Shadow Fate",
     year: 2023,
     image: "series/scissor-seven-TP4.jpg",
     post: "series/scissor-seven-tp-4-poster.webp",
@@ -479,7 +479,7 @@ const SERIES = [
       name: "Ave Negra Inmortal",
       thumb: "series/scissor-seven-TP4-EP1.png",
       image: "series/scissor-seven-TP4-EP1.png",
-      drive: "/preview"
+      drive: "https://drive.google.com/file/d/1uyCLDj-8tUHAo3-3o8RuJKQQxvtp3I23/preview"
     },
     {
       id: "episode-2",
@@ -487,7 +487,7 @@ const SERIES = [
       name: "El asesinato del Líder",
       thumb: "series/scissor-seven-TP4-EP2.png",
       image: "series/scissor-seven-TP4-EP2.png",
-      drive: "/preview"
+      drive: "https://drive.google.com/file/d/1zUbwRK6DWaUTnxnfuwAxNMD-BKQSbC-j/preview"
     },
     {
       id: "episode-3",
@@ -495,7 +495,7 @@ const SERIES = [
       name: "Rescate de Seven",
       thumb: "series/scissor-seven-TP4-EP3.png",
       image: "series/scissor-seven-TP4-EP3.png",
-      drive: "/preview"
+      drive: "https://drive.google.com/file/d/1_Z60JuNJGJ7jL8Y_yOrA7kP9kpnFXcl1/preview"
     },
     {
       id: "episode-4",
@@ -503,7 +503,7 @@ const SERIES = [
       name: "Una Noche en la Tienda",
       thumb: "series/scissor-seven-TP4-EP4.png",
       image: "series/scissor-seven-TP4-EP4.png",
-      drive: "/preview"
+      drive: "https://drive.google.com/file/d/1wybZYhgcTlFB5GCDSk7vgRdOsedpsJMK/preview"
     },
     {
       id: "episode-5",
@@ -511,7 +511,7 @@ const SERIES = [
       name: "Crisis en la isla 2",
       thumb: "series/scissor-seven-TP4-EP5.png",
       image: "series/scissor-seven-TP4-EP5.png",
-      drive: "/preview"
+      drive: "https://drive.google.com/file/d/1t7e936pUGupsew0iAziIgdeT1g4Set8u/preview"
     },
     {
       id: "episode-6",
@@ -519,7 +519,7 @@ const SERIES = [
       name: "El pasado de Huilian",
       thumb: "series/scissor-seven-TP4-EP6.png",
       image: "series/scissor-seven-TP4-EP6.png",
-      drive: "/preview"
+      drive: "https://drive.google.com/file/d/1W0eMSX-FjbJneml74Z3eVOWuBwRddQkI/preview"
     },
     {
       id: "episode-7",
@@ -527,7 +527,7 @@ const SERIES = [
       name: "El pasado de Diente Rojo",
       thumb: "series/scissor-seven-TP4-EP7.png",
       image: "series/scissor-seven-TP4-EP7.png",
-      drive: "/preview"
+      drive: "https://drive.google.com/file/d/1KVthKr_2zRPm6-ZZDEeP9n78gRAQRec4/preview"
     },
     {
       id: "episode-8",
@@ -535,7 +535,7 @@ const SERIES = [
       name: "La decisión",
       thumb: "series/scissor-seven-TP4-EP8.png",
       image: "series/scissor-seven-TP4-EP8.png",
-      drive: "/preview"
+      drive: "https://drive.google.com/file/d/1Yvkruu1Tf06i8H17KkiXBrU_K6Yxdt1v/preview"
     },
     {
       id: "episode-9",
@@ -543,7 +543,7 @@ const SERIES = [
       name: "La Batalla Campal en la Isla Pollo",
       thumb: "series/scissor-seven-TP4-EP9.png",
       image: "series/scissor-seven-TP4-EP9.png",
-      drive: "/preview"
+      drive: "https://drive.google.com/file/d/1hyyCj0jhM7cxDjJJOCiBO1T9p99zgv0K/preview"
     },
     {
       id: "episode-10",
@@ -551,7 +551,7 @@ const SERIES = [
       name: " La venganza de Fénix Azul ",
       thumb: "series/scissor-seven-TP4-EP10.png",
       image: "series/scissor-seven-TP4-EP10.png",
-      drive: ""
+      drive: "https://drive.google.com/file/d/11H2P1ZKYDG_RN2-jNgNKI2i8FJWKxuqG/preview"
     }
   ]
   },
@@ -566,15 +566,15 @@ const SERIES = [
     {
       id: "episode-1",
       n: 1,
-      name: "Ave Negra Inmortal",
-      thumb: "series/scissor-seven-TP4-EP1.png",
-      image: "series/scissor-seven-TP4-EP1.png",
-      drive: "/preview"
+      name: "La Misión Especial de Seven",
+      thumb: "series/scissor-seven-TP5-EP1.webp",
+      image: "series/scissor-seven-TP5-EP1.webp",
+      drive: "https://drive.google.com/file/d/1YwuFMYgCbiYZ7XffEolynBw7WKkIel9B/preview"
     },
     {
       id: "episode-2",
       n: 2,
-      name: "El asesinato del Líder",
+      name: "Regreso a Xuanwu",
       thumb: "series/scissor-seven-TP4-EP2.png",
       image: "series/scissor-seven-TP4-EP2.png",
       drive: "/preview"
@@ -582,7 +582,7 @@ const SERIES = [
     {
       id: "episode-3",
       n: 3,
-      name: "Rescate de Seven",
+      name: "Presidente Interino En La Isla Pollo",
       thumb: "series/scissor-seven-TP4-EP3.png",
       image: "series/scissor-seven-TP4-EP3.png",
       drive: "/preview"
@@ -590,7 +590,7 @@ const SERIES = [
     {
       id: "episode-4",
       n: 4,
-      name: "Una Noche en la Tienda",
+      name: "Duelo De Pulgares Arriba",
       thumb: "series/scissor-seven-TP4-EP4.png",
       image: "series/scissor-seven-TP4-EP4.png",
       drive: "/preview"
@@ -598,7 +598,7 @@ const SERIES = [
     {
       id: "episode-5",
       n: 5,
-      name: "Crisis en la isla 2",
+      name: "Melodía Mortal de Nueve Dedos",
       thumb: "series/scissor-seven-TP4-EP5.png",
       image: "series/scissor-seven-TP4-EP5.png",
       drive: "/preview"
@@ -638,16 +638,16 @@ const SERIES = [
     {
       id: "episode-10",
       n: 10,
-      name: " La venganza de Fénix Azul ",
-      thumb: "series/scissor-seven-TP4-EP10.png",
-      image: "series/scissor-seven-TP4-EP10.png",
-      drive: ""
+      name: "Batalla en la Montaña Boca Negra",
+      thumb: "series/scissor-seven-TP5-EP10.webp",
+      image: "series/scissor-seven-TP5-EP10.webp",
+      drive: "https://drive.google.com/file/d/11H2P1ZKYDG_RN2-jNgNKI2i8FJWKxuqG/preview"
     }
   ]
   },
   {
     id: "smoking-behind-the-supermarket-with-you",
-    title: "Super no Ura de Yani Sū Futari (Smoking Behind the Supermarket with You) (9 episodios disponibles)",
+    title: "Super no Ura de Yani Sū Futari (Smoking Behind the Supermarket with You) (10 episodios disponibles)",
     keywords:[
     "Fumando juntos detrás del súper",
     "Fumando juntos detrás del súper contigo",
@@ -736,9 +736,25 @@ const SERIES = [
       {
         id: "episode-10",
         n: 10,
-        name: "Iluminando juntos detrás del súper | No Disponible",
-        thumb: "series/sbtswy-tp1-ep10.png",
-        image: "series/sbtswy-tp1-ep10.png",
+        name: "Iluminando juntos detrás del súper",
+        thumb: "series/sbtswy-tp1-ep10.jpg",
+        image: "series/sbtswy-tp1-ep10.jpg",
+        drive: "https://drive.google.com/file/d/1LOSFmLrLXKW_leHHl5wO6WrQcpN0YaLn/preview"
+      },
+      {
+        id: "episode-11",
+        n: 11,
+        name: "Llamando detrás del súper | No Disponible",
+        thumb: "series/sbtswy-tp1-ep11.webp",
+        image: "series/sbtswy-tp1-ep11.webp",
+        drive: ""
+      },
+      {
+        id: "episode-12",
+        n: 12,
+        name: "Continuando juntos detrás del súper | No Disponible",
+        thumb: "series/sbtswy-tp1-ep12.png",
+        image: "series/sbtswy-tp1-ep12.png",
         drive: ""
       }
     ]
@@ -835,6 +851,7 @@ const SERIES = [
         id: "episode-1",
         n: 1,
         name: "Una Fiesta de Pizza Dónde No Pasa Nada Malo",
+        description:"Un desafortunado becario y un ingenuo ganador de un concurso emprenden un recorrido vertiginoso por la Skeld, una nave espacial donde conocerán a nuestro colorido (literalmente) elenco de personajes... ¡justo antes de que ocurra un desastre!",
         thumb: "series/among-us-tp1-ep1.png",
         image: "series/among-us-tp1-ep1.png",
         drive: "https://drive.google.com/file/d/1lSqRA9yK66NiA6xFGQA4svmhFizot2T8/preview"
@@ -843,6 +860,7 @@ const SERIES = [
         id: "episode-2",
         n: 2,
         name: "No Puedes Ser Listo y Atractivo",
+        description:"Tras descubrir un cadáver, el apuesto doctor debe investigar la causa de la muerte. ¿Fue un terrible accidente o algo MÁS SINIESTRO?",
         thumb: "series/among-us-tp1-ep2.png",
         image: "series/among-us-tp1-ep2.png",
         drive: "https://drive.google.com/file/d/1mklvxwzT9e8Pf3miixgwV_r8Xls9fLRo/preview"
@@ -851,6 +869,7 @@ const SERIES = [
         id: "episode-3",
         n: 3,
         name: "El Caos Encontró Un Nuevo Hogar",
+        description:"La tensión aumenta tras otra muerte que conmociona la tripulación. Se roban pistas y las grabaciones de seguridad desaparecen misteriosamente. ¿Se puede confiar en alguien?",
         thumb: "series/among-us-tp1-ep3.png",
         image: "series/among-us-tp1-ep3.png",
         drive: "https://drive.google.com/file/d/1YBT3hIx3jcPTJk1fZ9gkXD1aookhladK/preview"
@@ -859,6 +878,7 @@ const SERIES = [
         id: "episode-4",
         n: 4,
         name: "Y Les Gusta Matar",
+        description:"¡Se forman bandos! ¡Comienzan las luchas internas! ¡Se come pizza! Un tripulante decide dar caza al asesino. ¿Se convertirá el cazador en la presa?",
         thumb: "series/among-us-tp1-ep4.png",
         image: "series/among-us-tp1-ep4.png",
         drive: "https://drive.google.com/file/d/1DsPGrH4V8N8aiMAPP8vufZWm5oDS311e/preview"
@@ -867,6 +887,7 @@ const SERIES = [
         id: "episode-5",
         n: 5,
         name: "Solo Buenas Vibras",
+        description:"¡La tripulación se une para expulsar al IMPOSTOR! ¡VICTORIA! ¿O no? Todos se llevan bien… pero tal vez no por las razones que creen…",
         thumb: "series/among-us-tp1-ep5.png",
         image: "series/among-us-tp1-ep5.png",
         drive: "https://drive.google.com/file/d/15tCtB5s2HoTGE71xXxd1OPWfm-R8Jrwi/preview"
@@ -875,6 +896,7 @@ const SERIES = [
         id: "episode-6",
         n: 6,
         name: "Inseguridad En La Seguridad",
+        description:"Alguien o algo ha saboteado el oxígeno. Alguien finalmente toma el control de la caótica situación cuando otro miembro de la tripulación es encontrado... ¡ASESINADO!",
         thumb: "series/among-us-tp1-ep6.png",
         image: "series/among-us-tp1-ep6.png",
         drive: "https://drive.google.com/file/d/17RJGtHXNQ1nf-XZtg30N38SSgE4XVD_P/preview"
@@ -883,6 +905,7 @@ const SERIES = [
         id: "episode-7",
         n: 7,
         name: "6 Tripulantes Enojados",
+        description:"Los tripulantes son llevados a juicio mientras los secretos salen a la luz. Las acusaciones se extienden como la pólvora y se debe tomar una decisión difícil. ¡Hoy la pizza es agridulce!",
         thumb: "series/among-us-tp1-ep7.png",
         image: "series/among-us-tp1-ep7.png",
         drive: "https://drive.google.com/file/d/1P4KRVR9UqMYgiXpAwd-BpUHQ5g820pHJ/preview"
@@ -891,6 +914,7 @@ const SERIES = [
         id: "episode-8",
         n: 8,
         name: "Síndrome Del Impostor",
+        description:"La disputa por las culpas se intensifica. Un miembro de la tripulación cumple el último deseo de su amigo, otros forman una alianza incómoda, ¡y alguien hace un SORPRENDENTE DESCUBRIMIENTO!",
         thumb: "series/among-us-tp1-ep8.png",
         image: "series/among-us-tp1-ep8.png",
         drive: "https://drive.google.com/file/d/1oLVcGQU2ris1ICguISZQIezH2fxAxNer/preview"
@@ -899,6 +923,7 @@ const SERIES = [
         id: "episode-9",
         n: 9,
         name: "Solo Me Desahogo",
+        description:"¡Tras una persecución llena de acción, otro cremado encuentra su horrible final! Con solo unos pocos supervivientes, ¿a quién le puedes cree…? ¡PUM! ¿Qué fue ese ruido? ¿EL REACTOR?",
         thumb: "series/among-us-tp1-ep9.png",
         image: "series/among-us-tp1-ep9.png",
         drive: "https://drive.google.com/file/d/1YcHGTcb6u4czQrtMIJpiQ8iFR-nNdHQR/preview"
@@ -907,6 +932,7 @@ const SERIES = [
         id: "episode-10",
         n: 10,
         name: "Todos Siguen Vivos, Nadie Está Muerto",
+        description:"¡Tras la revelación final, llega el momento de un enfrentamiento épico! ¿Explotará la nave? ¿Lograrán la victoria los tripulantes?",
         thumb: "series/among-us-tp1-ep10.png",
         image: "series/among-us-tp1-ep10.png",
         drive: "https://drive.google.com/file/d/140v5ZfbLVRY3eTfYM_l5IrZD9Arje75P/preview"
@@ -915,8 +941,12 @@ const SERIES = [
   },
   {
     id: "spider-noir",
-    title: "Spider Noir - Próximamente",
+    title: "Spider Noir",
     year: 2025,
+    keywords:[
+      "spider-man",
+      "spiderman negro"
+    ],
     image: "series/spider-noir-tp1.webp",
     video: "trailers/clip/welcome-to-derry.mp4",
     post: "series/spider-noir-tp1.webp",
@@ -925,66 +955,509 @@ const SERIES = [
       {
         id: "episode-1",
         n: 1,
-        name: "[No Data]",
-        thumb: "",
-        image: "",
+        name: "Pase a mi despacho | No Disponible",
+        description:"El investigador privado Ben Reilly es contratado para rastrear a un individuo superpoderoso, Silvermane. Nadie sabe que Reilly fue, hasta cinco años, el superhéroe de la ciudad conocido como la Araña y tiene poderes propios.",
+        thumb: "series/spider-noir-tp1-ep1.webp",
+        image: "series/spider-noir-tp1-ep1.webp",
         drive: ""
       },
       {
         id: "episode-2",
         n: 2,
-        name: "[No Data]",
-        thumb: "",
-        image: "",
+        name: "Actua Con Cautela | No Disponible",
+        description:"Silvermane está tratando de averiguar quién contrató a Addison para matarlo. Cat contrata a Ben para encontrar a Flint. Robbie va a ver a la viuda de Addison, y los hombres de Silvermane hacen una visita a Janet en la oficina.",
+        thumb: "series/spider-noir-tp1-ep2.webp",
+        image: "series/spider-noir-tp1-ep2.webp",
         drive: ""
       },
       {
         id: "episode-3",
         n: 3,
-        name: "[No Data]",
-        thumb: "",
-        image: "",
+        name: "Emboscada | No Disponible",
+        description:"Mientras más rápido lo demuestres, más rápido morirá.",
+        thumb: "series/spider-noir-tp1-ep3.webp",
+        image: "series/spider-noir-tp1-ep3.webp",
         drive: ""
       },
       {
         id: "episode-4",
         n: 4,
-        name: "[No Data]",
-        thumb: "",
-        image: "",
-        drive: ""
+        name: "Un error que no volveré a cometer",
+        description:"No lo sé, creo que todavía puede.",
+        thumb: "series/spider-noir-tp1-ep4.webp",
+        image: "series/spider-noir-tp1-ep4.webp",
+        drive: "https://drive.google.com/file/d/1qEr-8_Te5uTU_YCRuBnMiA-PSgorN0uO/preview"
       },
       {
         id: "episode-5",
         n: 5,
-        name: "[No Data]",
-        thumb: "",
-        image: "",
-        drive: ""
+        name: "Traición",
+        description:"Debes tener cuidado con las inversiones y la salsa picante.",
+        thumb: "series/spider-noir-tp1-ep5.webp",
+        image: "series/spider-noir-tp1-ep5.webp",
+        drive: "https://drive.google.com/file/d/18G6H5NaeME9IEHrsXPVILHtwhBIgA9MJ/preview"
       },
       {
         id: "episode-6",
         n: 6,
-        name: "[No Data]",
-        thumb: "",
-        image: "",
-        drive: ""
+        name: "Pesadilla en una camilla",
+        description:"Si no has encontrado la respuesta es porque no la hay.",
+        thumb: "series/spider-noir-tp1-ep6.webp",
+        image: "series/spider-noir-tp1-ep6.webp",
+        drive: "https://drive.google.com/file/d/1yWDrw0lK_wit_HTUZa2Lt-1vUylJ6uyz/preview"
       },
       {
         id: "episode-7",
         n: 7,
-        name: "[No Data]",
-        thumb: "",
-        image: "",
-        drive: ""
+        name: "No soy un héroe",
+        description:"Muerto no podré protegerte.",
+        thumb: "series/spider-noir-tp1-ep7.webp",
+        image: "series/spider-noir-tp1-ep7.webp",
+        drive: "https://drive.google.com/file/d/1q33THsZ87gyD3eKyJThQjHknOekB1Y1o/preview"
       },
       {
         id: "episode-8",
         n: 8,
-        name: "[No Data]",
-        thumb: "",
-        image: "",
+        name: "El hombre de la máscara",
+        description:"¡Cielos! ¿Qué puede hacer un detective privado en la ruina?",
+        thumb: "series/spider-noir-tp1-ep8.webp",
+        image: "series/spider-noir-tp1-ep8.webp",
+        drive: "https://drive.google.com/file/d/1ITNQ5GR7fRSU1SpU27m3LBMfoIjJK6oO/preview"
+      }
+    ]
+  },
+  {
+    id: "my-deer-friend-nokotan-tp1",
+    title: "Mi Amiga Nokotan Es Un Ciervo | Próximamente",
+    year: 2000,
+    keywords:[
+      "Shikanoko Nokonoko Koshitantan",
+      "venado",
+      "My Deer Friend Nokotan"
+    ],
+    image: "series/my-deer-friend-nokotan-tp1.webp",
+    video: "trailers/clip/welcome-to-derry.mp4",
+    post: "series/my-deer-friend-nokotan-tp1.webp",
+    genres: ["Anime","Animación","Comedia","Humorístico"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: "Una chica conoce a un ciervo",
+        description:"Torako Koshi, quien oculta su pasado como delincuente y vive como una estudiante modelo, se encuentra con una misteriosa chica con astas colgando de un poste eléctrico. Esta chica, Noko Shikanoko, se convierte en la causante del desorden en la vida de Torako.©Oshioshio・Kodansha/ Hinominami High School Deer Club.",
+        thumb: "series/my-deer-friend-nokotan-tp1-ep1.jpg",
+        image: "series/my-deer-friend-nokotan-tp1-ep1.jpg",
+        drive: "https://drive.google.com/file/d/1Y0pSG1XLodvTbX8QIcbSAD1YQkUygV4k/preview"
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: " | No Disponible",
+        description:"Silvermane está tratando de averiguar quién contrató a Addison para matarlo. Cat contrata a Ben para encontrar a Flint. Robbie va a ver a la viuda de Addison, y los hombres de Silvermane hacen una visita a Janet en la oficina.",
+        thumb: "series/spider-noir-tp1-ep2.webp",
+        image: "series/spider-noir-tp1-ep2.webp",
         drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: "Bashame, la nueva integrante",
+        description:"Mientras más rápido lo demuestres, más rápido morirá.",
+        thumb: "series/spider-noir-tp1-ep3.webp",
+        image: "series/spider-noir-tp1-ep3.webp",
+        drive: "https://drive.google.com/file/d/1eFl-H8KDhrd1_BekJsvnbA19p8FqBqf3/preview"
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: "",
+        description:"No lo sé, creo que todavía puede.",
+        thumb: "series/spider-noir-tp1-ep4.webp",
+        image: "series/spider-noir-tp1-ep4.webp",
+        drive: "https://drive.google.com/file/d/1qEr-8_Te5uTU_YCRuBnMiA-PSgorN0uO/preview"
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: "",
+        description:"Debes tener cuidado con las inversiones y la salsa picante.",
+        thumb: "series/spider-noir-tp1-ep5.webp",
+        image: "series/spider-noir-tp1-ep5.webp",
+        drive: "https://drive.google.com/file/d/18G6H5NaeME9IEHrsXPVILHtwhBIgA9MJ/preview"
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: "",
+        description:"",
+        thumb: "series/spider-noir-tp1-ep6.webp",
+        image: "series/spider-noir-tp1-ep6.webp",
+        drive: "https://drive.google.com/file/d/1yWDrw0lK_wit_HTUZa2Lt-1vUylJ6uyz/preview"
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: "",
+        description:"Muerto no podré protegerte.",
+        thumb: "series/spider-noir-tp1-ep7.webp",
+        image: "series/spider-noir-tp1-ep7.webp",
+        drive: "https://drive.google.com/file/d/1q33THsZ87gyD3eKyJThQjHknOekB1Y1o/preview"
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: "",
+        description:"",
+        thumb: "series/spider-noir-tp1-ep8.webp",
+        image: "series/spider-noir-tp1-ep8.webp",
+        drive: "https://drive.google.com/file/d/1ITNQ5GR7fRSU1SpU27m3LBMfoIjJK6oO/preview"
+      }
+    ]
+  },
+  {
+    id: "100",
+    title: "Las 100 Novias | Próximamente",
+    year: 2000,
+    keywords:[
+      ""
+    ],
+    image: "series/The-100-Girlfriends-Who-Really-Really-Really-Really-REALLY-Love-You.avif",
+    video: "trailers/clip/welcome-to-derry.mp4",
+    post: "series/The-100-Girlfriends-Who-Really-Really-Really-Really-REALLY-Love-You.avif",
+  genres: ["Anime"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: " | No Disponible",
+        description:"El investigador privado Ben Reilly es contratado para rastrear a un individuo superpoderoso, Silvermane. Nadie sabe que Reilly fue, hasta cinco años, el superhéroe de la ciudad conocido como la Araña y tiene poderes propios.",
+        thumb: "series/spider-noir-tp1-ep1.webp",
+        image: "series/spider-noir-tp1-ep1.webp",
+        drive: ""
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: " | No Disponible",
+        description:"Silvermane está tratando de averiguar quién contrató a Addison para matarlo. Cat contrata a Ben para encontrar a Flint. Robbie va a ver a la viuda de Addison, y los hombres de Silvermane hacen una visita a Janet en la oficina.",
+        thumb: "series/spider-noir-tp1-ep2.webp",
+        image: "series/spider-noir-tp1-ep2.webp",
+        drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: " | No Disponible",
+        description:"Mientras más rápido lo demuestres, más rápido morirá.",
+        thumb: "series/spider-noir-tp1-ep3.webp",
+        image: "series/spider-noir-tp1-ep3.webp",
+        drive: ""
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: "",
+        description:"No lo sé, creo que todavía puede.",
+        thumb: "series/spider-noir-tp1-ep4.webp",
+        image: "series/spider-noir-tp1-ep4.webp",
+        drive: "https://drive.google.com/file/d/1qEr-8_Te5uTU_YCRuBnMiA-PSgorN0uO/preview"
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: "",
+        description:"Debes tener cuidado con las inversiones y la salsa picante.",
+        thumb: "series/spider-noir-tp1-ep5.webp",
+        image: "series/spider-noir-tp1-ep5.webp",
+        drive: "https://drive.google.com/file/d/18G6H5NaeME9IEHrsXPVILHtwhBIgA9MJ/preview"
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: "",
+        description:"",
+        thumb: "series/spider-noir-tp1-ep6.webp",
+        image: "series/spider-noir-tp1-ep6.webp",
+        drive: "https://drive.google.com/file/d/1yWDrw0lK_wit_HTUZa2Lt-1vUylJ6uyz/preview"
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: "",
+        description:"Muerto no podré protegerte.",
+        thumb: "series/spider-noir-tp1-ep7.webp",
+        image: "series/spider-noir-tp1-ep7.webp",
+        drive: "https://drive.google.com/file/d/1q33THsZ87gyD3eKyJThQjHknOekB1Y1o/preview"
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: "",
+        description:"",
+        thumb: "series/spider-noir-tp1-ep8.webp",
+        image: "series/spider-noir-tp1-ep8.webp",
+        drive: "https://drive.google.com/file/d/1ITNQ5GR7fRSU1SpU27m3LBMfoIjJK6oO/preview"
+      }
+    ]
+  },
+  {
+    id: "niwatori-fighter",
+    title: "Rooster Fighter | Próximamente",
+    year: 2000,
+    keywords:[
+      "Niwatori Fighter"
+    ],
+    image: "series/niwatori-fighter.avif",
+    video: "trailers/clip/welcome-to-derry.mp4",
+    post: "series/niwatori-fighter.avif",
+  genres: ["Anime"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: " | No Disponible",
+        description:"El investigador privado Ben Reilly es contratado para rastrear a un individuo superpoderoso, Silvermane. Nadie sabe que Reilly fue, hasta cinco años, el superhéroe de la ciudad conocido como la Araña y tiene poderes propios.",
+        thumb: "series/spider-noir-tp1-ep1.webp",
+        image: "series/spider-noir-tp1-ep1.webp",
+        drive: ""
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: " | No Disponible",
+        description:"Silvermane está tratando de averiguar quién contrató a Addison para matarlo. Cat contrata a Ben para encontrar a Flint. Robbie va a ver a la viuda de Addison, y los hombres de Silvermane hacen una visita a Janet en la oficina.",
+        thumb: "series/spider-noir-tp1-ep2.webp",
+        image: "series/spider-noir-tp1-ep2.webp",
+        drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: " | No Disponible",
+        description:"Mientras más rápido lo demuestres, más rápido morirá.",
+        thumb: "series/spider-noir-tp1-ep3.webp",
+        image: "series/spider-noir-tp1-ep3.webp",
+        drive: ""
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: "",
+        description:"No lo sé, creo que todavía puede.",
+        thumb: "series/spider-noir-tp1-ep4.webp",
+        image: "series/spider-noir-tp1-ep4.webp",
+        drive: "https://drive.google.com/file/d/1qEr-8_Te5uTU_YCRuBnMiA-PSgorN0uO/preview"
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: "",
+        description:"Debes tener cuidado con las inversiones y la salsa picante.",
+        thumb: "series/spider-noir-tp1-ep5.webp",
+        image: "series/spider-noir-tp1-ep5.webp",
+        drive: "https://drive.google.com/file/d/18G6H5NaeME9IEHrsXPVILHtwhBIgA9MJ/preview"
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: "",
+        description:"",
+        thumb: "series/spider-noir-tp1-ep6.webp",
+        image: "series/spider-noir-tp1-ep6.webp",
+        drive: "https://drive.google.com/file/d/1yWDrw0lK_wit_HTUZa2Lt-1vUylJ6uyz/preview"
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: "",
+        description:"Cacareando Sobre Una Pluma",
+        thumb: "series/spider-noir-tp1-ep7.webp",
+        image: "series/spider-noir-tp1-ep7.webp",
+        drive: "https://drive.google.com/file/d/1q33THsZ87gyD3eKyJThQjHknOekB1Y1o/preview"
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: "",
+        description:"",
+        thumb: "series/spider-noir-tp1-ep8.webp",
+        image: "series/spider-noir-tp1-ep8.webp",
+        drive: "https://drive.google.com/file/d/1ITNQ5GR7fRSU1SpU27m3LBMfoIjJK6oO/preview"
+      }
+    ]
+  },
+  {
+    id: "Doumo-Suki-na-Hito-ni-Horegusuri-wo-Irai-sareta-Majo-desu",
+    title: "hola soy una bruja y la persona que me gusta me encargó hacer una poción de amor | Próximamente",
+    year: 2000,
+    keywords:[
+      "Hello I am a Witch and my Crush Wants me to Make a Love Potion",
+      "Witch Crush Love Potion",
+      "Witch Crush Love Potion faulty magic's"
+    ],
+    image: "series/Hello-I-am-a-Witch-and-my-Crush-Wants-me-to-Make-a-Love-Potion.webp",
+    video: "trailers/clip/welcome-to-derry.mp4",
+    post: "series/Hello-I-am-a-Witch-and-my-Crush-Wants-me-to-Make-a-Love-Potion.webp",
+  genres: ["Anime"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: " | No Disponible",
+        description:"El investigador privado Ben Reilly es contratado para rastrear a un individuo superpoderoso, Silvermane. Nadie sabe que Reilly fue, hasta cinco años, el superhéroe de la ciudad conocido como la Araña y tiene poderes propios.",
+        thumb: "series/spider-noir-tp1-ep1.webp",
+        image: "series/spider-noir-tp1-ep1.webp",
+        drive: ""
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: " | No Disponible",
+        description:"Silvermane está tratando de averiguar quién contrató a Addison para matarlo. Cat contrata a Ben para encontrar a Flint. Robbie va a ver a la viuda de Addison, y los hombres de Silvermane hacen una visita a Janet en la oficina.",
+        thumb: "series/spider-noir-tp1-ep2.webp",
+        image: "series/spider-noir-tp1-ep2.webp",
+        drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: " | No Disponible",
+        description:"Mientras más rápido lo demuestres, más rápido morirá.",
+        thumb: "series/spider-noir-tp1-ep3.webp",
+        image: "series/spider-noir-tp1-ep3.webp",
+        drive: ""
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: "",
+        description:"No lo sé, creo que todavía puede.",
+        thumb: "series/spider-noir-tp1-ep4.webp",
+        image: "series/spider-noir-tp1-ep4.webp",
+        drive: "https://drive.google.com/file/d/1qEr-8_Te5uTU_YCRuBnMiA-PSgorN0uO/preview"
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: "",
+        description:"Debes tener cuidado con las inversiones y la salsa picante.",
+        thumb: "series/spider-noir-tp1-ep5.webp",
+        image: "series/spider-noir-tp1-ep5.webp",
+        drive: "https://drive.google.com/file/d/18G6H5NaeME9IEHrsXPVILHtwhBIgA9MJ/preview"
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: "",
+        description:"",
+        thumb: "series/spider-noir-tp1-ep6.webp",
+        image: "series/spider-noir-tp1-ep6.webp",
+        drive: "https://drive.google.com/file/d/1yWDrw0lK_wit_HTUZa2Lt-1vUylJ6uyz/preview"
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: "",
+        description:"Muerto no podré protegerte.",
+        thumb: "series/spider-noir-tp1-ep7.webp",
+        image: "series/spider-noir-tp1-ep7.webp",
+        drive: "https://drive.google.com/file/d/1q33THsZ87gyD3eKyJThQjHknOekB1Y1o/preview"
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: "",
+        description:"",
+        thumb: "series/spider-noir-tp1-ep8.webp",
+        image: "series/spider-noir-tp1-ep8.webp",
+        drive: "https://drive.google.com/file/d/1ITNQ5GR7fRSU1SpU27m3LBMfoIjJK6oO/preview"
+      }
+    ]
+  },
+  {
+    id: "kanojo-okarishimasu",
+    title: "Rent-a-Girlfriend | Próximamente",
+    year: 2000,
+    keywords:[
+      "Kanokari",
+      "Novia de Alquiler"
+    ],
+    image: "series/Rent-a-Girlfriend.webp",
+    video: "trailers/clip/welcome-to-derry.mp4",
+    post: "series/Rent-a-Girlfriend.webp",
+  genres: ["Anime"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: " | No Disponible",
+        description:"El investigador privado Ben Reilly es contratado para rastrear a un individuo superpoderoso, Silvermane. Nadie sabe que Reilly fue, hasta cinco años, el superhéroe de la ciudad conocido como la Araña y tiene poderes propios.",
+        thumb: "series/spider-noir-tp1-ep1.webp",
+        image: "series/spider-noir-tp1-ep1.webp",
+        drive: ""
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: " | No Disponible",
+        description:"Silvermane está tratando de averiguar quién contrató a Addison para matarlo. Cat contrata a Ben para encontrar a Flint. Robbie va a ver a la viuda de Addison, y los hombres de Silvermane hacen una visita a Janet en la oficina.",
+        thumb: "series/spider-noir-tp1-ep2.webp",
+        image: "series/spider-noir-tp1-ep2.webp",
+        drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: " | No Disponible",
+        description:"Mientras más rápido lo demuestres, más rápido morirá.",
+        thumb: "series/spider-noir-tp1-ep3.webp",
+        image: "series/spider-noir-tp1-ep3.webp",
+        drive: ""
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: "",
+        description:"No lo sé, creo que todavía puede.",
+        thumb: "series/spider-noir-tp1-ep4.webp",
+        image: "series/spider-noir-tp1-ep4.webp",
+        drive: "https://drive.google.com/file/d/1qEr-8_Te5uTU_YCRuBnMiA-PSgorN0uO/preview"
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: "",
+        description:"Debes tener cuidado con las inversiones y la salsa picante.",
+        thumb: "series/spider-noir-tp1-ep5.webp",
+        image: "series/spider-noir-tp1-ep5.webp",
+        drive: "https://drive.google.com/file/d/18G6H5NaeME9IEHrsXPVILHtwhBIgA9MJ/preview"
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: "",
+        description:"",
+        thumb: "series/spider-noir-tp1-ep6.webp",
+        image: "series/spider-noir-tp1-ep6.webp",
+        drive: "https://drive.google.com/file/d/1yWDrw0lK_wit_HTUZa2Lt-1vUylJ6uyz/preview"
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: "",
+        description:"Muerto no podré protegerte.",
+        thumb: "series/spider-noir-tp1-ep7.webp",
+        image: "series/spider-noir-tp1-ep7.webp",
+        drive: "https://drive.google.com/file/d/1q33THsZ87gyD3eKyJThQjHknOekB1Y1o/preview"
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: "",
+        description:"",
+        thumb: "series/spider-noir-tp1-ep8.webp",
+        image: "series/spider-noir-tp1-ep8.webp",
+        drive: "https://drive.google.com/file/d/1ITNQ5GR7fRSU1SpU27m3LBMfoIjJK6oO/preview"
       }
     ]
   }

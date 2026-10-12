@@ -38,9 +38,9 @@ if (params.has("serie")) {
   player.src = episodio.drive;
 
   // 📝 Info
-  titleEl.textContent = `${serie.title} — Episodio ${episodio.n}: ${episodio.name}`;
+  titleEl.textContent = `${serie.title} — Episodio ${episodio.n}: ${episodio.name} `;
   imgEl.src = episodio.image || serie.image;
-  descEl.textContent = episodio.name;
+  descEl.textContent = episodio.description;
 
 // ⭐ Cambiar título de la pestaña
 document.title = `${serie.title} Ep.${episodio.n} — ShareFilms`;

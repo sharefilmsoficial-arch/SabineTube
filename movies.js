@@ -327,6 +327,10 @@ const MOVIES = [
     rating: "PG-13",
     genres: ["Suspenso", "Drama", "Ciencia ficción"],
     description: "Un adolescente y su amigo deben salvar a su padre de un hombre que ha pedido la construcción de dispositivo de tiempo.",
+    keywords:[
+      "clock",
+      "clockstoppers"
+    ],
     trailerUrl: "_i5endV/preview",
     image: "images/clockstoppers.webp",
     post: "https://m.media-amazon.com/images/S/pv-target-images/498665c87a32081ff493eb39995ff60e6c42705eb9c3fc54fbca741099a7f2bd.jpg",
@@ -2287,18 +2291,17 @@ const MOVIES = [
 },
 {
     id: "red-notice",
-    title: "Muy Proximamente | Alerta Roja",
+    title: "Alerta Roja",
     year: 2021,
-    duration: "1h ",
-    rating: "B",
-    calidad: "360p",
-    genres: ["..."],
-    description: "No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
+    duration: "1h 58m",
+    rating: "B-15",
+    calidad: "1080p",
+    genres: ["Acción","Comedia"],
+    description: "John Hartley, agente de la Interpol, no tendrá otro remedio que aliarse con el ladrón de arte más célebre de todos los tiempos, Nolan Booth, para capturar a la ladrona de arte más buscada del presente: la seductora y peligrosa Sarah Black.",
     trailerUrl: "trailers/",
     image: image,
     post: "posters/red-notice.webp",
-    movie: "",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1h0LNCrTDg0zjK48iBTMzsoWlo-7rXyVW/preview"
 },
 {
     id: "movie-16",
@@ -2496,19 +2499,18 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-29",
-    title: "Muy Proximamente | Retorno a Silent Hill",
+    id: "return-to-silent-hill",
+    title: "Terror en silent hill: Regreso al Infierno",
     year: 2026,
-    duration: "1h ",
+    duration: "1h 46m",
     rating: "B",
     calidad: "360p",
-    genres: ["..."],
-    description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
+    genres: ["Terror","Misterio"],
+    description:"Una misteriosa carta de Mary, un amor de su pasado, lleva a James a Silent Hill, el lugar donde alguna vez compartieron su vida, pero que ahora está sumido en la oscuridad. Mientras busca a Mary, James enfrenta a criaturas monstruosas y descubre una escalofriante verdad que lo llevará al límite de la cordura.",
     trailerUrl: "trailers/",
     image: image,
     post: "posters/return-to-silent-hill.webp",
-    movie: "",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1-OtNSJoln9dOV8aqJjpNfRmcY4IBRXaW/preview"
 },
 {
     id: "the-goat-that-changed-the-game",
@@ -2530,8 +2532,8 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/1p1o6NMaA-tguMzmsuWUijS77LOVWjBTV/preview"
 },
 {
-    id: "movie-31",
-    title: "Proximamente | Peaky Blinders: El Hombre Inmortal | 20 de Marzo sólo en cines",
+    id: "peaky-blinders-the-inmortal-man",
+    title: "Proximamente | Peaky Blinders: El Hombre Inmortal",
     year: 2026,
     duration: "1h ",
     rating: "B",
@@ -2564,7 +2566,7 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/1jDVBJCskPOH3p3cct7kJX52d3wlRxw16/preview"
 },
 {
-    id: "movie-32-1",
+    id: "movie-32-1_the-devil-wears-prada-2",
     title: "Muy Proximamente | El Diablo Viste a la Moda 2",
     year: 2026,
     duration: "1h ",
@@ -2608,7 +2610,7 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/18qUf4wQScqwvKqEhSYG2NZunyPtuRR5u/preview"
 },
 {
-    id: "movie-35",
+    id: "movie-35_scream-7",
     title: "Proximamente | Scream 7 | 26 de Febrero sólo en cines",
     year: 2026,
     duration: "1h ",
@@ -2623,7 +2625,7 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-36",
+    id: "movie-36_supergirl-2026",
     title: "Proximamente | SuperGirl | 25 de Junio sólo en cines",
     year: 2026,
     duration: "1h ",
@@ -2638,8 +2640,8 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-37",
-    title: "Proximamente | Minions 3 | 1 de Julio sólo en cines",
+    id: "minions-&-monsters",
+    title: "Proximamente| Minions y Monstruos | 1 de Julio sólo en cines",
     year: 2026,
     duration: "1h ",
     rating: "B",
@@ -2648,12 +2650,12 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/.webp",
+    post: "posters/minions-&-monsters.webp",
     movie: "",
     estreno: "Próximamente"
 },
 {
-    id: "movie-38",
+    id: "movie-38_Moana_Live-Action",
     title: "Proximamente | Moana | Live Action | 10 de Julio sólo en cines",
     year: 2026,
     duration: "1h ",
@@ -2683,7 +2685,7 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-40",
+    id: "movie-40_the-legend-of-aang_the-last-airbender",
     title: "Proximamente | La Leyenda de Aang: El Último Maestro del Aire | 9 de Octubre sólo en cines",
     year: 2026,
     duration: "1h ",
@@ -2716,7 +2718,7 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-42",
+    id: "movie-42_the-hunger-games-sunrise-on-the-reaping",
     title: "Proximamente | Los Juegos del Hambre: Amanecer en la Cosecha | 20 de Noviembre sólo en cines",
     year: 2026,
     duration: "1h ",
@@ -2731,7 +2733,7 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-43",
+    id: "movie-43_the-chronicles-of-narnia-the-magician_s-nephew",
     title: "Proximamente | Las Crónicas de Narnia: El Sobrino del Mago | 26 de Noviembre sólo en cines",
     year: 2026,
     duration: "1h ",
@@ -2761,7 +2763,7 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-45",
+    id: "movie-45_dune-part-3",
     title: "Proximamente | Dune: Parte  III | 18 de Diciembre sólo en cines",
     year: 2026,
     duration: "1h ",
@@ -2776,7 +2778,7 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-46",
+    id: "movie-46_the-angry-birds-movie-3",
     title: "Proximamente | Angry Birds 3 | 23 de Diciembre sólo en cines",
     year: 2026,
     duration: "1h ",
@@ -2791,7 +2793,7 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-47",
+    id: "movie-47_i-play-rocky",
     title: "Proximamente | I Play Rocky",
     year: 2014,
     duration: "1h ",
@@ -3107,8 +3109,8 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/1e2hRpDECb77HHVmEVR0lx9qb5xHaM9Y-/preview"
 },
 {
-    id: "movie-60",
-    title: "Hoopers",
+    id: "movie-60-hoopers",
+    title: "Hoopers | Próximamente",
     year: 2026,
     duration: "0h",
     rating: "B",
@@ -3121,8 +3123,8 @@ const MOVIES = [
     movie: "..."
 },
 {
-    id: "movie-61",
-    title: "He-Man",
+    id: "movie-61_master-of-universe",
+    title: "Amos del Universo | Próximamente",
     year: 2026,
     duration: "0h",
     rating: "B",

@@ -198,6 +198,11 @@ body{
   width:170px;
   object-fit:contain;
 }
+
+.logo-3 img{
+  width:80px;
+  object-fit:contain;
+}
 .time {
   position: absolute;
   bottom: 8px;

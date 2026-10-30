@@ -1033,7 +1033,7 @@ const MOVIES = [
   },
   {
     id: "puss-in-boots2:the-last-wish",
-    title: "El Gato con Botas 2: El Último Deseo",
+    title: "El Gato con Botas 2: El Último Deseo | Próximamente",
     year: 2022,
     duration: "",
     rating: "PG-13",
@@ -1042,7 +1042,7 @@ const MOVIES = [
     trailerUrl: sampleTrailer,
     image: "images/puss-in-boots2_the-last-wish.webp",
     post: "posters/puss-in-boots2_the-last-wish.webp",
-    movie: "https://drive.google.com/file/d/1LpqXYYV4c38oSWcNnZ8kQU-4zPVyKLLU/preview",
+    movie: "",
     saga: "puss in boots"
   },
   {
@@ -1896,7 +1896,7 @@ const MOVIES = [
 },
 {
     id: "hotaru-no-mori-e",
-    title: "Hotaru No Mori E: En el bosque de la luz de las luciérnagas - Castellano",
+    title: "Hotaru No Mori E: En el bosque de la luz de las luciérnagas - Castellano 🇪🇸",
     year: 2011,
     duration: "45m",
     rating: "Apto para todo público.",
@@ -2022,7 +2022,7 @@ const MOVIES = [
 },
 {
     id: "pistolero-desperado-castellano-720",
-    title: "Pistolero (Desperado) | Español Castellano | 720p",
+    title: "Pistolero (Desperado) | Español Castellano 🇪🇸 | 720p",
     year: 1995,
     duration: "1h 44m 33s",
     rating: "B-15",
@@ -2036,7 +2036,7 @@ const MOVIES = [
 },
 {
     id: "pistolero-desperado-esp-latino",
-    title: "Pistolero (Desperado) | Español Latino",
+    title: "Pistolero (Desperado) | Español Latino 🇲🇽",
     year: 1995,
     duration: "1h 44m 33s",
     rating: "B-15",
@@ -2184,7 +2184,7 @@ const MOVIES = [
 },
 {
     id: "os-vingadores",
-    title: "Os Vingadores - Português - Avengers",
+    title: "Os Vingadores - Português 🇵🇹 - Avengers",
     year: 2014,
     duration: "1h ",
     rating: "B",

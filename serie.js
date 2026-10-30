@@ -647,16 +647,19 @@ const SERIES = [
   },
   {
     id: "smoking-behind-the-supermarket-with-you",
-    title: "Super no Ura de Yani Sū Futari (Smoking Behind the Supermarket with You) (10 episodios disponibles)",
+    title: "Super no Ura de Yani Sū Futari (Smoking Behind the Supermarket with You)",
     keywords:[
     "Fumando juntos detrás del súper",
     "Fumando juntos detrás del súper contigo",
     "Fumando juntos atrás del súper",
     "Fumando juntos atrás del súper contigo",
     "Fumando juntos detrás del súpermercado",
-    "YaniSuu"
+    "YaniSuu",
+    "Sasaki",
+    "Yamada",
+    "Tayama"
     ],
-    year: 2025,
+    year: 2026,
     image: "series/smoking-behind-the-supermarket-with-you-tp1.webp",
     post: "series/smoking-behind-the-supermarket-with-you-tp1.webp",
     genres: ["Animación","Anime"],
@@ -665,6 +668,7 @@ const SERIES = [
         id: "episode-1",
         n: 1,
         name: "Fumando juntos detrás del súper",
+        description: "Entre reuniones eternas y cigarrillos, Sasaki empieza a acercarse a Tayama y Yamada.",
         thumb: "series/sbtswy-tp1-ep1.webp",
         image: "series/sbtswy-tp1-ep1.webp",
         drive: "https://drive.google.com/file/d/1a7J9wOam6I0LuBgzok1d7_-MLy5HJ3Hk/preview"
@@ -672,7 +676,8 @@ const SERIES = [
       {
         id: "episode-2",
         n: 2,
-       name: "Coincidiendo juntos detrás del súper",
+        name: "Coincidiendo juntos detrás del súper",
+        description:"Entre cigarro y cigarro, Tayama y Sasaki comparten los problemas que han tenido en el trabajo.",
         thumb: "series/sbtswy-tp1-ep2.png",
         image: "series/sbtswy-tp1-ep2.png",
         drive: "https://drive.google.com/file/d/1BijZemJuexzAGhRjIX5pblBZbnBnQ3rf/preview"
@@ -681,6 +686,7 @@ const SERIES = [
         id: "episode-3",
         n: 3,
         name: "Dando regalos detrás del súper",
+        description:"Entre cigarrillos, Tayama le regala una cosa a Sasaki y este decide devolverle el gesto.",
         thumb: "series/sbtswy-tp1-ep3.png",
         image: "series/sbtswy-tp1-ep3.png",
         drive: "https://drive.google.com/file/d/1RnWOeBLITAyRIiFvz4zGz9VNmokjjN0L/preview"
@@ -689,6 +695,7 @@ const SERIES = [
         id: "episode-4",
         n: 4,
         name: "Aprendiendo detrás del súper",
+        description:"Entre cigarrillos, Sasaki aprende a manejar un smartphone y conoce mejor a Tayama.",
         thumb: "series/sbtswy-tp1-ep4.png",
         image: "series/sbtswy-tp1-ep4.png",
         drive: "https://drive.google.com/file/d/1jSep67-rQYa9YewBKMus2HYioz3By2a4/preview"
@@ -697,6 +704,7 @@ const SERIES = [
         id: "episode-5",
         n: 5,
         name: "Mojándose detrás del súper",
+        description:"El pobre Sasaki pasa 15 días de trabajo infernales y no coincide tanto con Tayama como quisiera.",
         thumb: "series/sbtswy-tp1-ep5.png",
         image: "series/sbtswy-tp1-ep5.png",
         drive: "https://drive.google.com/file/d/1hBU3oXF3S7kmawRdzfBQfpwdHbBv-vR_/preview"
@@ -705,6 +713,7 @@ const SERIES = [
         id: "episode-6",
         n: 6,
         name: "El olor que queda detrás del súper",
+        description:"Sasaki tiene un chequeo médico dentro de poco y está preocupado por los resultados.",
         thumb: "series/sbtswy-tp1-ep6.png",
         image: "series/sbtswy-tp1-ep6.png",
         drive: "https://drive.google.com/file/d/1EtZmCoxTYKoKygFQ3ovW23YbrCC9DXse/preview"
@@ -713,6 +722,7 @@ const SERIES = [
         id: "episode-7",
         n: 7,
         name: "Despidiendo el verano detrás del súper",
+        description:"Sasaki se apena un poco de que se termine el verano sin que él haya hecho nada especial.",
         thumb: "series/sbtswy-tp1-ep7.png",
         image: "series/sbtswy-tp1-ep7.png",
         drive: "https://drive.google.com/file/d/1cWgFf5tJSNdIewCQsfi5NtAkOGeJ2CM1/preview"
@@ -721,6 +731,7 @@ const SERIES = [
         id: "episode-8",
         n: 8,
         name: "La búsqueda de ambos desde detrás del súper",
+        description:"Tayama ha perdido el cenicero portátil que le regaló Sasaki y no sabe cómo decírselo.",
         thumb: "series/sbtswy-tp1-ep8.png",
         image: "series/sbtswy-tp1-ep8.png",
         drive: "https://drive.google.com/file/d/1lqD9EhRRurpuqzXAU4P7MraY3FVequrC/preview"
@@ -729,6 +740,7 @@ const SERIES = [
         id: "episode-9",
         n: 9,
         name: "Conociendo mejor a uno detrás del súper",
+        description:"Yamada se entera saliendo con sus compañeras de trabajo de que Sasaki está casado y se siente engañada.",
         thumb: "series/sbtswy-tp1-ep9.png",
         image: "series/sbtswy-tp1-ep9.png",
         drive: "https://drive.google.com/file/d/1KGpl2cjAarRnyJfKAE1o6xylFIudOK9y/preview"
@@ -737,6 +749,7 @@ const SERIES = [
         id: "episode-10",
         n: 10,
         name: "Iluminando juntos detrás del súper",
+        description:"Detrás del súper, dos desconocidos se presentan y un informe mensual acaba donde no tocaba.",
         thumb: "series/sbtswy-tp1-ep10.jpg",
         image: "series/sbtswy-tp1-ep10.jpg",
         drive: "https://drive.google.com/file/d/1LOSFmLrLXKW_leHHl5wO6WrQcpN0YaLn/preview"
@@ -744,18 +757,20 @@ const SERIES = [
       {
         id: "episode-11",
         n: 11,
-        name: "Llamando detrás del súper | No Disponible",
+        name: "Llamando detrás del súper",
+        description:"Se acaba el año y a Sasaki le gustaría felicitar el fin de año a Tayama, pero no la encuentra.",
         thumb: "series/sbtswy-tp1-ep11.webp",
         image: "series/sbtswy-tp1-ep11.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1LKq0VhlQmX863HtuJiGDFe-8dxzaRtv-/preview"
       },
       {
         id: "episode-12",
         n: 12,
-        name: "Continuando juntos detrás del súper | No Disponible",
+        name: "Continuando juntos detrás del súper",
+        description:"Un compañero de la empresa de Sasaki se jubila y este duda de si haría bien yendo a visitarlo.",
         thumb: "series/sbtswy-tp1-ep12.webp",
         image: "series/sbtswy-tp1-ep12.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1Rb-qVe6XHhfIvg9JwyWL3rsMPRcPOELO/preview"
       }
     ]
   },
@@ -764,7 +779,8 @@ const SERIES = [
     title: "Bienvenidos a Derry",
     keywords:[
       "eso",
-      "it"
+      "it",
+      "payaso"
     ],
     year: 2025,
     image: "series/welcome-to-derry.jpg",
@@ -845,7 +861,7 @@ const SERIES = [
     image: "series/among-us-tp1.webp",
     video: "trailers/clip/welcome-to-derry.mp4",
     post: "series/among-us-tp1.webp",
-  genres: ["Terror"],
+    genres: ["Terror"],
     episodes: [
       {
         id: "episode-1",
@@ -1028,8 +1044,8 @@ const SERIES = [
   },
   {
     id: "my-deer-friend-nokotan-tp1",
-    title: "Mi Amiga Nokotan Es Un Ciervo | Próximamente",
-    year: 2000,
+    title: "Mi Amiga Nokotan Es Un Ciervo",
+    year: 2014,
     keywords:[
       "Shikanoko Nokonoko Koshitantan",
       "venado",
@@ -1152,101 +1168,139 @@ const SERIES = [
   },
   {
     id: "niwatori-fighter",
-    title: "Rooster Fighter | Próximamente",
-    year: 2000,
+    title: "Rooster Fighter",
+    year: 2026,
     keywords:[
       "Niwatori Fighter"
     ],
     image: "series/niwatori-fighter.avif",
     video: "trailers/clip/welcome-to-derry.mp4",
     post: "series/niwatori-fighter.avif",
-  genres: ["Anime"],
+    genres: ["Anime","Animación"],
     episodes: [
       {
         id: "episode-1",
         n: 1,
-        name: " | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        name: "Un gallo entre las grullas | No Disponible",
+        description:"Keiji, el gallo errante, llega a una nueva ciudad… ¡pero de pronto aparece un Kiju!",
+        thumb: "series/rooster-fighter-ep1.webp",
+        image: "series/rooster-fighter-ep1.webp",
+        drive: "https://drive.google.com/file/d/18N3zdkS_Ajz8irKZPeLUl75m1Qf-DT7U/preview"
       },
       {
         id: "episode-2",
         n: 2,
-        name: " | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        name: "Ave Enjaulada | No Disponible",
+        description:"Keiji resulta herido tras salvar al “Papá” de Piyoko de volverse un Kiju.",
+        thumb: "series/rooster-fighter-ep2.webp",
+        image: "series/rooster-fighter-ep2.webp",
+        drive: "https://drive.google.com/file/d/1IssWvjbdR5eaIo8bcP3H5y9--c7I8RWV/preview"
       },
       {
         id: "episode-3",
         n: 3,
-        name: " | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        name: "La Parabola de las Tres Aves | No Disponible",
+        description:"Elizabeth reta a Keiji a una pelea y revela información sobre el Kiju Blanco, su enemigo jurado.",
+        thumb: "series/rooster-fighter-ep3.webp",
+        image: "series/rooster-fighter-ep3.webp",
+        drive: "https://drive.google.com/file/d/1LAgAllg4zaZ1VoOOYith5LXjraAr6LDU/preview"
       },
       {
         id: "episode-4",
         n: 4,
-        name: " | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        name: "Entrando en el Deseo | No Disponible",
+        description:"El trío llega a una aldea donde los adultos han sido controlados mentalmente por un Kiju.",
+        thumb: "series/rooster-fighter-ep4.webp",
+        image: "series/rooster-fighter-ep4.webp",
+        drive: "https://drive.google.com/file/d/1rpAPSP6HI9_9VnxCI713CnjbeWI5Z-rg/preview"
       },
       {
         id: "episode-5",
         n: 5,
-        name: " | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        name: "La extravagante bandada se dispersa | No Disponible",
+        description:"El trío se separa justo cuando un tifón amenaza con acercarse.",
+        thumb: "series/rooster-fighter-ep5.webp",
+        image: "series/rooster-fighter-ep5.webp",
+        drive: "https://drive.google.com/file/d/1zhRtXjlRIxR5sTF5yBGSlPF5Y4cssLiQ/preview"
       },
       {
         id: "episode-6",
         n: 6,
-        name: " | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        name: "Gallinero de ladrillos | No Disponible",
+        thumb: "series/rooster-fighter-ep6.webp",
+        image: "series/rooster-fighter-ep6.webp",
+        drive: "https://drive.google.com/file/d/1n8nppIU_0v15nzLjDIxPfRnyfD7ocdZ-/preview"
       },
       {
         id: "episode-7",
         n: 7,
         name: "Cacareando Sobre Una Pluma",
-        description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
+        description:"¡Keiji pone en juego su orgullo gallístico y acepta la invitación a una cita grupal!",
+        thumb: "series/rooster-fighter-ep7.webp",
+        image: "series/rooster-fighter-ep7.webp",
         drive: ""
       },
       {
         id: "episode-8",
         n: 8,
-        name: " | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
+        name: "El Canto Puede Ser Dulce Pero No Sincero | No Disponible",
+        description:"Keiji se entera de que Morio, bajo control mental, está causando estragos y sale a salvarlo.",
+        thumb: "series/rooster-fighter-ep8.webp",
+        image: "series/rooster-fighter-ep8.webp",
+        drive: ""
+      },
+      {
+        id: "episode-9",
+        n: 9,
+        name: "Dejarse llevar por los pájaros | No Disponible",
+        description:"Dejarse Llevar por los Pájaros",
+        thumb: "series/rooster-fighter-ep9.webp",
+        image: "series/rooster-fighter-ep9.webp",
+        drive: ""
+      },
+      {
+        id: "episode-10",
+        n: 10,
+        name: "Arriconando al Ave | No Disponible",
+        description:"Keiji y sus amigos luchan contra el poderoso Kijin Yuji.",
+        thumb: "series/rooster-fighter-ep10.webp",
+        image: "series/rooster-fighter-ep10.webp",
+        drive: ""
+      },
+      {
+        id: "episode-11",
+        n: 11,
+        name: "Se Necesitan Dos Alas Para Volar | No Disponible",
+        description:"El nuevo poder de Keisuke se despierta cuando presencia la lucha de Keiji contra Hikari.",
+        thumb: "series/rooster-fighter-ep11.webp",
+        image: "series/rooster-fighter-ep11.webp",
+        drive: ""
+      },
+      {
+        id: "episode-12",
+        n: 12,
+        name: "Lo que los pájaros, las bestias y los árboles comparten | No Disponible",
+        description:"Keiji abruma a Hikari con su nuevo poder: el Despertar de la Perla.",
+        thumb: "iconos/no-disponible.png",
+        image: "iconos/no-disponible.png",
         drive: ""
       }
     ]
   },
   {
     id: "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu",
-    title: "hola soy una bruja y la persona que me gusta me encargó hacer una poción de amor | Próximamente",
-    year: 2000,
+    title: "hola soy una bruja y la persona que me gusta me encargó hacer una poción de amor | Próximamente: con Subtítulos en Latino 10 de Noviembre",
+    year: 2026,
     keywords:[
       "Hello I am a Witch and my Crush Wants me to Make a Love Potion",
       "Witch Crush Love Potion",
-      "Witch Crush Love Potion faulty magic's"
+      "Witch Crush Love Potion faulty magic's",
+      "doumu suki na hito ni horegusuri wo irai sareta majo desu",
+      "hola soy una bruja y mi enamorado quiere que le prepare una poción de amor",
+      "hola soy una bruja y mi enamoramiento quiere que haga una poción de amor"
     ],
     image: "series/Hello-I-am-a-Witch-and-my-Crush-Wants-me-to-Make-a-Love-Potion.webp",
-    video: "trailers/clip/welcome-to-derry.mp4",
+    video: "trailers/clip/",
     post: "series/Hello-I-am-a-Witch-and-my-Crush-Wants-me-to-Make-a-Love-Potion.webp",
     genres: ["Anime"],
     episodes: [
@@ -1272,18 +1326,18 @@ const SERIES = [
         id: "episode-3",
         n: 3,
         name: "La canción de la bruja con aroma a té negro | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "iconos/no-disponible.png",
-        drive: "Harij visita a Rose a menudo y se interesa cada vez más por la bruja."
+        description:"Harij visita a Rose a menudo y se interesa cada vez más por la bruja.",
+        thumb: "series/witch-crush-love-potion-ep3.webp",
+        image: "series/witch-crush-love-potion-ep3.webp",
+        drive: ""
       },
       {
         id: "episode-4",
         n: 4,
-        name: " | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "iconos/no-disponible.png",
+        name: "El deber de un caballero, aunque la bruja lo ignore | No Disponible",
+        description:"Harij necesita la poción cuanto antes, pero descubre que no es el único cliente de Rose.",
+        thumb: "series/witch-crush-love-potion-ep4.webp",
+        image: "series/witch-crush-love-potion-ep4.webp",
         drive: ""
       },
       {
@@ -1326,8 +1380,8 @@ const SERIES = [
   },
   {
     id: "kanojo-okarishimasu",
-    title: "Rent-a-Girlfriend | Próximamente",
-    year: 2000,
+    title: "Rent-a-Girlfriend | Próximamente: 20 de Noviembre",
+    year: 2020,
     keywords:[
       "Kanokari",
       "Novia de Alquiler"
@@ -1449,8 +1503,8 @@ const SERIES = [
   },
   {
     id: "kono-subarashii-sekai-ni-shukufuku-wo!",
-    title: "Konosuba: Un Mundo Maravilloso | Próximamente",
-    year: 2000,
+    title: "Konosuba: Un Mundo Maravilloso | Próximamente: 30 de Noviembre",
+    year: 2016,
     keywords:[
       "Kazuma",
       "konosuba god's blessing on this wonderful world",
@@ -1465,8 +1519,8 @@ const SERIES = [
       {
         id: "episode-1",
         n: 1,
-        name: " | No Disponible",
-        description:"",
+        name: "¡La diosa autoproclamada y la reencarnación en otro mundo! | No Disponible",
+        description:"Kazuma Satou es un chico de preparatoria otaku y hikikomori que no suele salir de casa, pero cuando lo hace, un fatídico (y ridículo) accidente acaba con su vida. En el otro mundo aparece una diosa ante él y le propone comenzar de nuevo su vida en un mundo de magia y espada, pero las condiciones son un tanto peculiares...",
         thumb: "series/.webp",
         image: "series/.webp",
         drive: ""
@@ -1474,7 +1528,7 @@ const SERIES = [
       {
         id: "episode-2",
         n: 2,
-        name: " | No Disponible",
+        name: "¡Una explosión de chuunibyou! | No Disponible",
         description:"",
         thumb: "series/.webp",
         image: "series/.webp",
@@ -1539,8 +1593,8 @@ const SERIES = [
   },
   {
     id: "kono-subarashii-sekai-ni-bakuen-wo!",
-    title: "Konosuba: ¡Una Explosión en este Mundo Maravilloso! | Próximamente",
-    year: 2000,
+    title: "Konosuba: ¡Una Explosión en este Mundo Maravilloso! | Próximamente: 10 de Diciembre",
+    year: 2023,
     keywords:[
       "Kazuma",
       "konosuba god's blessing on this wonderful world",

@@ -1181,7 +1181,7 @@ const SERIES = [
       {
         id: "episode-1",
         n: 1,
-        name: "Un gallo entre las grullas | No Disponible",
+        name: "Un gallo entre las grullas",
         description:"Keiji, el gallo errante, llega a una nueva ciudad… ¡pero de pronto aparece un Kiju!",
         thumb: "series/rooster-fighter-ep1.webp",
         image: "series/rooster-fighter-ep1.webp",
@@ -1190,7 +1190,7 @@ const SERIES = [
       {
         id: "episode-2",
         n: 2,
-        name: "Ave Enjaulada | No Disponible",
+        name: "Ave Enjaulada",
         description:"Keiji resulta herido tras salvar al “Papá” de Piyoko de volverse un Kiju.",
         thumb: "series/rooster-fighter-ep2.webp",
         image: "series/rooster-fighter-ep2.webp",
@@ -1199,7 +1199,7 @@ const SERIES = [
       {
         id: "episode-3",
         n: 3,
-        name: "La Parabola de las Tres Aves | No Disponible",
+        name: "La Parabola de las Tres Aves",
         description:"Elizabeth reta a Keiji a una pelea y revela información sobre el Kiju Blanco, su enemigo jurado.",
         thumb: "series/rooster-fighter-ep3.webp",
         image: "series/rooster-fighter-ep3.webp",
@@ -1208,7 +1208,7 @@ const SERIES = [
       {
         id: "episode-4",
         n: 4,
-        name: "Entrando en el Deseo | No Disponible",
+        name: "Entrando en el Deseo",
         description:"El trío llega a una aldea donde los adultos han sido controlados mentalmente por un Kiju.",
         thumb: "series/rooster-fighter-ep4.webp",
         image: "series/rooster-fighter-ep4.webp",
@@ -1217,7 +1217,7 @@ const SERIES = [
       {
         id: "episode-5",
         n: 5,
-        name: "La extravagante bandada se dispersa | No Disponible",
+        name: "La extravagante bandada se dispersa",
         description:"El trío se separa justo cuando un tifón amenaza con acercarse.",
         thumb: "series/rooster-fighter-ep5.webp",
         image: "series/rooster-fighter-ep5.webp",
@@ -1226,7 +1226,7 @@ const SERIES = [
       {
         id: "episode-6",
         n: 6,
-        name: "Gallinero de ladrillos | No Disponible",
+        name: "Gallinero de ladrillos",
         thumb: "series/rooster-fighter-ep6.webp",
         image: "series/rooster-fighter-ep6.webp",
         drive: "https://drive.google.com/file/d/1n8nppIU_0v15nzLjDIxPfRnyfD7ocdZ-/preview"
@@ -1238,52 +1238,52 @@ const SERIES = [
         description:"¡Keiji pone en juego su orgullo gallístico y acepta la invitación a una cita grupal!",
         thumb: "series/rooster-fighter-ep7.webp",
         image: "series/rooster-fighter-ep7.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1VOeTUil1Os0hPtAWb7mxxN2Tt2VDI1Iz/preview"
       },
       {
         id: "episode-8",
         n: 8,
-        name: "El Canto Puede Ser Dulce Pero No Sincero | No Disponible",
+        name: "El Canto Puede Ser Dulce Pero No Sincero",
         description:"Keiji se entera de que Morio, bajo control mental, está causando estragos y sale a salvarlo.",
         thumb: "series/rooster-fighter-ep8.webp",
         image: "series/rooster-fighter-ep8.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/120Bpy_mTsqbq3Sym6jd9WM5JCzBVgoMj/preview"
       },
       {
         id: "episode-9",
         n: 9,
-        name: "Dejarse llevar por los pájaros | No Disponible",
+        name: "Dejarse llevar por los pájaros",
         description:"Dejarse Llevar por los Pájaros",
         thumb: "series/rooster-fighter-ep9.webp",
         image: "series/rooster-fighter-ep9.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1p3bHOgTxxnBEKR-ucMCWbyJcyWcbuubC/preview"
       },
       {
         id: "episode-10",
         n: 10,
-        name: "Arriconando al Ave | No Disponible",
+        name: "Arriconando al Ave",
         description:"Keiji y sus amigos luchan contra el poderoso Kijin Yuji.",
         thumb: "series/rooster-fighter-ep10.webp",
         image: "series/rooster-fighter-ep10.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1mRrcqj40kEYUBLNHxsnkqe7Llr1NiOWX/preview"
       },
       {
         id: "episode-11",
         n: 11,
-        name: "Se Necesitan Dos Alas Para Volar | No Disponible",
+        name: "Se Necesitan Dos Alas Para Volar",
         description:"El nuevo poder de Keisuke se despierta cuando presencia la lucha de Keiji contra Hikari.",
         thumb: "series/rooster-fighter-ep11.webp",
         image: "series/rooster-fighter-ep11.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1bRQIC9_wiA0ZHECSmwTfnGQnkhYwTzgQ/preview"
       },
       {
         id: "episode-12",
         n: 12,
-        name: "Lo que los pájaros, las bestias y los árboles comparten | No Disponible",
+        name: "Lo que los pájaros, las bestias y los árboles comparten",
         description:"Keiji abruma a Hikari con su nuevo poder: el Despertar de la Perla.",
         thumb: "iconos/no-disponible.png",
         image: "iconos/no-disponible.png",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1VK6S-b7BYo9xkuREuucbEnZ_OOVOJWMn/preview"
       }
     ]
   },

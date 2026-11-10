@@ -1045,7 +1045,7 @@ const SERIES = [
   {
     id: "my-deer-friend-nokotan-tp1",
     title: "Mi Amiga Nokotan Es Un Ciervo",
-    year: 2014,
+    year: 2024,
     keywords:[
       "Shikanoko Nokonoko Koshitantan",
       "venado",
@@ -1072,7 +1072,7 @@ const SERIES = [
         description:"Con la intención de convertir el salón del Club de Ciervos en un paraíso, Koshitan se dedica a decorarlo. Sin embargo, después de tanto esfuerzo en remodelarlo, el lugar es vandalizado y la vida de Nokotan está en peligro. Todo se debe a la obsesión y amor irracional que Anko, la hermana menor de Koshitan, tiene hacia ella.",
         thumb: "series/my-deer-friend-nokotan-tp1-ep2.webp",
         image: "series/my-deer-friend-nokotan-tp1-ep2.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1q8bRK5HP4jBmHbGdcodgE8aN6oxRV-6P/preview"
       },
       {
         id: "episode-3",
@@ -1090,7 +1090,7 @@ const SERIES = [
         description:"Koshitan es la presidenta del consejo estudiantil de Hino Minami. Para apoyarla en sus funciones, cuenta con Neko Nekoyamada, vicepresidenta; Kinu Tanukikoji, secretaria; y Chiharu Tsubameya, tesorera. Sin embargo, una de ellas tiene la intención de disolver el Club de Ciervos. ¿Cuál será su motivo?",
         thumb: "series/my-deer-friend-nokotan-tp1-ep4.webp",
         image: "series/my-deer-friend-nokotan-tp1-ep4.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1rFzPJwU4t5uvKEz8V-3nvqf5f_8DIitU/preview"
       },
       {
         id: "episode-5",
@@ -1099,7 +1099,7 @@ const SERIES = [
         description:"Molesta por la constante influencia de Nokotan en su vida, Koshitan decide seguirla para descubrir su mayor debilidad. Así es como presencia su sorprendente y poco común trabajo de medio tiempo.",
         thumb: "series/my-deer-friend-nokotan-tp1-ep5.webp",
         image: "series/my-deer-friend-nokotan-tp1-ep5.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1LSdy6nDsQjBrHgUu7wPovpEUQT-81n1E/preview"
       },
       {
         id: "episode-6",
@@ -1108,7 +1108,7 @@ const SERIES = [
         description:"Como de costumbre, Neko planea una manera de disolver el Club de Ciervos. De repente, Nokotan aparece en la sala del consejo estudiantil y revela una extraña criatura a la que llama ''Tsuchinoko''. Cuanto más se descubre sobre este ser misterioso, más desconcertada queda Neko... ¿Qué sucederá?",
         thumb: "series/my-deer-friend-nokotan-tp1-ep6.webp",
         image: "series/my-deer-friend-nokotan-tp1-ep6.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1fDTj6id3eeI6Tkr-4Nr2XDLJwUevgITg/preview"
       },
       {
         id: "episode-7",
@@ -1117,7 +1117,7 @@ const SERIES = [
         description:"Koshitan y Nokotan visitan la cafetería Tsubame. El dueño, Yoshiharu Tsubameya, hermano mayor de Chiharu, está decidido a brindar un servicio perfecto. Sin embargo, al atender a su primer cliente ''ciervo'', se siente desconcertado y abrumado por sus inusuales peticiones...",
         thumb: "series/my-deer-friend-nokotan-tp1-ep7.webp",
         image: "series/my-deer-friend-nokotan-tp1-ep7.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1XtjV0_uKzx_bKgmRDGY2t3kDu0mTusmB/preview"
       },
       {
         id: "episode-8",
@@ -1125,8 +1125,8 @@ const SERIES = [
         name: "Ciervos Van, Ciervos Vienen",
         description:"La temporada de invierno llega, y el Club de Ciervos decide hacer su primera visita del año a un santuario. Allí descubren que Nokotan es venerada como la deidad del lugar. Koshitan comienza el año nuevo involucrada en una situación inusual y fuera de lo común.",
         thumb: "series/my-deer-friend-nokotan-tp1-ep8.webp",
-        image: "series/my-deer-friend-nokotantp1-ep8.webp",
-        drive: ""
+        image: "series/my-deer-friend-nokotan-tp1-ep8.webp",
+        drive: "https://drive.google.com/file/d/1eJXs4bucixJk34_s2sz7Yt7z9yy85vGY/preview"
       },
       {
         id: "episode-9",
@@ -1135,7 +1135,7 @@ const SERIES = [
         description:"La Escuela Hino Minami celebra su festival deportivo. Como presidenta del consejo estudiantil, Koshitan quiere que todo transcurra sin problemas, pero una serie de imprevistos perturba su tranquilidad... ¿Logrará que el evento termine sin contratiempos?",
         thumb: "series/my-deer-friend-nokotan-tp1-ep9.webp",
         image: "series/my-deer-friend-nokotan-tp1-ep9.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1tgFZycck9GQA1Y5EOITjFZtu5Pv7IQ3c/preview"
       },
       {
         id: "episode-10",
@@ -1144,7 +1144,7 @@ const SERIES = [
         description:"Con el cambio de estaciones, surgen nuevos problemas. Koshitan encuentra a Nokotan actuando de forma inusual en la sala del club. Al verla llorar, descubre que la causa es una alergia al polen... ¿Podrán encontrar una solución aunque se niegue a aceptarlo?",
         thumb: "series/my-deer-friend-nokotan-tp1-ep10.webp",
         image: "series/my-deer-friend-nokotan-tp1-ep10.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1pw7Vyqrk4NtXTYnMsjgBO0-mSdSIruHq/preview"
       },
       {
         id: "episode-11",
@@ -1153,7 +1153,7 @@ const SERIES = [
         description:"Como de costumbre, la Escuela Hino Minami se mantiene tranquila y pacífica. Sin embargo, Nokotan percibe la presencia del legendario cazador Soichiro Kumatori. Hace todo lo posible por escapar, pero parece que enfrentarlo de frente es su única opción... ¿Qué le deparará el destino?",
         thumb: "series/my-deer-friend-nokotan-tp1-ep11.webp",
         image: "series/my-deer-friend-nokotan-tp1-ep11.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1JSeOoxYRdN2GD1H4ErmF2WhbPSh7hN1N/preview"
       },
       {
         id: "episode-12",
@@ -1162,7 +1162,7 @@ const SERIES = [
         description:"De forma inesperada, Nokotan se desvanece de la memoria de todos. La confusión y el desconcierto invaden a Koshitan y a los espectadores. Ahora deben enfrentar la prueba definitiva en el impactante episodio final: ¡¿Adiós, Nokotan?! El Club de Ciervos por siempre.",
         thumb: "series/my-deer-friend-nokotan-tp1-ep12.webp",
         image: "series/my-deer-friend-nokotan-tp1-ep12.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1CWMFEWyxnAZmQw-ANkQUfMIx0Ze2X-5R/preview"
       }
     ]
   },
@@ -1281,15 +1281,15 @@ const SERIES = [
         n: 12,
         name: "Lo que los pájaros, las bestias y los árboles comparten",
         description:"Keiji abruma a Hikari con su nuevo poder: el Despertar de la Perla.",
-        thumb: "iconos/no-disponible.png",
-        image: "iconos/no-disponible.png",
+        thumb: "series/rooster-fighter-ep12.webp",
+        image: "series/rooster-fighter-ep12.webp",
         drive: "https://drive.google.com/file/d/1VK6S-b7BYo9xkuREuucbEnZ_OOVOJWMn/preview"
       }
     ]
   },
   {
     id: "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu",
-    title: "hola soy una bruja y la persona que me gusta me encargó hacer una poción de amor | Próximamente: con Subtítulos en Latino 10 de Noviembre",
+    title: "hola soy una bruja y la persona que me gusta me encargó hacer una poción de amor - Subtítulos en Latino",
     year: 2026,
     keywords:[
       "Hello I am a Witch and my Crush Wants me to Make a Love Potion",
@@ -1302,66 +1302,66 @@ const SERIES = [
     image: "series/Hello-I-am-a-Witch-and-my-Crush-Wants-me-to-Make-a-Love-Potion.webp",
     video: "trailers/clip/",
     post: "series/Hello-I-am-a-Witch-and-my-Crush-Wants-me-to-Make-a-Love-Potion.webp",
-    genres: ["Anime"],
+    genres: ["Anime","Animación","Romance","Fantasía","Romántico"],
     episodes: [
       {
         id: "episode-1",
         n: 1,
-        name: "La bruja y la poción de amor de la desesperanza | No Disponible",
+        name: "La bruja y la poción de amor de la desesperanza",
         description:"Harij acude a Rose, que está secretamente enamorada de él, para que le haga una poción de amor.",
         thumb: "series/witch-crush-love-potion-ep1.webp",
         image: "series/witch-crush-love-potion-ep1.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1pQS6sqcJ3PIAdb-6Nxw6VJfVP4Vl24KF/preview"
       },
       {
         id: "episode-2",
         n: 2,
-        name: "La Bruja buena del Lago | No Disponible",
+        name: "La Bruja buena del Lago",
         description:"Rose le pide a Tien una túnica nueva y Harij hace una aparición inesperada.",
         thumb: "series/witch-crush-love-potion-ep2.webp",
         image: "series/witch-crush-love-potion-ep2.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1e7YOl8wfzBWGx2zW2t920sqJIa457Js3/preview"
       },
       {
         id: "episode-3",
         n: 3,
-        name: "La canción de la bruja con aroma a té negro | No Disponible",
+        name: "La canción de la bruja con aroma a té negro",
         description:"Harij visita a Rose a menudo y se interesa cada vez más por la bruja.",
         thumb: "series/witch-crush-love-potion-ep3.webp",
         image: "series/witch-crush-love-potion-ep3.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1zr4etdNwRXl12aFFg4LlYCXvd3Pfx9D9/preview"
       },
       {
         id: "episode-4",
         n: 4,
-        name: "El deber de un caballero, aunque la bruja lo ignore | No Disponible",
+        name: "El deber de un caballero, aunque la bruja lo ignore",
         description:"Harij necesita la poción cuanto antes, pero descubre que no es el único cliente de Rose.",
         thumb: "series/witch-crush-love-potion-ep4.webp",
         image: "series/witch-crush-love-potion-ep4.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1f_VaB1TrYoIz1SgRm2f_Vg_JUDlvnEnV/preview"
       },
       {
         id: "episode-5",
         n: 5,
-        name: " | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "iconos/no-disponible.png",
-        drive: ""
+        name: "Ser una Bruja",
+        description:"Las brujas existen para cumplir deseos a cambio de algo, pero Harij se está saltando esa norma.",
+        thumb: "series/witch-crush-love-potion-ep5.webp",
+        image: "series/witch-crush-love-potion-ep5.webp",
+        drive: "https://drive.google.com/file/d/1OjTK1W-gaZuzHYBrDHNWmEj9giGjqdHn/preview"
       },
       {
         id: "episode-6",
         n: 6,
-        name: " | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "iconos/no-disponible.png",
-        drive: ""
+        name: "La Bruja y La Posión de Amor Prometida",
+        description:"Rose termina la poción de amor, pero sus sentimientos por Harij siguen siendo difíciles de ocultar.",
+        thumb: "series/witch-crush-love-potion-ep6.webp",
+        image: "series/witch-crush-love-potion-ep6.webp",
+        drive: "https://drive.google.com/file/d/1vrjvnvcCUm_ZcoQlwHTv7WryyHlVp7AM/preview"
       },
       {
         id: "episode-7",
         n: 7,
-        name: " | No Disponible",
+        name: "Próximamente: 16/Noviembre/2026 | No Disponible",
         description:"",
         thumb: "series/.webp",
         image: "iconos/no-disponible.png",
@@ -1370,7 +1370,43 @@ const SERIES = [
       {
         id: "episode-8",
         n: 8,
-        name: " | No Disponible",
+        name: "Próximamente: 23/Noviembre/2026 | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "iconos/no-disponible.png",
+        drive: ""
+      },
+      {
+        id: "episode-9",
+        n: 9,
+        name: "Próximamente: 30/Noviembre/2026 | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "iconos/no-disponible.png",
+        drive: ""
+      },
+      {
+        id: "episode-10",
+        n: 10,
+        name: "Próximamente: 07/Diciembre/2026 | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "iconos/no-disponible.png",
+        drive: ""
+      },
+      {
+        id: "episode-11",
+        n: 11,
+        name: "Próximamente: 14/Diciembre/2026 | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "iconos/no-disponible.png",
+        drive: ""
+      },
+      {
+        id: "episode-12",
+        n: 12,
+        name: "Próximamente: 21/Diciembre/2026 | No Disponible",
         description:"",
         thumb: "series/.webp",
         image: "iconos/no-disponible.png",
@@ -1605,6 +1641,174 @@ const SERIES = [
     video: "trailers/clip/.mp4",
     post: "series/konosuba-an-explosion-on-this-wonderful-world.avif",
     genres: ["Anime"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: 
+        ""
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      }
+    ]
+  },
+  {
+    id: "undead-unluck",
+    title: "Undead Unluck! | Próximamente: 20 de Diciembre",
+    year: 2023,
+    image: "series/undead-unluck.webp",
+    video: "trailers/clip/.mp4",
+    post: "series/undead-unluck.webp",
+    genres: ["Anime"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: 
+        ""
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      }
+    ]
+  },
+  {
+    id: "a-regular-show-lost-tapes",
+    title: "Un Show Más: Las Cintas Pérdidas | Próximamente: 1 de Enero",
+    year: 2023,
+    image: "series/a-regular-show-lost-tapes.webp",
+    video: "trailers/clip/.mp4",
+    post: "series/a-regular-show-lost-tapes.webp",
+    genres: ["Animación"],
     episodes: [
       {
         id: "episode-1",

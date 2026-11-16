@@ -1,392 +1,201 @@
-// 🔀 Mezclar aleatoriamente
-function shuffle(array) {
-  return [...array].sort(() => Math.random() - 0.5);
-}
-
-const params = new URLSearchParams(window.location.search);
-
-const player = document.getElementById("moviePlayer");
-const titleEl = document.getElementById("movieTitle");
-const imgEl = document.getElementById("movieImage");
-const descEl = document.getElementById("movieDescription");
-const sidebar = document.getElementById("relatedMovies");
-const favicon = document.getElementById("dynamic-favicon");
-
-
 /* =========================
-   📜 HISTORIAL SHAREFILMS
+   📜 SHAREFILMS HISTORIAL
 ========================= */
 
 const HISTORY_KEY = "sharefilms_watch_history";
 
-function saveToHistory(item) {
-  let history = [];
-
+function getHistory() {
   try {
-    history = JSON.parse(
+    const history = JSON.parse(
       localStorage.getItem(HISTORY_KEY) || "[]"
     );
 
-    if (!Array.isArray(history)) history = [];
-
+    return Array.isArray(history)
+      ? history
+      : [];
   } catch {
-    history = [];
+    return [];
   }
-
-  // Evitar duplicados
-  history = history.filter(old =>
-    !(old.type === item.type &&
-      old.id === item.id &&
-      old.episodeNumber === item.episodeNumber)
-  );
-
-  // Guardar al principio del historial
-  history.unshift({
-    ...item,
-    watchedAt: new Date().toISOString()
-  });
-
-  // Máximo 100 registros
-  history = history.slice(0, 100);
-
-  localStorage.setItem(
-    HISTORY_KEY,
-    JSON.stringify(history)
-  );
 }
 
-/* =========================
-   📺 SERIES
-========================= */
-if (params.has("serie")) {
-
-  const serieId = params.get("serie");
-  const epNum = parseInt(params.get("ep"));
-
-  const serie = SERIES.find(s => s.id === serieId);
-
-  if (!serie) {
-    document.body.innerHTML = "<h2>Serie no encontrada</h2>";
-    throw new Error("Serie no encontrada");
+function formatDate(dateString) {
+  try {
+    return new Date(dateString)
+      .toLocaleString();
+  } catch {
+    return dateString || "";
   }
+}
 
-  const episodio = serie.episodes.find(e => e.n === epNum);
+function renderHistory() {
 
-  if (!episodio) {
-    document.body.innerHTML = "<h2>Episodio no encontrado</h2>";
-    throw new Error("Episodio no encontrado");
-  }
+  const container =
+    document.getElementById("historyList");
 
-  // 📜 Guardar episodio en el historial
-  saveToHistory({
-    type: "episode",
-    id: serie.id,
-    title: serie.title,
-    episodeNumber: episodio.n,
-    episodeName: episodio.name,
-    image: episodio.image || serie.image,
-    url: `watch.html?serie=${serie.id}&ep=${episodio.n}`
-  });
+  if (!container) return;
 
+  const history = getHistory();
 
-  // 🎬 Player
-  player.src = episodio.drive;
+  container.innerHTML = "";
 
-  // 📝 Info
-  titleEl.textContent = `${serie.title} — Episodio ${episodio.n}: ${episodio.name} `;
-  imgEl.src = episodio.image || serie.image;
-  descEl.textContent = episodio.description;
+  if (history.length === 0) {
 
-// ⭐ Cambiar título de la pestaña
-document.title = `${serie.title} Ep.${episodio.n} — ShareFilms`;
-
-  // ⭐ FAVICON DINÁMICO
-  favicon.href = episodio.image || serie.image;
-
-  // ▶️ Episodios relacionados
-  serie.episodes.forEach(ep => {
-    const card = document.createElement("div");
-    card.className = "related-card";
-
-    card.innerHTML = `
-      <img src="${ep.image || serie.image}">
-      <div>
-        <h4>Episodio ${ep.n}</h4>
-        <span>${ep.name}</span>
+    container.innerHTML = `
+      <div class="empty">
+        <h3>No hay contenido en tu historial</h3>
+        <p>
+          Empieza a ver películas y series
+          para que aparezcan aquí.
+        </p>
       </div>
     `;
 
-    if (ep.n === epNum) {
-      card.classList.add("active-episode");
-    }
-
-    card.onclick = () => {
-      location.href = `watch.html?serie=${serie.id}&ep=${ep.n}`;
-    };
-
-    sidebar.appendChild(card);
-  });
-
-}
-
-/* =========================
-   🎬 MOVIES
-========================= */
-else if (params.has("id")) {
-
-  const movieId = params.get("id");
-  const movie = MOVIES.find(m => m.id === movieId);
-
-  if (!movie) {
-    document.body.innerHTML = "<h2>Película no encontrada</h2>";
-    throw new Error("Película no encontrada");
+    return;
   }
 
+  history.forEach(item => {
 
-  // 📜 Guardar película en el historial
-  saveToHistory({
-    type: "movie",
-    id: movie.id,
-    title: movie.title,
-    image: movie.post || movie.image,
-    url: `watch.html?id=${movie.id}`
-  });
-
-  // 🎬 Player
-  player.src = movie.movie;
-
-  // 📝 Info
-  titleEl.textContent = movie.title;
-  imgEl.src = movie.post || movie.image;
-  descEl.textContent = movie.description || "";
-
-  // ⭐ Cambiar título de la pestaña
-document.title = `${movie.title} — ShareFilms`;
-
-  // ⭐ FAVICON DINÁMICO
-  favicon.href = movie.post || movie.image;
-
-  // 🎞️ Relacionadas
-  const related = shuffle(
-    MOVIES.filter(m => m.id !== movie.id)
-  ).slice(0, 10);
-
-  related.forEach(m => {
     const card = document.createElement("div");
-    card.className = "related-card";
+    card.className = "card";
+
+    let subtitle = "";
+
+    if (item.type === "episode") {
+      subtitle =
+        `Episodio ${item.episodeNumber}: ${item.episodeName}`;
+    } else {
+      subtitle = item.year || "Película";
+    }
 
     card.innerHTML = `
-      <img src="${m.post || m.image}">
-      <div>
-        <h4>${m.title}</h4>
-        <span>${m.year}</span>
+      <div class="thumb">
+        <img
+          src="${item.image || ""}"
+          alt="${item.title}"
+          loading="lazy">
+      </div>
+
+      <div class="info">
+        <h3>${item.title}</h3>
+
+        <p class="channel">
+          ${subtitle}
+        </p>
+
+        <p>
+          Visto: ${formatDate(item.watchedAt)}
+        </p>
+
+        <button
+          class="remove-btn"
+          data-url="${item.url}">
+          Eliminar
+        </button>
       </div>
     `;
 
-    card.onclick = () => {
-      location.href = `watch.html?id=${m.id}`;
-    };
+    card.addEventListener("click", e => {
 
-    sidebar.appendChild(card);
+      if (
+        e.target.classList.contains(
+          "remove-btn"
+        )
+      ) {
+        return;
+      }
+
+      if (item.url) {
+        window.location.href = item.url;
+      }
+    });
+
+    container.appendChild(card);
   });
 
+  setupDeleteButtons();
 }
 
-/* =========================
-   ❌ NADA VÁLIDO
-========================= */
-else {
-  document.body.innerHTML = "<h2>Contenido no válido</h2>";
+function setupDeleteButtons() {
+
+  document
+    .querySelectorAll(".remove-btn")
+    .forEach(button => {
+
+      button.addEventListener(
+        "click",
+        e => {
+
+          e.preventDefault();
+          e.stopPropagation();
+
+          const url =
+            button.dataset.url;
+
+          let history =
+            getHistory();
+
+          history =
+            history.filter(
+              item =>
+                item.url !== url
+            );
+
+          localStorage.setItem(
+            HISTORY_KEY,
+            JSON.stringify(history)
+          );
+
+          renderHistory();
+        }
+      );
+    });
 }
 
-/* =========================
-   🔍 BUSCADOR
-========================= */
-const searchInput = document.getElementById("search");
+function clearHistory() {
 
-searchInput.addEventListener("keydown", e => {
-  if (e.key === "Enter") {
-    const value = searchInput.value.trim();
-    if (value) {
-      window.location.href = `results.html?search_query=${encodeURIComponent(value)}`;
-    }
-  }
-});
-
-/* =========================
-   📤 COMPARTIR
-========================= */
-
-const shareBtn = document.getElementById("shareBtn");
-const shareModal = document.getElementById("shareModal");
-
-shareBtn.addEventListener("click", async () => {
-
-  // Obtener datos actuales
-  const currentUrl = window.location.href;
-  const currentTitle = document.title;
-
-  // 📱 Compartir nativo
-  if (navigator.share) {
-    try {
-
-      await navigator.share({
-        title: currentTitle,
-        text: `Mira esto en *SabineTube* : *${currentTitle}*`,
-        url: currentUrl
-      });
-
-      console.log("Contenido compartido");
-
-    } catch (err) {
-      console.log("Compartir cancelado");
-    }
+  if (
+    !confirm(
+      "¿Borrar todo el historial?"
+    )
+  ) {
+    return;
   }
 
-  // 💻 Navegadores sin navigator.share
-  else {
-    openShareMenu();
-  }
+  localStorage.removeItem(
+    HISTORY_KEY
+  );
 
-});
-
-
-/* =========================
-   📦 MODAL SHARE
-========================= */
-
-function openShareMenu() {
-
-  shareModal.style.display = "flex";
-
-  const currentUrl = window.location.href;
-  const currentTitle = document.title;
-
-  // WhatsApp
-  document.getElementById("shareWhatsapp").href =
-    `https://wa.me/?text=${encodeURIComponent(
-      "*Mira esto en SabineTube* : " + "*" + currentTitle + "*" + " " + currentUrl
-    )}`;
-
-  // Facebook
-  document.getElementById("shareFacebook").href =
-    `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-      currentUrl
-    )}`;
+  renderHistory();
 }
 
+document.addEventListener(
+  "DOMContentLoaded",
+  () => {
 
-function closeShareMenu() {
-  shareModal.style.display = "none";
-}
+    renderHistory();
 
+    const refreshBtn =
+      document.getElementById(
+        "refreshHistory"
+      );
 
-/* =========================
-   📋 COPIAR LINK
-========================= */
+    const clearBtn =
+      document.getElementById(
+        "clearHistory"
+      );
 
-document.getElementById("copyLink").addEventListener("click", async () => {
-
-  const currentUrl = window.location.href;
-
-  try {
-
-    await navigator.clipboard.writeText(currentUrl);
-
-    alert("Link copiado");
-
-    closeShareMenu();
-
-  } catch {
-
-    alert("No se pudo copiar");
-
-  }
-
-});
-
-
-/* =========================
-   ❌ CERRAR AL HACER CLICK FUERA
-========================= */
-
-window.addEventListener("click", e => {
-
-  if (e.target === shareModal) {
-    closeShareMenu();
-  }
-
-});
-
-
-/* =========================
-   👍 SISTEMA DE ME GUSTA
-========================= */
-
-const LIKE_KEY = "sabinetube_likes";
-
-const likeBtn = document.getElementById("likeBtn");
-
-// Identificar contenido actual
-let contentKey;
-
-if (params.has("serie")) {
-  contentKey = `episode_${params.get("serie")}_${params.get("ep")}`;
-} else if (params.has("id")) {
-  contentKey = `movie_${params.get("id")}`;
-}
-
-// Obtener likes guardados
-function getLikes() {
-  try {
-    const likes = JSON.parse(
-      localStorage.getItem(LIKE_KEY) || "{}"
-    );
-
-    return likes && typeof likes === "object" && !Array.isArray(likes)
-      ? likes
-      : {};
-  } catch {
-    return {};
-  }
-}
-
-// Actualizar apariencia
-function updateLikeButton() {
-  const likes = getLikes();
-  const liked = likes[contentKey] === true;
-
-  likeBtn.classList.toggle("liked", liked);
-  likeBtn.setAttribute("aria-pressed", String(liked));
-
-  likeBtn.querySelector("span").textContent =
-    liked ? "Te gusta" : "Me gusta";
-}
-
-// Estado inicial
-if (likeBtn && contentKey) {
-
-  updateLikeButton();
-
-  likeBtn.addEventListener("click", () => {
-
-    const likes = getLikes();
-
-    // Alternar estado
-    likes[contentKey] = !likes[contentKey];
-
-    // Guardar cambios
-    if (!likes[contentKey]) {
-      delete likes[contentKey];
+    if (refreshBtn) {
+      refreshBtn.addEventListener(
+        "click",
+        renderHistory
+      );
     }
 
-    localStorage.setItem(
-      LIKE_KEY,
-      JSON.stringify(likes)
-    );
-
-    updateLikeButton();
-
-  });
-
-}
+    if (clearBtn) {
+      clearBtn.addEventListener(
+        "click",
+        clearHistory
+      );
+    }
+  }
+);

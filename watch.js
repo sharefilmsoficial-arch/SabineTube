@@ -12,6 +12,49 @@ const descEl = document.getElementById("movieDescription");
 const sidebar = document.getElementById("relatedMovies");
 const favicon = document.getElementById("dynamic-favicon");
 
+
+/* =========================
+   📜 HISTORIAL SHAREFILMS
+========================= */
+
+const HISTORY_KEY = "sharefilms_watch_history";
+
+function saveToHistory(item) {
+  let history = [];
+
+  try {
+    history = JSON.parse(
+      localStorage.getItem(HISTORY_KEY) || "[]"
+    );
+
+    if (!Array.isArray(history)) history = [];
+
+  } catch {
+    history = [];
+  }
+
+  // Evitar duplicados
+  history = history.filter(old =>
+    !(old.type === item.type &&
+      old.id === item.id &&
+      old.episodeNumber === item.episodeNumber)
+  );
+
+  // Guardar al principio del historial
+  history.unshift({
+    ...item,
+    watchedAt: new Date().toISOString()
+  });
+
+  // Máximo 100 registros
+  history = history.slice(0, 100);
+
+  localStorage.setItem(
+    HISTORY_KEY,
+    JSON.stringify(history)
+  );
+}
+
 /* =========================
    📺 SERIES
 ========================= */
@@ -33,6 +76,18 @@ if (params.has("serie")) {
     document.body.innerHTML = "<h2>Episodio no encontrado</h2>";
     throw new Error("Episodio no encontrado");
   }
+
+  // 📜 Guardar episodio en el historial
+  saveToHistory({
+    type: "episode",
+    id: serie.id,
+    title: serie.title,
+    episodeNumber: episodio.n,
+    episodeName: episodio.name,
+    image: episodio.image || serie.image,
+    url: `watch.html?serie=${serie.id}&ep=${episodio.n}`
+  });
+
 
   // 🎬 Player
   player.src = episodio.drive;
@@ -86,6 +141,16 @@ else if (params.has("id")) {
     document.body.innerHTML = "<h2>Película no encontrada</h2>";
     throw new Error("Película no encontrada");
   }
+
+
+  // 📜 Guardar película en el historial
+  saveToHistory({
+    type: "movie",
+    id: movie.id,
+    title: movie.title,
+    image: movie.post || movie.image,
+    url: `watch.html?id=${movie.id}`
+  });
 
   // 🎬 Player
   player.src = movie.movie;
@@ -252,3 +317,76 @@ window.addEventListener("click", e => {
   }
 
 });
+
+
+/* =========================
+   👍 SISTEMA DE ME GUSTA
+========================= */
+
+const LIKE_KEY = "sabinetube_likes";
+
+const likeBtn = document.getElementById("likeBtn");
+
+// Identificar contenido actual
+let contentKey;
+
+if (params.has("serie")) {
+  contentKey = `episode_${params.get("serie")}_${params.get("ep")}`;
+} else if (params.has("id")) {
+  contentKey = `movie_${params.get("id")}`;
+}
+
+// Obtener likes guardados
+function getLikes() {
+  try {
+    const likes = JSON.parse(
+      localStorage.getItem(LIKE_KEY) || "{}"
+    );
+
+    return likes && typeof likes === "object" && !Array.isArray(likes)
+      ? likes
+      : {};
+  } catch {
+    return {};
+  }
+}
+
+// Actualizar apariencia
+function updateLikeButton() {
+  const likes = getLikes();
+  const liked = likes[contentKey] === true;
+
+  likeBtn.classList.toggle("liked", liked);
+  likeBtn.setAttribute("aria-pressed", String(liked));
+
+  likeBtn.querySelector("span").textContent =
+    liked ? "Te gusta" : "Me gusta";
+}
+
+// Estado inicial
+if (likeBtn && contentKey) {
+
+  updateLikeButton();
+
+  likeBtn.addEventListener("click", () => {
+
+    const likes = getLikes();
+
+    // Alternar estado
+    likes[contentKey] = !likes[contentKey];
+
+    // Guardar cambios
+    if (!likes[contentKey]) {
+      delete likes[contentKey];
+    }
+
+    localStorage.setItem(
+      LIKE_KEY,
+      JSON.stringify(likes)
+    );
+
+    updateLikeButton();
+
+  });
+
+}

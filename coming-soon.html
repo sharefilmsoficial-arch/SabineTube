@@ -17,28 +17,70 @@
   </script>
 
   <style>
-    /* Mensaje centrado */
+    /* Contenido centrado */
+    .content {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     .coming-soon {
-      height: calc(100vh - 64px);
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
-      color: #fff;
     }
 
     .coming-box {
       max-width: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Imagen central */
+    .coming-box img {
+      width: 350px;
+      max-width: 80%;
+      height: auto;
     }
 
     .coming-box h1 {
       font-size: 40px;
-      margin-bottom: 15px;
+      margin: 0 0 15px;
     }
 
     .coming-box p {
       font-size: 20px;
       opacity: 0.8;
+      margin: 0;
+    }
+
+    /* Adaptación a móviles */
+    @media (max-width: 600px) {
+      .coming-box img {
+        width: 170px;
+      }
+
+      .coming-box h1 {
+        font-size: 28px;
+      }
+
+      .coming-box p {
+        font-size: 17px;
+      }
+
+      .error-link {
+        display: block;
+        text-decoration: none;
+      }
+
+      .error-img {
+        width: 280px;
+        height: auto;
+        margin-bottom: 20px;
+      }
     }
   </style>
 </head>
@@ -99,11 +141,18 @@
   <main class="content">
     <div class="coming-soon">
       <div class="coming-box">
+
+        <a href="index-login.html" class="error-link">
+          <img src="iconos/error.png" alt="Error" class="error-img">
+        </a>
+
         <h1>😅 Ups… llegaste temprano</h1>
+
         <p>
           Aún se está trabajando en esta sección.<br>
           Vuelve más tarde 😉
         </p>
+
       </div>
     </div>
   </main>

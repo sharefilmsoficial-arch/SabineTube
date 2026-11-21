@@ -150,3 +150,52 @@ video {
 .side-item:hover{
   opacity:1;
 }
+
+/*estilos de iconos */
+.icon img{
+    width:32px;
+    height:32px;
+    object-fit:contain;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.icon img:hover{
+    transform:scale(1.1);
+}
+
+.share-menu {
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+    flex-direction: column;
+    background: #222;
+    border-radius: 12px;
+    padding: 8px;
+    min-width: 150px;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.share-menu a,
+.share-menu button {
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.share-menu a:hover,
+.share-menu button:hover {
+    background: #444;
+}
+
+#shareBtn {
+    position: relative;
+    cursor: pointer;
+}

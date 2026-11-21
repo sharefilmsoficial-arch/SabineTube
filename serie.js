@@ -1,7 +1,7 @@
 const SERIES = [
   {
     id: "whatif1",
-    title: "What If...? Temporada 1",
+    title: "What If...? Temporada 1 | No Disponible",
     year: 2021,
     image: "series/What-If-TP1.webp",
     post:"series/What-If-TP1-post.webp",
@@ -83,7 +83,7 @@ const SERIES = [
 },
   {
   id: "whatif2",
-  title: "What If...? Temporada 2",
+  title: "What If...? Temporada 2 | No Disponible",
   year: 2023,
   image: "series/What-If-TP2.webp",
     post:"series/What-If-TP2-post.webp",
@@ -660,7 +660,11 @@ const SERIES = [
     "Tayama"
     ],
     year: 2026,
-    image: "series/smoking-behind-the-supermarket-with-you-tp1.webp",
+    image: "series/image/smoking-behind-the-supermarket-with-you.webp",
+    video: [
+      "trailers/clip/Smoking-Behind-the-Supermarket-with-You.mp4",
+      "trailers/clip/yanisuu.mp4"
+           ],
     post: "series/smoking-behind-the-supermarket-with-you-tp1.webp",
     genres: ["Animación","Anime"],
     episodes: [
@@ -783,15 +787,15 @@ const SERIES = [
       "payaso"
     ],
     year: 2025,
-    image: "series/welcome-to-derry.jpg",
+    image: "series/image/welcome-to-derry.webp",
     video: "trailers/clip/welcome-to-derry.mp4",
     post: "series/welcome-to-derry-post.webp",
-  genres: ["Terror"],
+    genres: ["Terror"],
     episodes: [
       {
         id: "episode-1",
         n: 1,
-        name: "El Piloto>",
+        name: "El Piloto",
         thumb: "https://i.ytimg.com/vi/ADyR_AtSnRU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBswYkuiH817WJG714ppddceme-nQ",
         image: "https://i.ytimg.com/vi/ADyR_AtSnRU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBswYkuiH817WJG714ppddceme-nQ",
         drive: "https://drive.google.com/file/d/1Ncm0sZ54tnRtAvrzh9Q6jrDemF2VUHiG/preview"
@@ -857,7 +861,7 @@ const SERIES = [
   {
     id: "among-us-la-serie",
     title: "Among Us",
-    year: 2025,
+    year: 2026,
     image: "series/among-us-tp1.webp",
     video: "trailers/clip/welcome-to-derry.mp4",
     post: "series/among-us-tp1.webp",
@@ -958,13 +962,13 @@ const SERIES = [
   {
     id: "spider-noir",
     title: "Spider Noir",
-    year: 2025,
+    year: 2026,
     keywords:[
       "spider-man",
       "spiderman negro"
     ],
-    image: "series/spider-noir-tp1.webp",
-    video: "trailers/clip/welcome-to-derry.mp4",
+    image: "series/image/spider-noir.webp",
+    video: "trailers/clip/spider-noir.mp4",
     post: "series/spider-noir-tp1.webp",
   genres: ["Terror"],
     episodes: [
@@ -1052,7 +1056,7 @@ const SERIES = [
       "My Deer Friend Nokotan"
     ],
     image: "series/my-deer-friend-nokotan-tp1.webp",
-    video: "trailers/clip/welcome-to-derry.mp4",
+    video: "trailers/clip/Shikanoko.mp4",
     post: "series/my-deer-friend-nokotan-tp1.webp",
     genres: ["Anime","Animación","Comedia","Humorístico"],
     episodes: [
@@ -1299,8 +1303,8 @@ const SERIES = [
       "hola soy una bruja y mi enamorado quiere que le prepare una poción de amor",
       "hola soy una bruja y mi enamoramiento quiere que haga una poción de amor"
     ],
-    image: "series/Hello-I-am-a-Witch-and-my-Crush-Wants-me-to-Make-a-Love-Potion.webp",
-    video: "trailers/clip/",
+    image: "series/image/witch-crush-love-potion.webp",
+    video: "trailers/clip/witch-crush-love-potion.mp4",
     post: "series/Hello-I-am-a-Witch-and-my-Crush-Wants-me-to-Make-a-Love-Potion.webp",
     genres: ["Anime","Animación","Romance","Fantasía","Romántico"],
     episodes: [
@@ -1352,7 +1356,7 @@ const SERIES = [
       {
         id: "episode-6",
         n: 6,
-        name: "La Bruja y La Posión de Amor Prometida",
+        name: "La Bruja y La Poción de Amor Prometida",
         description:"Rose termina la poción de amor, pero sus sentimientos por Harij siguen siendo difíciles de ocultar.",
         thumb: "series/witch-crush-love-potion-ep6.webp",
         image: "series/witch-crush-love-potion-ep6.webp",
@@ -1361,10 +1365,10 @@ const SERIES = [
       {
         id: "episode-7",
         n: 7,
-        name: "Próximamente: 16/Noviembre/2026 | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "iconos/no-disponible.png",
+        name: "La que hechiza a la princesa es una bruja",
+        description:"Una visita inesperada lleva a Rose a reflexionar sobre el amor, el deber y sus propios sentimientos.",
+        thumb: "series/witch-crush-love-potion-ep7.webp",
+        image: "series/witch-crush-love-potion-ep7.webp",
         drive: ""
       },
       {
@@ -1373,8 +1377,9 @@ const SERIES = [
         name: "Próximamente: 23/Noviembre/2026 | No Disponible",
         description:"",
         thumb: "series/.webp",
-        image: "iconos/no-disponible.png",
-        drive: ""
+        image: "posters/no-disponible-cat.png",
+        drive: "",
+        estreno:"maraton"
       },
       {
         id: "episode-9",
@@ -1382,7 +1387,7 @@ const SERIES = [
         name: "Próximamente: 30/Noviembre/2026 | No Disponible",
         description:"",
         thumb: "series/.webp",
-        image: "iconos/no-disponible.png",
+        image: "posters/no-disponible-cat.png",
         drive: ""
       },
       {
@@ -1391,7 +1396,7 @@ const SERIES = [
         name: "Próximamente: 07/Diciembre/2026 | No Disponible",
         description:"",
         thumb: "series/.webp",
-        image: "iconos/no-disponible.png",
+        image: "posters/no-disponible-cat.png",
         drive: ""
       },
       {
@@ -1400,7 +1405,7 @@ const SERIES = [
         name: "Próximamente: 14/Diciembre/2026 | No Disponible",
         description:"",
         thumb: "series/.webp",
-        image: "iconos/no-disponible.png",
+        image: "posters/no-disponible-cat.png",
         drive: ""
       },
       {
@@ -1408,132 +1413,134 @@ const SERIES = [
         n: 12,
         name: "Próximamente: 21/Diciembre/2026 | No Disponible",
         description:"",
-        thumb: "series/.webp",
-        image: "iconos/no-disponible.png",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
         drive: ""
       }
     ]
   },
   {
     id: "kanojo-okarishimasu",
-    title: "Rent-a-Girlfriend | Próximamente: 20 de Noviembre",
+    title: "Rent-a-Girlfriend",
     year: 2020,
     keywords:[
       "Kanokari",
-      "Novia de Alquiler"
+      "Novia de Alquiler",
+      "kanokari"
     ],
-    image: "series/Rent-a-Girlfriend.webp",
-    video: "trailers/clip/welcome-to-derry.mp4",
+    image: "series/image/Rent-a-Girlfriend.webp",
+    video: "trailers/clip/Rent-a-Girlfriend.mp4",
+    estreno: "maraton",
     post: "series/Rent-a-Girlfriend.webp",
     genres: ["Anime","Animación","Comedia","Romance","Shounen"],
     episodes: [
       {
         id: "episode-1",
         n: 1,
-        name: "Novia de Alquiler | No Disponible",
+        name: "Novia de Alquiler",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/15Bl3StpD14Itz7EDmNoCzg0Z5SyZDtOW/preview"
       },
       {
         id: "episode-2",
         n: 2,
-        name: "Exnovia y Novia | No Disponible",
+        name: "Exnovia y Novia",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/1s1GbeDAMPIXHGPiicWa7oiyX5r0uBlR_/preview"
       },
       {
         id: "episode-3",
         n: 3,
-        name: "Playa y Novia | No Disponible",
+        name: "Playa y Novia",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/1wYeiTVq9nV_sUHgpPod1DuO7UDm1PMxE/preview"
       },
       {
         id: "episode-4",
         n: 4,
         name: "Amigo y Novia | No Disponible",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/1XgR41yCwFwGbItw-Wb_CtqRs48C0ARvL/preview"
       },
       {
         id: "episode-5",
         n: 5,
-        name: "Aguas Termales y Novia | No Disponible",
+        name: "Aguas Termales y Novia",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/13eVjqKRoigjskLvb3KkVcjUT3MtPvRTn/preview"
       },
       {
         id: "episode-6",
         n: 6,
-        name: "Novia y Novia | No Disponible",
+        name: "Novia y Novia",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/1JI-2gmVCYEsMpaS2IqesQXbIgJR1muXQ/preview"
       },
       {
         id: "episode-7",
         n: 7,
-        name: "Novia Temporal y Novia | No Disponible",
+        name: "Novia Temporal y Novia",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/1JI-2gmVCYEsMpaS2IqesQXbIgJR1muXQ/preview"
       },
       {
         id: "episode-8",
         n: 8,
-        name: "Navidad y Novia | No Disponible",
+        name: "Navidad y Novia",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/1iosLZvmLSVOnUgK8eQnwY0svEMSZwLYZ/preview"
       },
       {
         id: "episode-9",
         n: 9,
-        name: "Mentiras y Novia | No Disponible",
+        name: "Mentiras y Novia",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/1mez9pcRQQ5zJ-OblT4Zs5czNq-Q_afDG/preview"
       },
       {
         id: "episode-10",
         n: 10,
-        name: "La Novia de Mi Amigo | No Disponible",
+        name: "La Novia de Mi Amigo",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/1sQrvAoKYYwnYCuCqjz497R1A5oj5EmoX/preview"
       },
       {
         id: "episode-11",
         n: 11,
-        name: "Verdad y Novia | No Disponible",
+        name: "Verdad y Novia",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/17_dDTN1XcqIFNKNQ2CGazP_dyDzmOLK-/preview"
       },
       {
         id: "episode-12",
         n: 12,
-        name: "Declaración y Novia | No Disponible",
+        name: "Declaración y Novia",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
-        drive: ""
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: "https://drive.google.com/file/d/1WbHzySN5zDffciM0Mr8whbL4iERZYTbG/preview"
       }
     ]
   },
@@ -1557,8 +1564,8 @@ const SERIES = [
         n: 1,
         name: "¡La diosa autoproclamada y la reencarnación en otro mundo! | No Disponible",
         description:"Kazuma Satou es un chico de preparatoria otaku y hikikomori que no suele salir de casa, pero cuando lo hace, un fatídico (y ridículo) accidente acaba con su vida. En el otro mundo aparece una diosa ante él y le propone comenzar de nuevo su vida en un mundo de magia y espada, pero las condiciones son un tanto peculiares...",
-        thumb: "series/.webp",
-        image: "series/.webp",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
         drive: ""
       },
       {
@@ -1640,15 +1647,15 @@ const SERIES = [
     image: "series/konosuba-an-explosion-on-this-wonderful-world.avif",
     video: "trailers/clip/.mp4",
     post: "series/konosuba-an-explosion-on-this-wonderful-world.avif",
-    genres: ["Anime"],
+    genres: ["Anime","Animación"],
     episodes: [
       {
         id: "episode-1",
         n: 1,
         name: " | No Disponible",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
         drive: ""
       },
       {
@@ -1724,15 +1731,15 @@ const SERIES = [
     image: "series/undead-unluck.webp",
     video: "trailers/clip/.mp4",
     post: "series/undead-unluck.webp",
-    genres: ["Anime"],
+    genres: ["Anime","Animación"],
     episodes: [
       {
         id: "episode-1",
         n: 1,
         name: " | No Disponible",
         description:"",
-        thumb: "series/.webp",
-        image: "series/.webp",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
         drive: ""
       },
       {
@@ -1804,7 +1811,7 @@ const SERIES = [
   {
     id: "a-regular-show-lost-tapes",
     title: "Un Show Más: Las Cintas Pérdidas | Próximamente: 1 de Enero",
-    year: 2023,
+    year: 2026,
     image: "series/a-regular-show-lost-tapes.webp",
     video: "trailers/clip/.mp4",
     post: "series/a-regular-show-lost-tapes.webp",
@@ -1815,8 +1822,578 @@ const SERIES = [
         n: 1,
         name: " | No Disponible",
         description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: " | No Disponible",
+        description:"",
         thumb: "series/.webp",
         image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: 
+        ""
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      }
+    ]
+  },
+  {
+    id: "kimetsu-no-yaiba",
+    title: "Demon Slayer: Kimetsu No Yaiba | Próximamente: 25 de Noviembre",
+    year: 2019,
+    image: "series/kimetsu-no-yaiba.webp",
+    video: "trailers/clip/.mp4",
+    post: "series/kimetsu-no-yaiba.webp",
+    genres: ["Animación","Anime","Acción","Intenso"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: "Crueldad | No Disponible",
+        description:"Tanjiro es un joven muy trabajador que se esfuerza mucho por cuidar de su madre y sus hermanos, pero cuando un día nevado baja de la montaña a vender carbón, jamás habría esperado encontrarse lo que se encontró al regresar a casa.",
+        thumb: "series/demon-slayer-ep1.webp",
+        image: "series/demon-slayer-ep1.webp",
+        drive: ""
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: "El instructor, Sakonji Urokodaki | No Disponible",
+        description:"Tanjiro y Nezuko prosiguen su viaje cuando se encuentran con un refugio en el que parece haber alguien herido, pero cuando acuden a prestarle ayuda, lo que encuentran es algo sanguinario que amenaza sus vidas.",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",  
+        drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: "Sabito y Makomo | No Disponible",
+        description:"Tanjiro sigue su duro entrenamiento, pero cuando enfrenta una prueba que cree no poder superar, aparecen ante él Sabito y Makomo, un joven y una joven que le ayudarán a entrenar para alcanzar su objetivo. Pero ¿tendrá madera de cazador de demonios?",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: 
+        ""
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: "Selección final | No Disponible",
+        description:"Urokodaki da el visto bueno a Tanjiro para acudir a la selección final e intentar convertirse en cazador de demonios oficialmente.",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: "Tu acero | No Disponible",
+        description:"Tras superar la selección final llega el turno de que los que la superaron consigan su propia espada de cazador de demonios, pero para ello deberán tomar antes una decisión.",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: "Espadachín con demonio | No Disponible",
+        description:"Tanjiro parte en su primera misión como asesino de demonios, donde tendrá que lidiar con un demonio que secuestra jóvenes.",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: "Muzan Kibutsuji | No Disponible",
+        description:"Tanjiro intenta derrotar al demonio múltiple para descubrir alguna pista de Muzan Kibutsuji y dar con la forma de que Nezuko vuelva a ser humana, pero el demonio que busca parece infundir más temor del que él esperaba.",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: "Cautivador olor a sangre | No Disponible",
+        description:"El ataque de Muzan Kibutsuji le permite escapar de Tanjiro y este acaba en una situación complicada, aunque alguien desconocido acude en su ayuda. Muzan Kibutsuji, por otro lado, intentará acabar con el joven que profirió amenazas ante su familia.",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-9",
+        n: 9,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-10",
+        n: 10,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-11",
+        n: 11,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-12",
+        n: 12,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-13",
+        n: 13,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-14",
+        n: 14,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-15",
+        n: 15,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-16",
+        n: 16,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-17",
+        n: 17,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-18",
+        n: 18,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-19",
+        n: 19,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-20",
+        n: 20,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-21",
+        n: 21,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-22",
+        n: 22,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-23",
+        n: 23,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-24",
+        n: 24,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      }
+    ]
+  },
+  {
+    id: "the-remarried-empress",
+    title: "La Emperatriz Divorciada | Próximamente: 8 de Enero",
+    year: 2026,
+    image: "series/image/the-remarried-empress.webp",
+    video: [
+      "trailers/clip/la-emperatriz-divorciada.mp4",
+      "trailers/clip/la-emperatriz-divorciada-trailer2.mp4"
+    ],
+    post: "series/the-remarried-empress.webp",
+    genres: ["Romance"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: 
+        ""
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      }
+    ]
+  },
+  {
+    id: "avatar_seven-havens",
+    title: "Avatar: Los Siete Refugios | Próximamente: 15 de Enero",
+    year: 2026,
+    image: "series/avatar_seven-havens.webp",
+    video: "trailers/clip/.mp4",
+    post: "series/avatar_seven-havens.webp",
+    genres: ["Animación","Anime"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: 
+        ""
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      }
+    ]
+  },
+  {
+    id: "love-chunibyo-&-other-desilusions",
+    title: "Love Chunibyo & Other Desilusions | Próximamente: 15 de Enero",
+    year: 20,
+    image: "series/image/love-chunibyo.webp",
+    video: "trailers/clip/love-chunibyo-and-other-delusions.mp4",
+    post: "series/love-chunibyo.webp",
+    genres: ["Animación","Anime"],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-2",
+        n: 2,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-3",
+        n: 3,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: 
+        ""
+      },
+      {
+        id: "episode-4",
+        n: 4,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-5",
+        n: 5,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-6",
+        n: 6,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-7",
+        n: 7,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      },
+      {
+        id: "episode-8",
+        n: 8,
+        name: " | No Disponible",
+        description:"",
+        thumb: "series/.webp",
+        image: "series/.webp",
+        drive: ""
+      }
+    ]
+  },
+  {
+    id: "bocchi-the-rock",
+    title: "Bocchi the Rock! | Próximamente: 15 de Enero",
+    year: 20,
+    image: "series/image/bocchi-the-rock.webp",
+    video: "trailers/clip/bocchi-no-quiere-chambear.mp4",
+    post: "series/bocchi-the-rock.webp",
+    genres: ["Animación","Anime"],
+    keywords:[
+      "bocchi the rock"
+    ],
+    episodes: [
+      {
+        id: "episode-1",
+        n: 1,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
         drive: ""
       },
       {
@@ -1886,3 +2463,6 @@ const SERIES = [
     ]
   }
 ];
+
+// (Opcional) Exponerlo globalmente
+window.SERIES = SERIES;

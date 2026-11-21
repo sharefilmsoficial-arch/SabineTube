@@ -10,61 +10,79 @@
 
 <header class="top-bar">
   <button class="hamburger">☰</button>
-  <input class="search" type="text" placeholder="Buscar">
+  <input id="search" name="search" class="search" type="text" placeholder="Buscar">
 </header>
 
 <div class="layout">
 
-  <!-- SIDEBAR (copiada de index) -->
   <aside class="sidebar">
     <a href="index.html" class="side-item">
       <img src="iconos/home.png">
       <span>Inicio</span>
     </a>
+
     <a class="side-item">
       <img src="iconos/shorts.png">
-      <span>Shorts</span>
+      <span>Todo</span>
     </a>
+
     <a class="side-item">
       <img src="iconos/subs.png">
-      <span>Suscripciones</span>
+      <span>Series</span>
     </a>
+
     <a class="side-item">
       <img src="iconos/tu.png">
-      <span>Tú</span>
+      <span>Historial</span>
     </a>
-    <a class="side-item">
-      <img src="iconos/descargas.png">
-      <span>Descargas</span>
-    </a>
+    
   </aside>
 
-  <!-- ÁREA SHORT -->
   <main class="short-wrapper">
 
     <div class="short-card">
 
       <div class="video-bg">
-        <video id="trailerVideo" autoplay muted loop playsinline></video>
+        <video id="trailerVideo" loop playsinline></video>
       </div>
 
       <div class="right-bar">
-        <div class="icon">👍<span>36 k</span></div>
-        <div class="icon">👎</div>
-        <div class="icon">💬<span>72</span></div>
-        <div class="icon">↗</div>
+
+        <div class="icon">
+          <img src="iconos/like.png">
+          <span>36 k</span>
+        </div>
+
+        <div class="icon">
+          <img src="iconos/dislike.png">
+        </div>
+
+        <div class="icon">
+          <img src="iconos/comment.png">
+          <span>Comentarios</span>
+        </div>
+
+        <div class="icon" id="shareBtn" style="cursor: pointer;">
+          <img src="iconos/compartir-96.png">
+          <span>Compartir</span>
+        </div>
+
       </div>
 
       <div class="info">
-        <h1 id="title"></h1>
+        <h2 id="title"></h2>
         <p id="subtitle"></p>
       </div>
 
     </div>
 
   </main>
+
 </div>
 
 <script src="movies.js"></script>
+<script src="serie.js"></script>
 <script src="trailer.js"></script>
+
 </body>
+</html>

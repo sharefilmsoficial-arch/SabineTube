@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SabineTube</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://img.icons8.com/nolan/64/youtube-play.png" type="image/x-icon">
+
+  <style>
+    .section-title {
+      grid-column: 1 / -1;
+      font-size: 25px;
+      margin: 10px 0 0;
+    }
+
+    .empty-message {
+      grid-column: 1 / -1;
+      color: #aaa;
+      font-size: 15px;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="top-bar">
+
+  <button class="hamburger" aria-label="Menú">
+    ☰
+  </button>
+
+  <a href="index.html" class="logo-2"><img src="iconos/MyTube.png" alt="MyTube"></a>
+  <input type="text" id="search" placeholder="Buscar">
+
+</header>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <a href="index.html" class="side-item">
+      <img src="iconos/home.png" alt="Principal">
+      <span>Inicio</span>
+    </a>
+
+    <a href="coming-soon.html" class="side-item">
+      <img src="iconos/shorts.png" alt="Shorts">
+      <span>Shorts</span>
+    </a>
+
+    <a href="coming-soon.html" class="side-item">
+      <img src="iconos/subs.png" alt="Suscripciones">
+      <span>Suscripciones</span>
+    </a>
+
+    <a href="coming-soon.html" class="side-item">
+      <img src="iconos/tu.png" alt="Tú">
+      <span>Tú</span>
+    </a>
+
+    <a href="history.html" class="side-item">
+      <img src="iconos/historial-btn.png" alt="Historial">
+      <span>Historial</span>
+    </a>
+
+    <a href="todas.html" class="side-item">
+      <img src="iconos/todas.png" alt="Todas">
+      <span>Todas</span>
+    </a>
+
+    <a href="series.html" class="side-item">
+      <img src="iconos/series.png" alt="Series">
+      <span>Series</span>
+    </a>
+
+    <a href="anime.html" class="side-item">
+      <img src="iconos/anime.png" alt="Anime">
+      <span>Anime</span>
+    </a>
+
+    <a href="maraton.html" class="side-item">
+      <img src="iconos/new.png" alt="Maratón">
+      <span>Recientes</span>
+    </a>
+
+  </aside>
+
+  <!-- CONTENIDO -->
+  <main class="content">
+
+    <div class="grid" id="maratonGrid"></div>
+
+  </main>
+
+</div>
+
+<!-- DATA -->
+<script src="movies.js"></script>
+<script src="serie.js"></script>
+
+<!-- LOGIC -->
+<script src="maraton.js"></script>
+
+</body>
+</html>

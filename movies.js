@@ -183,7 +183,7 @@ const MOVIES = [
   },
   {
     id: "la-leyenda-de-la-llorona",
-    title: "La Leyenda de la Llorona",
+    title: "La Leyenda de la Llorona | Próximamente",
     year: 2011,
     duration: "1h ",
     rating: "A",
@@ -197,7 +197,7 @@ const MOVIES = [
   },
   {
     id: "la-leyenda-de-las-momias",
-    title: "La Leyenda de las Momias",
+    title: "La Leyenda de las Momias | Próximamente",
     year: 2014,
     duration: "1h ",
     rating: "A",
@@ -211,7 +211,7 @@ const MOVIES = [
   },
   {
     id: "la-leyenda-del-chupacabras",
-    title: "La Leyenda del ChupaCabras",
+    title: "La Leyenda del ChupaCabras | Próximamente",
     year: 2016,
     duration: "1h ",
     rating: "A",
@@ -225,12 +225,15 @@ const MOVIES = [
   },
   {
     id: "la-leyenda-del-charro-negro",
-    title: "La Leyenda del Charro Negro",
+    title: "La Leyenda del Charro Negro | Próximamente",
     year: 2018,
     duration: "1h ",
     rating: "A",
     genres: ["Animación", "Fantasía", "Aventura"],
     description: "",
+    keywords:[
+      "la venganza del Charro Negro"
+    ],
     trailerUrl: "trailers/",
     image: image,
     post: "posters/la-leyenda-del-charro-negro.webp",
@@ -239,7 +242,7 @@ const MOVIES = [
   },
   {
     id: "las-leyendas_el-origen",
-    title: "La Leyendas - El Origen",
+    title: "La Leyendas - El Origen | Próximamente",
     year: 2018,
     duration: "1h ",
     rating: "A",
@@ -266,12 +269,15 @@ const MOVIES = [
   },
   {
     id: "la-venganza-del-charro-negro",
-    title: "La Venganza del Charro Negro",
+    title: "La Venganza del Charro Negro | Próximamente",
     year: 2018,
     duration: "1h ",
     rating: "A",
     genres: ["Animación", "Fantasía", "Aventura"],
     description: "",
+    keywords:[
+      "la Leyenda del Charro Negro"
+    ],
     trailerUrl: "trailers/",
     image: image,
     post: "posters/la-venganza-del-charro-negro.jpg",
@@ -451,7 +457,7 @@ const MOVIES = [
   },
   {
     id: "avatar3-fireandash",
-    title: "Avatar 3 Próximamente (2026) - Fuego y Cenizas",
+    title: "Avatar 3 - Fuego y Cenizas",
     year: 2025,
     duration: "3h 12min",
     rating: "PG-13",
@@ -460,7 +466,8 @@ const MOVIES = [
     trailerUrl: "trailers/avatar3-fireandash.mp4",
     image: "images/avatar3-fireandash.webp",
     post: "posters/avatar3-fireandash.webp",
-    movie: "https://drive.google.com/file/d/1M5mcUc2cCFHQ5QpEfAKMyzzfjEWfhEDc/preview"
+    movie: "https://drive.google.com/file/d/1U2qmeyD680pgJMWn1vVY3pIUu-GjHWgV/preview",
+    estreno: "maraton"
   },
   {
     id: "avatar4-the-tulkun-rider",
@@ -1287,11 +1294,14 @@ const MOVIES = [
     id: "the-last-airbender",
     title: "El Ultimo Maestro del Aire",
     year: 2010,
-    duration: "1h 58m",
-    rating: "B",
+    duration: "1h 43m",
+    rating: "A",
     calidad: "360p",
-    genres: ["Acción","Aventura"],
-    description:"",
+    genres: ["Acción","Aventura","Infantil"],
+    description:"Las cuatro naciones de Aire, Agua, Tierra y Fuego viven en armonía hasta que la Nación Fuego declara la guerra. Un siglo después, todavía no se avizora el final de la destrucción, y un Avatar llamado Aang descubre que él tiene el poder para controlar a los cuatro elementos. Él une fuerzas con Katara, una Maestra Agua, y su hermano, Sokka, para restaurar el equilibrio y armonía a su mundo.",
+    keywords: [
+      "avatar"
+    ],
     trailerUrl: "trailers/",
     image: "images/the_last_airbender.webp",
     post: "posters/the_last_airbender.webp",
@@ -1356,7 +1366,7 @@ const MOVIES = [
   },
   {
     id: "kung-fu-panda-4",
-    title: "Kung fu Panda 4: Próximamente",
+    title: "Kung fu Panda 4 | No Disponible",
     year: 2024,
     duration: "1h 37min",
     rating: "PG-13",
@@ -1371,8 +1381,7 @@ const MOVIES = [
     ],
     image: "https://m.media-amazon.com/images/S/pv-target-images/1b2855d75a12c03f471c8fa132bb2bae77aeaadd4e8fbf76fd879378424133f8.jpg",
     post: "posters/kung-fu-panda-4.webp",
-    movie: "https://drive.google.com/file/d/1x5il-6bRAx6IGrwWnZlNrNwbc-GW16WK/preview",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1p4-zPbZV2bEodJs2uHaaPi-dZ49xTYlh/preview",
   },
   {
     id: "robocop-2014",
@@ -1643,7 +1652,7 @@ const MOVIES = [
   {
     id: "the-super-mario-galaxy-movie",
     title: "Super Mario Bros Galaxy",
-    year: 2028,
+    year: 2026,
     duration: "1h 32m ",
     rating: "PG-13",
     calidad: "360p",
@@ -1652,7 +1661,8 @@ const MOVIES = [
     trailerUrl: "trailers/Super-Mario-Galaxy.mp4",
     image: "images/the-super-mario-galaxy-movie.webp",
     post: "posters/the-super-mario-galaxy-movie.webp",
-    movie: "https://drive.google.com/file/d/1CG3fAe1UowfrOQtL9asUD-z8ruLPZ60h/preview"
+    movie: "https://drive.google.com/file/d/1ilOu2qzGS9DavCdZQ-yWnXMqnBjsxMlt/preview",
+    estreno: "maraton"
 },
   {
     id: "captain-marvel",
@@ -1886,13 +1896,14 @@ const MOVIES = [
     year: 2025,
     duration: "2h 35m",
     rating: "B",
-    calidad: "360p",
+    calidad: "720p",
     genres: ["Acción","Aventura","Anime"],
-    description:"Después de recuperarse de la trampa de Kagaya Ubuyashiki y someter a Tamayo , Muzan Kibutsuji se retira a su fortaleza dimensional, el Castillo Infinito, y atrapa al Cuerpo de Cazadores de Demonios dentro. [ b ] Los Cazadores de Demonios se separan y se enfrentan a hordas de demonios de nivel de Rango Inferior mientras buscan a Muzan y Tamayo. El hijo de Kagaya, Kiriya , y sus hijas, Kuina y Kanata , lideran la operación mapeando el Castillo Infinito con los cuervos Kasugai y localizando a sus habitantes, con los antiguos Hashiras Tengen Uzui y Shinjuro Rengoku haciendo guardia.",
+    description:"Tanjiro Kamado sigue luchando junto al Cuerpo de Exterminio de Demonios y los Pilares para derrotar a Muzan Kibutsuji y devolver a Nezuko su humanidad. Durante el Entrenamiento de los Pilares, Muzan irrumpe en la Mansión Ubuyashiki y arrastra a todos al Castillo Infinito, donde comienza la batalla final entre los cazadores de demonios y los demonios.",
     trailerUrl: "trailers/",
     image: "images/demon-slayer-kimetsu-no-yaiba-infinity-castle.webp",
     post: "posters/demon-slayer-kimetsu-no-yaiba-infinity-castle.webp",
-    movie: "https://drive.google.com/file/d/1XH7FFhRD4hjz_Hf5LATYZ0Ri9vmLu7u1/preview"
+    movie: "https://drive.google.com/file/d/1G5K2YNW9a_I165aXURNMnFs692LRegGD/preview",
+    estreno:"maraton"
 },
 {
     id: "hotaru-no-mori-e",
@@ -2469,8 +2480,8 @@ const MOVIES = [
     estreno: "Próximamente"
 },
 {
-    id: "movie-27",
-    title: "Proximamente | La Propuesta",
+    id: "the-proposal",
+    title: "La Propuesta",
     year: 2014,
     duration: "1h ",
     rating: "B",
@@ -2481,7 +2492,7 @@ const MOVIES = [
     image: image,
     post: "posters/the-proposal.webp",
     movie: "",
-    estreno: "Próximamente"
+    estreno:"maraton"
 },
 {
     id: "movie-28",
@@ -2516,11 +2527,11 @@ const MOVIES = [
     id: "the-goat-that-changed-the-game",
     title: "Goat: El Cabrón Que Cambió EL Juego",
     year: 2026,
-    duration: "1h ",
-    rating: "B",
+    duration: "1h 40m",
+    rating: "A",
     calidad: "360p",
-    genres: ["..."],
-    description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
+    genres: ["Deportes","Comedia"],
+    description:"Una pequeña cabra llamada Will Cabrera tiene la oportunidad única de unirse a los profesionales y jugar al roarball, un deporte de alta intensidad y contacto físico total en el que destacan los animales más rápidos y feroces del mundo.",
     trailerUrl: "trailers/",
     keywords: [
     "cabra",
@@ -2610,19 +2621,19 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/18qUf4wQScqwvKqEhSYG2NZunyPtuRR5u/preview"
 },
 {
-    id: "movie-35_scream-7",
-    title: "Proximamente | Scream 7 | 26 de Febrero sólo en cines",
+    id: "scream-7",
+    title: "Scream 7",
     year: 2026,
-    duration: "1h ",
-    rating: "B",
+    duration: "1h 54m",
+    rating: "C",
     calidad: "360p",
-    genres: ["..."],
-    description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
+    genres: ["Terror","Misterio","Horror","Misterio","Intigrante"],
+    description:"Ghostface regresa sediento de venganza - y esta vez es personal. Sidney Prescott (Neve Campbell) ha construido una vida tranquila con su familia, pero sus peor temor se hace realidad cuando su hija (Isabel May) se convierte en su próximo objetivo.",
     trailerUrl: "trailers/",
     image: image,
     post: "posters/scream-7.webp",
-    movie: "",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1_JLTqeafV6v-f0ua7J_wVP-JNBJjF-Af/preview",
+    estreno: "maraton"
 },
 {
     id: "movie-36_supergirl-2026",
@@ -2704,7 +2715,7 @@ const MOVIES = [
 },
 {
     id: "movie-41",
-    title: "Proximamente | A Christmas Carol | 13 de Noviembre sólo en cines",
+    title: "Proximamente | Ebenezer: Los Fantasmas de Navidad",
     year: 2026,
     duration: "1h ",
     rating: "B",
@@ -2713,7 +2724,7 @@ const MOVIES = [
     description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
     trailerUrl: "trailers/",
     image: image,
-    post: "posters/a-chritsmas-carol.webp",
+    post: "posters/ebenezer.webp",
     movie: "",
     estreno: "Próximamente"
 },
@@ -3032,7 +3043,8 @@ const MOVIES = [
     trailerUrl: "trailers/",
     image: image,
     post: "posters/backrooms.webp",
-    movie: "https://drive.google.com/file/d/1LrsINOtkH4aDJod5K-Gh37i9ONCgISrq/preview"
+    movie: "https://drive.google.com/file/d/144bYfrTbd1Gv-loLy-e0r0GC9DlO8tw-/preview",
+    estreno:"maraton"
 },
 {
     id: "movie-59",
@@ -3109,17 +3121,17 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/1e2hRpDECb77HHVmEVR0lx9qb5xHaM9Y-/preview"
 },
 {
-    id: "movie-60-hoopers",
-    title: "Hoopers | Próximamente",
+    id: "hoppers",
+    title: "Hoppers: Operación Castor | Próximamente",
     year: 2026,
-    duration: "0h",
+    duration: "1h 44m",
     rating: "B",
     calidad: "1060p",
-    genres: ["..."],
+    genres: ["Comedia","Ciencia Ficción"],
     description:"...",
     trailerUrl: "trailers/",
-    image: image,
-    post: "posters/Hoopers.webp",
+    image: "posters/hoppers-2026",
+    post: "posters/hoppers-2026.webp",
     movie: "..."
 },
 {

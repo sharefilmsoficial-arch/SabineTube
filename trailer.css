@@ -199,3 +199,10 @@ video {
     position: relative;
     cursor: pointer;
 }
+
+.ver-mas,
+.ver-menos{
+    color:#8b5cf6;
+    cursor:pointer;
+    font-weight:600;
+}

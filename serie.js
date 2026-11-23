@@ -291,6 +291,7 @@ const SERIES = [
     year: 2019,
     image: "series/scissor-seven-TP1.jpg",
     post: "series/scissor-seven-tp-2-poster.webp",
+    video: "trailers/clip/scissor-seven-TP2&ep=2.mp4",
     genres: ["Anime"],
     episodes: [
     {
@@ -307,7 +308,8 @@ const SERIES = [
       name: "Thirteen VS Seven",
       thumb: "series/scissor-seven-TP2-EP2.png",
       image: "series/scissor-seven-TP2-EP2.png",
-      drive: "https://drive.google.com/file/d/15kZTu2fBu-pT_JtdkdrJ-q49c-2vW7EX/preview"
+      drive: "https://drive.google.com/file/d/15kZTu2fBu-pT_JtdkdrJ-q49c-2vW7EX/preview",
+      video: "trailers/clip/scissor-seven-TP2&ep=2.mp4",
     },
     {
       id: "episode-3",
@@ -561,6 +563,7 @@ const SERIES = [
     year: 2024,
     image: "series/scissor-seven-TP5.jpg",
     post: "series/scissor-seven-tp-5-poster.webp",
+    video: "trailers/clip/scissor-seven-TP5-EP10.mp4",
     genres: ["Anime","Comedia","Acción"],
     episodes: [
     {
@@ -641,7 +644,8 @@ const SERIES = [
       name: "Batalla en la Montaña Boca Negra",
       thumb: "series/scissor-seven-TP5-EP10.webp",
       image: "series/scissor-seven-TP5-EP10.webp",
-      drive: "https://drive.google.com/file/d/1W1R514yiYmfihnLv1nOLQ8poiWRKCXuy/preview"
+      drive: "https://drive.google.com/file/d/1W1R514yiYmfihnLv1nOLQ8poiWRKCXuy/preview",
+      video: "trailers/clip/scissor-seven-TP5-EP10.mp4",
     }
   ]
   },
@@ -663,7 +667,8 @@ const SERIES = [
     image: "series/image/smoking-behind-the-supermarket-with-you.webp",
     video: [
       "trailers/clip/Smoking-Behind-the-Supermarket-with-You.mp4",
-      "trailers/clip/yanisuu.mp4"
+      "trailers/clip/yanisuu.mp4",
+      "trailers/clip/yanisuu-trailer2.mp4"
            ],
     post: "series/smoking-behind-the-supermarket-with-you-tp1.webp",
     genres: ["Animación","Anime"],
@@ -1055,7 +1060,7 @@ const SERIES = [
       "venado",
       "My Deer Friend Nokotan"
     ],
-    image: "series/my-deer-friend-nokotan-tp1.webp",
+    image: "series/image/nokotan.webp",
     video: "trailers/clip/Shikanoko.mp4",
     post: "series/my-deer-friend-nokotan-tp1.webp",
     genres: ["Anime","Animación","Comedia","Humorístico"],
@@ -1374,10 +1379,10 @@ const SERIES = [
       {
         id: "episode-8",
         n: 8,
-        name: "Próximamente: 23/Noviembre/2026 | No Disponible",
-        description:"",
-        thumb: "series/.webp",
-        image: "posters/no-disponible-cat.png",
+        name: "La bruja del Bosque Durmiente",
+        description:"Una visita de Harij altera la rutina de Rose y pone a prueba la distancia que intenta mantener.",
+        thumb: "series/witch-crush-love-potion-ep8.webp",
+        image: "series/witch-crush-love-potion-ep8.webp",
         drive: "",
         estreno:"maraton"
       },
@@ -1899,104 +1904,104 @@ const SERIES = [
     image: "series/kimetsu-no-yaiba.webp",
     video: "trailers/clip/.mp4",
     post: "series/kimetsu-no-yaiba.webp",
+    estreno:"maraton",
     genres: ["Animación","Anime","Acción","Intenso"],
     episodes: [
       {
         id: "episode-1",
         n: 1,
-        name: "Crueldad | No Disponible",
+        name: "Crueldad",
         description:"Tanjiro es un joven muy trabajador que se esfuerza mucho por cuidar de su madre y sus hermanos, pero cuando un día nevado baja de la montaña a vender carbón, jamás habría esperado encontrarse lo que se encontró al regresar a casa.",
-        thumb: "series/demon-slayer-ep1.webp",
-        image: "series/demon-slayer-ep1.webp",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep1.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep1.webp",
+        drive: "https://drive.google.com/file/d/1jbF6Zg4gzbCSEgjekNbdXaUb9M-wnuKw/preview"
       },
       {
         id: "episode-2",
         n: 2,
-        name: "El instructor, Sakonji Urokodaki | No Disponible",
+        name: "El instructor, Sakonji Urokodaki",
         description:"Tanjiro y Nezuko prosiguen su viaje cuando se encuentran con un refugio en el que parece haber alguien herido, pero cuando acuden a prestarle ayuda, lo que encuentran es algo sanguinario que amenaza sus vidas.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",  
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep2.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep2.webp",
+        drive: "https://drive.google.com/file/d/1UHJKDlPCA3s-pnLvMtfdqWr4gTYnHtnp/preview"
       },
       {
         id: "episode-3",
         n: 3,
-        name: "Sabito y Makomo | No Disponible",
+        name: "Sabito y Makomo",
         description:"Tanjiro sigue su duro entrenamiento, pero cuando enfrenta una prueba que cree no poder superar, aparecen ante él Sabito y Makomo, un joven y una joven que le ayudarán a entrenar para alcanzar su objetivo. Pero ¿tendrá madera de cazador de demonios?",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: 
-        ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep3.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep3.webp",
+        drive: "https://drive.google.com/file/d/1Q2bFIVxaEw59a-jB46rvXoI7rQnO2vfy/preview"
       },
       {
         id: "episode-4",
         n: 4,
-        name: "Selección final | No Disponible",
+        name: "Selección final",
         description:"Urokodaki da el visto bueno a Tanjiro para acudir a la selección final e intentar convertirse en cazador de demonios oficialmente.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep4.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep4.webp",
+        drive: "https://drive.google.com/file/d/1iOY027XHrlYXrqjQz6ScEDgjvvIJMH3N/preview"
       },
       {
         id: "episode-5",
         n: 5,
-        name: "Tu acero | No Disponible",
+        name: "Tu acero",
         description:"Tras superar la selección final llega el turno de que los que la superaron consigan su propia espada de cazador de demonios, pero para ello deberán tomar antes una decisión.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep5.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep5.webp",
+        drive: "https://drive.google.com/file/d/1176t7gNevP1IVUbBESYEEZSZcD7q0Wwi/preview"
       },
       {
         id: "episode-6",
         n: 6,
-        name: "Espadachín con demonio | No Disponible",
+        name: "Espadachín con demonio",
         description:"Tanjiro parte en su primera misión como asesino de demonios, donde tendrá que lidiar con un demonio que secuestra jóvenes.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep6.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep6.webp",
+        drive: "https://drive.google.com/file/d/1Uv3eOzAkw6oLiZUuXIAhFRBm7CJ14ShT/preview"
       },
       {
         id: "episode-7",
         n: 7,
-        name: "Muzan Kibutsuji | No Disponible",
+        name: "Muzan Kibutsuji",
         description:"Tanjiro intenta derrotar al demonio múltiple para descubrir alguna pista de Muzan Kibutsuji y dar con la forma de que Nezuko vuelva a ser humana, pero el demonio que busca parece infundir más temor del que él esperaba.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep7.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep7.webp",
+        drive: "https://drive.google.com/file/d/1ta2P6MpvaAVRljOpdbLOklB7LFZfSjZ3/preview"
       },
       {
         id: "episode-8",
         n: 8,
-        name: "Cautivador olor a sangre | No Disponible",
+        name: "Cautivador olor a sangre",
         description:"El ataque de Muzan Kibutsuji le permite escapar de Tanjiro y este acaba en una situación complicada, aunque alguien desconocido acude en su ayuda. Muzan Kibutsuji, por otro lado, intentará acabar con el joven que profirió amenazas ante su familia.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep8.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep8.webp",
+        drive: "https://drive.google.com/file/d/1RNYsHrGhPdLUfMjpDt2I-aKEYB2OHA67/preview"
       },
       {
         id: "episode-9",
         n: 9,
-        name: " | No Disponible",
-        description:"",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        name: "Demonios de temari y flechas",
+        description:"Yahaba y Susamaru atacan a Tanjiro en casa de Tamayo, pero son dos demonios tan poderosos que nuestro joven protagonista apenas puede defenderse él mismo.",
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep9.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep9.webp",
+        drive: "https://drive.google.com/file/d/1NdzyxSejkJkoHfvpogX4emd7uWQgq0uE/preview"
       },
       {
         id: "episode-10",
         n: 10,
-        name: " | No Disponible",
-        description:"",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        name: "Siempre juntos",
+        description:"Tanjiro está en verdaderos apuros con sus rivales, e incluso cuando piensa que ha vencido, el contraataque enemigo resulta brutal.",
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep10.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep10.webp",
+        drive: "https://drive.google.com/file/d/1Pz_z4fd7jHA7EoOuPLhUEyY-YRBHgmT2/preview"
       },
       {
         id: "episode-11",
         n: 11,
-        name: " | No Disponible",
-        description:"",
+        name: "La casa de los tambores | No Disponible",
+        description:"Cuando Tanjiro se reencuentra con otro de los supervivientes de la selección final, este resulta ser un cobarde mujeriego que acaba acompañándolo para que él le proteja.",
         thumb: "posters/no-disponible-cat.png",
         image: "posters/no-disponible-cat.png",
         drive: ""
@@ -2004,8 +2009,8 @@ const SERIES = [
       {
         id: "episode-12",
         n: 12,
-        name: " | No Disponible",
-        description:"",
+        name: "El jabalí muestra sus colmillos mientras Zenitsu duerme | No Disponible",
+        description:"Tanjiro intenta proteger a los inocentes que encuentra dentro de la endemoniada casa, aunque con sus heridas todavía por sanar, no resulta sencillo. Por otro lado Zenitsu intenta mantener su temor a un lado, pero su cobardía impide que pueda defenderse pese a ser un cazador de demonios... o tal vez no.",
         thumb: "posters/no-disponible-cat.png",
         image: "posters/no-disponible-cat.png",
         drive: ""
@@ -2013,8 +2018,8 @@ const SERIES = [
       {
         id: "episode-13",
         n: 13,
-        name: " | No Disponible",
-        description:"",
+        name: "Algo más importante que la vida | No Disponible",
+        description:"Tanjiro intenta convencerse de que puede alcanzar la victoria, pero el demonio de los tambores puede ser incluso más peligroso de lo que él piensa. Pero ¿cuáles son sus verdaderas motivaciones? Por otro lado Zenitsu intenta proteger al niño y la caja que le encomendó Tanjiro, pero su enemigo es...",
         thumb: "posters/no-disponible-cat.png",
         image: "posters/no-disponible-cat.png",
         drive: ""
@@ -2022,8 +2027,8 @@ const SERIES = [
       {
         id: "episode-14",
         n: 14,
-        name: " | No Disponible",
-        description:"",
+        name: "La casa del blasón de glicinias | No Disponible",
+        description:"Tanjiro enfrenta al nuevo cazador de demonios con el que se encuentran, quien con su velocidad, forma de moverse y aspecto, parece más un animal salvaje que un ser humano.",
         thumb: "posters/no-disponible-cat.png",
         image: "posters/no-disponible-cat.png",
         drive: ""
@@ -2031,8 +2036,8 @@ const SERIES = [
       {
         id: "episode-15",
         n: 15,
-        name: " | No Disponible",
-        description:"",
+        name: "El monte Natagumo | No Disponible",
+        description:"Nuestros tres cazadores de demonios reciben un aviso para ir al nornoreste como nuevo destino, donde encontrarán una tenebrosa montaña en la que encuentran a otro cazador que los pone al tanto de la peliaguda situación.",
         thumb: "posters/no-disponible-cat.png",
         image: "posters/no-disponible-cat.png",
         drive: ""
@@ -2040,8 +2045,8 @@ const SERIES = [
       {
         id: "episode-16",
         n: 16,
-        name: " | No Disponible",
-        description:"",
+        name: "Que otro vaya al frente | No Disponible",
+        description:"Tanjiro e Inosuke pelean en el bosque contra los cazadores de demonios controlados por los hilos, pero son fuertes y matarlos cuando no son culpables de nada no es la mejor opción. Colaborar es la única opción para tener alguna posibilidad de sobrevivir.",
         thumb: "posters/no-disponible-cat.png",
         image: "posters/no-disponible-cat.png",
         drive: ""
@@ -2049,8 +2054,8 @@ const SERIES = [
       {
         id: "episode-17",
         n: 17,
-        name: " | No Disponible",
-        description:"",
+        name: " Domina una única cosa | No Disponible",
+        description:"Zenitsu sigue buscando a sus compañeros por la montaña, cada vez más asustado y cansado de la situación, cuando una terrorífica araña sale a su paso. Lo peor es que el enfrentamiento parecía decidido desde antes incluso de encontrarse con su enemigo...",
         thumb: "posters/no-disponible-cat.png",
         image: "posters/no-disponible-cat.png",
         drive: ""
@@ -2058,8 +2063,8 @@ const SERIES = [
       {
         id: "episode-18",
         n: 18,
-        name: " | No Disponible",
-        description:"",
+        name: "Lazos simulados | No Disponible",
+        description:"Tanjiro e Inosuke se dividen para enfrentar a diferentes demonios, aunque igual de poderosos. Ninguno está en buena situación, pero entonces aparece alguien en el bosque.",
         thumb: "posters/no-disponible-cat.png",
         image: "posters/no-disponible-cat.png",
         drive: ""
@@ -2067,8 +2072,8 @@ const SERIES = [
       {
         id: "episode-19",
         n: 19,
-        name: " | No Disponible",
-        description:"",
+        name: "Dios del fuego | No Disponible",
+        description:"Tanjiro enfrenta al hermano menor de las arañas, quien resulta ser mucho más poderoso de lo que él creía, puesto que es una de las Lunas Demoníacas. Eso sí, el demonio encontrará en la batalla algo que desea con toda su alma.",
         thumb: "posters/no-disponible-cat.png",
         image: "posters/no-disponible-cat.png",
         drive: ""
@@ -2112,6 +2117,24 @@ const SERIES = [
       {
         id: "episode-24",
         n: 24,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-25",
+        n: 25,
+        name: " | No Disponible",
+        description:"",
+        thumb: "posters/no-disponible-cat.png",
+        image: "posters/no-disponible-cat.png",
+        drive: ""
+      },
+      {
+        id: "episode-26",
+        n: 26,
         name: " | No Disponible",
         description:"",
         thumb: "posters/no-disponible-cat.png",

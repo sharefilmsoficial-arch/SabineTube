@@ -1,10 +1,11 @@
-
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 const type = params.get("type");
+const ep = params.get("ep");
 
 let content = null;
 let videoUrl = "";
+let episodioIndividual = false;
 
 // ===========================
 // SELECCIONAR TRÁILER ALEATORIO
@@ -43,11 +44,27 @@ if (type === "movie") {
 
 } else {
 
-    // Si no hay type, buscar primero en SERIES
     content = window.SERIES?.find(s => s.id === id);
 
     if (!content) {
         content = window.MOVIES?.find(m => m.id === id);
+    }
+
+}
+
+// ===========================
+// IDENTIFICAR EPISODIO
+// ===========================
+
+if (content && ep && type === "series") {
+
+    const episodio = content.episodes?.find(e =>
+        String(e.n) === String(ep)
+    );
+
+    if (episodio) {
+        content = episodio;
+        episodioIndividual = true;
     }
 
 }
@@ -58,19 +75,71 @@ if (type === "movie") {
 
 if (content) {
 
-    const trailers = content.trailerUrl ?? content.video;
+    const trailers = episodioIndividual
+        ? content.video
+        : content.trailerUrl ?? content.video;
 
     videoUrl = seleccionarTrailer(trailers);
 
 }
 
 // ===========================
-// CARGAR TRAILER
+// MOSTRAR ERROR
+// ===========================
+
+function mostrarError() {
+
+    document.body.innerHTML = `
+        <div style="
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #181818;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            box-sizing: border-box;
+        ">
+
+            <img
+                src="iconos/error.png"
+                alt="Error"
+                style="
+                    width: 300px;
+                    max-width: 80%;
+                    margin-bottom: 20px;
+                "
+            >
+
+            <h2>😅 Tráiler no disponible</h2>
+
+            <p>
+                Lo sentimos, todavía no hay un tráiler
+                para este contenido.
+            </p>
+
+            <a href="index.html" style="
+                color: white;
+                margin-top: 15px;
+            ">
+                Volver al inicio
+            </a>
+
+        </div>
+    `;
+
+}
+
+// ===========================
+// CARGAR TRÁILER
 // ===========================
 
 if (!content || !videoUrl) {
 
-    document.body.innerHTML = "<h2>Tráiler no encontrado</h2>";
+    mostrarError();
 
 } else {
 
@@ -83,8 +152,70 @@ if (!content || !videoUrl) {
     video.muted = true;
     video.volume = 1;
 
-    title.textContent = content.title;
-    subtitle.textContent = content.subtitle || "";
+    title.textContent = content.title || content.name;
+
+    if (episodioIndividual) {
+
+        subtitle.textContent = `Episodio ${content.n}: ${content.name}`;
+
+    } else {
+
+        const descripcion = content.subtitle || content.description || "";
+        const limite = 120;
+        let expandido = false;
+
+        function actualizarDescripcion() {
+
+            if (descripcion.length <= limite) {
+                subtitle.textContent = descripcion;
+                return;
+            }
+
+            if (expandido) {
+
+                subtitle.innerHTML = "";
+
+                subtitle.append(
+                    descripcion,
+                    " "
+                );
+
+                const boton = document.createElement("span");
+                boton.textContent = "Ver menos";
+                boton.className = "ver-menos";
+
+                subtitle.appendChild(boton);
+
+            } else {
+
+                subtitle.innerHTML = "";
+
+                subtitle.append(
+                    descripcion.substring(0, limite) + "... ",
+                );
+
+                const boton = document.createElement("span");
+                boton.textContent = "Ver más";
+                boton.className = "ver-mas";
+
+                subtitle.appendChild(boton);
+
+            }
+
+        }
+
+        subtitle.addEventListener("click", () => {
+
+            if (descripcion.length <= limite) return;
+
+            expandido = !expandido;
+            actualizarDescripcion();
+
+        });
+
+        actualizarDescripcion();
+
+    }
 
     video.play().catch(() => {});
 
@@ -129,7 +260,12 @@ function getShareUrl() {
     if (isSeries) {
 
         url.searchParams.set("serie", id);
-        url.searchParams.set("ep", "1");
+
+        if (episodioIndividual) {
+            url.searchParams.set("ep", ep);
+        } else {
+            url.searchParams.set("ep", "1");
+        }
 
     } else {
 
@@ -154,9 +290,8 @@ if (shareBtn) {
         if (!content) return;
 
         const shareUrl = getShareUrl();
-        const shareTitle = content.title;
+        const shareTitle = content.title || content.name;
 
-        // Compartir nativo
         if (navigator.share) {
 
             try {
@@ -171,10 +306,7 @@ if (shareBtn) {
                 console.log("Compartir cancelado");
             }
 
-        }
-
-        // Navegadores sin compartir nativo
-        else {
+        } else {
 
             openShareMenu(shareUrl, shareTitle);
 
@@ -194,13 +326,11 @@ function openShareMenu(shareUrl, shareTitle) {
 
     shareModal.style.display = "flex";
 
-    // WhatsApp
     document.getElementById("shareWhatsapp").href =
         `https://wa.me/?text=${encodeURIComponent(
             `Mira esto en SabineTube: ${shareTitle} ${shareUrl}`
         )}`;
 
-    // Facebook
     document.getElementById("shareFacebook").href =
         `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
             shareUrl
@@ -285,6 +415,24 @@ if (searchInput) {
             }
 
         }
+
+    });
+
+}
+
+// ===========================
+// BOTÓN VER
+// ===========================
+
+const watchBtn = document.getElementById("watchBtn");
+
+if (watchBtn) {
+
+    watchBtn.addEventListener("click", () => {
+
+        if (!content) return;
+
+        window.location.href = getShareUrl();
 
     });
 

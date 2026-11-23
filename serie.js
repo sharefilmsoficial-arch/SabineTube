@@ -667,7 +667,6 @@ const SERIES = [
     image: "series/image/smoking-behind-the-supermarket-with-you.webp",
     video: [
       "trailers/clip/Smoking-Behind-the-Supermarket-with-You.mp4",
-      "trailers/clip/yanisuu.mp4",
       "trailers/clip/yanisuu-trailer2.mp4"
            ],
     post: "series/smoking-behind-the-supermarket-with-you-tp1.webp",
@@ -761,7 +760,8 @@ const SERIES = [
         description:"Detrás del súper, dos desconocidos se presentan y un informe mensual acaba donde no tocaba.",
         thumb: "series/sbtswy-tp1-ep10.jpg",
         image: "series/sbtswy-tp1-ep10.jpg",
-        drive: "https://drive.google.com/file/d/1LOSFmLrLXKW_leHHl5wO6WrQcpN0YaLn/preview"
+        drive: "https://drive.google.com/file/d/1LOSFmLrLXKW_leHHl5wO6WrQcpN0YaLn/preview",
+        video: "trailers/clip/yanisuu.mp4"
       },
       {
         id: "episode-11",
@@ -1038,7 +1038,8 @@ const SERIES = [
         description:"Muerto no podré protegerte.",
         thumb: "series/spider-noir-tp1-ep7.webp",
         image: "series/spider-noir-tp1-ep7.webp",
-        drive: "https://drive.google.com/file/d/1q33THsZ87gyD3eKyJThQjHknOekB1Y1o/preview"
+        drive: "https://drive.google.com/file/d/1q33THsZ87gyD3eKyJThQjHknOekB1Y1o/preview",
+        video: "trailers/clip/spider-noir.mp4",
       },
       {
         id: "episode-8",
@@ -1374,7 +1375,8 @@ const SERIES = [
         description:"Una visita inesperada lleva a Rose a reflexionar sobre el amor, el deber y sus propios sentimientos.",
         thumb: "series/witch-crush-love-potion-ep7.webp",
         image: "series/witch-crush-love-potion-ep7.webp",
-        drive: ""
+        drive: "https://drive.google.com/file/d/1riyIuv1-O2BcC5uAwn-03neIigR3cqJG/preview",
+        estreno:"maraton"
       },
       {
         id: "episode-8",
@@ -1383,7 +1385,7 @@ const SERIES = [
         description:"Una visita de Harij altera la rutina de Rose y pone a prueba la distancia que intenta mantener.",
         thumb: "series/witch-crush-love-potion-ep8.webp",
         image: "series/witch-crush-love-potion-ep8.webp",
-        drive: "",
+        drive: "https://drive.google.com/file/d/1w3pzUwLLBviXHQ4yE8Eqs38OxCQC5VGI/preview",
         estreno:"maraton"
       },
       {

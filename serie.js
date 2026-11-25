@@ -289,7 +289,7 @@ const SERIES = [
     id: "scissor-seven-TP2",
     title: "Scissors Seven Temporada 2: El peluquero más fuerte",
     year: 2019,
-    image: "series/scissor-seven-TP1.jpg",
+    image: "series/scissor-seven-TP2.webp",
     post: "series/scissor-seven-tp-2-poster.webp",
     video: "trailers/clip/scissor-seven-TP2&ep=2.mp4",
     genres: ["Anime"],
@@ -363,7 +363,7 @@ const SERIES = [
       id: "episode-9",
       n: 9,
       name: "Diente Rojo",
-      thumb: "series/scissor-seven-TP2-EP9.png",
+      thumb: "series/image/scissor-seven-TP2-EP10.webp",
       image: "series/scissor-seven-TP2-EP9.png",
       drive: "https://drive.google.com/file/d/1aR1LKN15UsEqT1DERx9Ik_uNinOL1WbV/preview"
     },
@@ -561,7 +561,7 @@ const SERIES = [
     id: "scissor-seven-TP5",
     title: "Scissors Seven Temporada 5: Memorias Fragmentadas",
     year: 2024,
-    image: "series/scissor-seven-TP5.jpg",
+    image: "series/scissor-seven-TP5.webp",
     post: "series/scissor-seven-tp-5-poster.webp",
     video: "trailers/clip/scissor-seven-TP5-EP10.mp4",
     genres: ["Anime","Comedia","Acción"],
@@ -642,7 +642,7 @@ const SERIES = [
       id: "episode-10",
       n: 10,
       name: "Batalla en la Montaña Boca Negra",
-      thumb: "series/scissor-seven-TP5-EP10.webp",
+      thumb: "series/image/scissor-seven-TP5-EP10.webp",
       image: "series/scissor-seven-TP5-EP10.webp",
       drive: "https://drive.google.com/file/d/1W1R514yiYmfihnLv1nOLQ8poiWRKCXuy/preview",
       video: "trailers/clip/scissor-seven-TP5-EP10.mp4",
@@ -758,7 +758,7 @@ const SERIES = [
         n: 10,
         name: "Iluminando juntos detrás del súper",
         description:"Detrás del súper, dos desconocidos se presentan y un informe mensual acaba donde no tocaba.",
-        thumb: "series/sbtswy-tp1-ep10.jpg",
+        thumb: "series/image/yanisuu-ep10.webp",
         image: "series/sbtswy-tp1-ep10.jpg",
         drive: "https://drive.google.com/file/d/1LOSFmLrLXKW_leHHl5wO6WrQcpN0YaLn/preview",
         video: "trailers/clip/yanisuu.mp4"
@@ -867,7 +867,7 @@ const SERIES = [
     id: "among-us-la-serie",
     title: "Among Us",
     year: 2026,
-    image: "series/among-us-tp1.webp",
+    image: "series/among-us.webp",
     video: "trailers/clip/welcome-to-derry.mp4",
     post: "series/among-us-tp1.webp",
     genres: ["Terror"],
@@ -972,7 +972,7 @@ const SERIES = [
       "spider-man",
       "spiderman negro"
     ],
-    image: "series/image/spider-noir.webp",
+    image: "series/spider-noir.webp",
     video: "trailers/clip/spider-noir.mp4",
     post: "series/spider-noir-tp1.webp",
   genres: ["Terror"],
@@ -1036,7 +1036,7 @@ const SERIES = [
         n: 7,
         name: "No soy un héroe",
         description:"Muerto no podré protegerte.",
-        thumb: "series/spider-noir-tp1-ep7.webp",
+        thumb: "series/image/spider-noir-tp1-ep7.webp",
         image: "series/spider-noir-tp1-ep7.webp",
         drive: "https://drive.google.com/file/d/1q33THsZ87gyD3eKyJThQjHknOekB1Y1o/preview",
         video: "trailers/clip/spider-noir.mp4",
@@ -1061,7 +1061,7 @@ const SERIES = [
       "venado",
       "My Deer Friend Nokotan"
     ],
-    image: "series/image/nokotan.webp",
+    image: "series/my-deer-friend-nokotan.webp",
     video: "trailers/clip/Shikanoko.mp4",
     post: "series/my-deer-friend-nokotan-tp1.webp",
     genres: ["Anime","Animación","Comedia","Humorístico"],
@@ -1373,9 +1373,10 @@ const SERIES = [
         n: 7,
         name: "La que hechiza a la princesa es una bruja",
         description:"Una visita inesperada lleva a Rose a reflexionar sobre el amor, el deber y sus propios sentimientos.",
-        thumb: "series/witch-crush-love-potion-ep7.webp",
+        thumb: "series/image/witch-crush-love-potion.webp",
         image: "series/witch-crush-love-potion-ep7.webp",
         drive: "https://drive.google.com/file/d/1riyIuv1-O2BcC5uAwn-03neIigR3cqJG/preview",
+        video: "trailers/clip/witch-crush-love-potion.mp4",
         estreno:"maraton"
       },
       {
@@ -1383,7 +1384,7 @@ const SERIES = [
         n: 8,
         name: "La bruja del Bosque Durmiente",
         description:"Una visita de Harij altera la rutina de Rose y pone a prueba la distancia que intenta mantener.",
-        thumb: "series/witch-crush-love-potion-ep8.webp",
+        thumb: "series/witch-crush-love-potion-ep7.webp",
         image: "series/witch-crush-love-potion-ep8.webp",
         drive: "https://drive.google.com/file/d/1w3pzUwLLBviXHQ4yE8Eqs38OxCQC5VGI/preview",
         estreno:"maraton"
@@ -1435,7 +1436,7 @@ const SERIES = [
       "Novia de Alquiler",
       "kanokari"
     ],
-    image: "series/image/Rent-a-Girlfriend.webp",
+    image: "series/image/kanokari-tp1.webp",
     video: "trailers/clip/Rent-a-Girlfriend.mp4",
     estreno: "maraton",
     post: "series/Rent-a-Girlfriend.webp",
@@ -1471,7 +1472,7 @@ const SERIES = [
       {
         id: "episode-4",
         n: 4,
-        name: "Amigo y Novia | No Disponible",
+        name: "Amigo y Novia",
         description:"",
         thumb: "posters/no-disponible-cat.png",
         image: "posters/no-disponible-cat.png",
@@ -1561,7 +1562,7 @@ const SERIES = [
       "konosuba",
       "Kono Subarashii Sekai ni Shukufuku wo!"
     ],
-    image: "series/konosuba.webp",
+    image: "series/image/konosuba-tp1.webp",
     video: "trailers/clip/.mp4",
     post: "series/konosuba.webp",
     genres: ["Anime"],
@@ -1651,7 +1652,7 @@ const SERIES = [
       "konosuba",
       "Kono Subarashii Sekai ni Shukufuku wo!"
     ],
-    image: "series/konosuba-an-explosion-on-this-wonderful-world.avif",
+    image: "series/image/kono-subarashii-sekai-ni-bakuen-wo.webp",
     video: "trailers/clip/.mp4",
     post: "series/konosuba-an-explosion-on-this-wonderful-world.avif",
     genres: ["Anime","Animación"],
@@ -1819,7 +1820,7 @@ const SERIES = [
     id: "a-regular-show-lost-tapes",
     title: "Un Show Más: Las Cintas Pérdidas | Próximamente: 1 de Enero",
     year: 2026,
-    image: "series/a-regular-show-lost-tapes.webp",
+    image: "series/image/a-regular-show-lost-tapes.webp",
     video: "trailers/clip/.mp4",
     post: "series/a-regular-show-lost-tapes.webp",
     genres: ["Animación"],
@@ -1901,9 +1902,9 @@ const SERIES = [
   },
   {
     id: "kimetsu-no-yaiba",
-    title: "Demon Slayer: Kimetsu No Yaiba | Próximamente: 25 de Noviembre",
+    title: "Demon Slayer: Kimetsu No Yaiba - Arco de la resolución inquebrantable de Tanjiro Kamado",
     year: 2019,
-    image: "series/kimetsu-no-yaiba.webp",
+    image: "series/image/demon-slayer-tp1.webp",
     video: "trailers/clip/.mp4",
     post: "series/kimetsu-no-yaiba.webp",
     estreno:"maraton",
@@ -2002,146 +2003,146 @@ const SERIES = [
       {
         id: "episode-11",
         n: 11,
-        name: "La casa de los tambores | No Disponible",
+        name: "La casa de los tambores",
         description:"Cuando Tanjiro se reencuentra con otro de los supervivientes de la selección final, este resulta ser un cobarde mujeriego que acaba acompañándolo para que él le proteja.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep11.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep11.webp",
+        drive: "https://drive.google.com/file/d/1V-SWrOGJa_5mf-bowT6aS9_gNRxyWlSJ/preview"
       },
       {
         id: "episode-12",
         n: 12,
-        name: "El jabalí muestra sus colmillos mientras Zenitsu duerme | No Disponible",
+        name: "El jabalí muestra sus colmillos mientras Zenitsu duerme",
         description:"Tanjiro intenta proteger a los inocentes que encuentra dentro de la endemoniada casa, aunque con sus heridas todavía por sanar, no resulta sencillo. Por otro lado Zenitsu intenta mantener su temor a un lado, pero su cobardía impide que pueda defenderse pese a ser un cazador de demonios... o tal vez no.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep12.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep12.webp",
+        drive: "https://drive.google.com/file/d/1BoiGUNEe3HrFkPOh1tutA0qdxUB-xtqc/preview"
       },
       {
         id: "episode-13",
         n: 13,
-        name: "Algo más importante que la vida | No Disponible",
+        name: "Algo más importante que la vida",
         description:"Tanjiro intenta convencerse de que puede alcanzar la victoria, pero el demonio de los tambores puede ser incluso más peligroso de lo que él piensa. Pero ¿cuáles son sus verdaderas motivaciones? Por otro lado Zenitsu intenta proteger al niño y la caja que le encomendó Tanjiro, pero su enemigo es...",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep13.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep13.webp",
+        drive: "https://drive.google.com/file/d/1wZ0s1EU5W1fxlANFamCOj10Z7yOByJ2L/preview"
       },
       {
         id: "episode-14",
         n: 14,
-        name: "La casa del blasón de glicinias | No Disponible",
+        name: "La casa del blasón de glicinias",
         description:"Tanjiro enfrenta al nuevo cazador de demonios con el que se encuentran, quien con su velocidad, forma de moverse y aspecto, parece más un animal salvaje que un ser humano.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep14.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep14.webp",
+        drive: "https://drive.google.com/file/d/1qX__BRr80i1Vvzb2aBkllEJgXgdKRPvc/preview"
       },
       {
         id: "episode-15",
         n: 15,
-        name: "El monte Natagumo | No Disponible",
+        name: "El monte Natagumo",
         description:"Nuestros tres cazadores de demonios reciben un aviso para ir al nornoreste como nuevo destino, donde encontrarán una tenebrosa montaña en la que encuentran a otro cazador que los pone al tanto de la peliaguda situación.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep15.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep15.webp",
+        drive: "https://drive.google.com/file/d/1GdwmOUBg5YQkrEnkg38hyK9_XQMtQylB/preview"
       },
       {
         id: "episode-16",
         n: 16,
         name: "Que otro vaya al frente | No Disponible",
         description:"Tanjiro e Inosuke pelean en el bosque contra los cazadores de demonios controlados por los hilos, pero son fuertes y matarlos cuando no son culpables de nada no es la mejor opción. Colaborar es la única opción para tener alguna posibilidad de sobrevivir.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep16.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep16.webp",
+        drive: "https://drive.google.com/file/d/18ZPsQ0Qe0s8mC6SvTQfwbpfUqOUmhKi_/preview"
       },
       {
         id: "episode-17",
         n: 17,
-        name: " Domina una única cosa | No Disponible",
+        name: " Domina una única cosa",
         description:"Zenitsu sigue buscando a sus compañeros por la montaña, cada vez más asustado y cansado de la situación, cuando una terrorífica araña sale a su paso. Lo peor es que el enfrentamiento parecía decidido desde antes incluso de encontrarse con su enemigo...",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep17.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep17.webp",
+        drive: "https://drive.google.com/file/d/1pOiKrAPp4HhnFZBSS3mw9VWTJ_P-qmwC/preview"
       },
       {
         id: "episode-18",
         n: 18,
-        name: "Lazos simulados | No Disponible",
+        name: "Lazos simulados",
         description:"Tanjiro e Inosuke se dividen para enfrentar a diferentes demonios, aunque igual de poderosos. Ninguno está en buena situación, pero entonces aparece alguien en el bosque.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep18.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep18.webp",
+        drive: "https://drive.google.com/file/d/1zS8zeKmmxISNJjQCTamWoiMagdqRYdxM/preview"
       },
       {
         id: "episode-19",
         n: 19,
-        name: "Dios del fuego | No Disponible",
+        name: "Dios del fuego",
         description:"Tanjiro enfrenta al hermano menor de las arañas, quien resulta ser mucho más poderoso de lo que él creía, puesto que es una de las Lunas Demoníacas. Eso sí, el demonio encontrará en la batalla algo que desea con toda su alma.",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep19.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep19.webp",
+        drive: "https://drive.google.com/file/d/1zS8zeKmmxISNJjQCTamWoiMagdqRYdxM/preview"
       },
       {
         id: "episode-20",
         n: 20,
-        name: " | No Disponible",
-        description:"",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        name: "Una familia unida a la fuerza",
+        description:"Tanjiro descubre con terror que su enfrentamiento no había acabado como él pensaba.",
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep20.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep20.webp",
+        drive: "https://drive.google.com/file/d/1rNuNv2POGw5x7TdTCQ1bwym3X0gwWS3v/preview"
       },
       {
         id: "episode-21",
         n: 21,
-        name: " | No Disponible",
-        description:"",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        name: "Violando las normas",
+        description:"La aparición de dos Pilares salva a Tanjiro, pero cuando se descubre que Nezuko es un demonio, la hermana de nuestro protagonista pasa a ser el objetivo de los mismos... aunque por diferentes motivos.",
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep21.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep21.webp",
+        drive: "https://drive.google.com/file/d/1jxw-O8d9IS-1x3ybEHjzdB155AlNdKD4/preview"
       },
       {
         id: "episode-22",
         n: 22,
-        name: " | No Disponible",
-        description:"",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        name: "El patrón",
+        description:"Tanjiro acaba ante los Pilares, quienes pretenden juzgarlo por el hecho de ser un asesino de demonios que viaja con uno. El consenso parece general y todos están dispuestos a castigar e incluso matar al protagonista, pero su patrón puede algo tener que decir.",
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep22.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep22.webp",
+        drive: "https://drive.google.com/file/d/1MiI3qDJa1fXWtkL59EE1B3tTAaJmhly0/preview"
       },
       {
         id: "episode-23",
         n: 23,
-        name: " | No Disponible",
-        description:"",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        name: "Reunión de los Pilares",
+        description:"Los Pilares y el Patrón finalizan el juicio de Nezuko y Tanjiro, y con las conclusiones en la mano, deben tomar una decisión.",
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep23.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep23.webp",
+        drive: "https://drive.google.com/file/d/1JckGoxXjiDcSsdCMaCReLHe-2wviaiCA/preview"
       },
       {
         id: "episode-24",
         n: 24,
-        name: " | No Disponible",
-        description:"",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        name: "Entrenamiento restaurador",
+        description:"Habiendo acabado malheridos, nuestros protagonistas se recuperan a mejor o peor ritmo como buenamente pueden, pero mientras tanto tendrán que pasar por el entrenamiento restaurador de Kocho, el cual parece durísimo.",
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep24.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep24.webp",
+        drive: "https://drive.google.com/file/d/1pVGBpaeMlqO1g6W4wI8GL3Lw8Id6NGLY/preview"
       },
       {
         id: "episode-25",
         n: 25,
-        name: " | No Disponible",
-        description:"",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        name: "Kanao Tsuyuri",
+        description:"Tanjiro sigue entrenando para dominar la respiración de concentración completa mientras sus compañeros observan desde la distancia.",
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep25.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep25.webp",
+        drive: "https://drive.google.com/file/d/1YxRdglCJc4nED3wySaYgygwibeI-x-GQ/preview"
       },
       {
         id: "episode-26",
         n: 26,
-        name: " | No Disponible",
-        description:"",
-        thumb: "posters/no-disponible-cat.png",
-        image: "posters/no-disponible-cat.png",
-        drive: ""
+        name: "Una Nueva Misión",
+        description:"Mientras Tanjiro y sus compañeros se preparan para una nueva misión ahora que se recuperaron, Kibutsuji hace limpieza en su organización de la forma más cruel posible.",
+        thumb: "series/demon-slayer-tp1/demon-slayer-ep26.webp",
+        image: "series/demon-slayer-tp1/demon-slayer-ep26.webp",
+        drive: "https://drive.google.com/file/d/1EBK3EvpG_l40i1lPU1zEKrPLNrrwqnjO/preview"
       }
     ]
   },

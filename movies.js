@@ -80,7 +80,10 @@ const MOVIES = [
     rating: "PG-13",
     genres: ["Ciencia ficción", "Drama", "Aventura"],
     description:  "Un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad mientras la Tierra agoniza.",
-    trailerUrl: "trailers/interestellar-trailer-2.mp4",
+    trailerUrl: [
+      "trailers/interestellar-trailer-2.mp4",
+      "trailers/interestellar.mp4"
+    ],
     image: "images/interestellar.webp",
     post: "posters/interstellar.webp",
     movie: "https://drive.google.com/file/d/1iESvmJew9Qftd_5iLozVhRFIK-TXfzY6/preview"
@@ -965,9 +968,10 @@ const MOVIES = [
     rating: "B-15",
     genres: ["Terror","Ciencia Ficción"],
     description: "Años atrás, las plegarias de una pareja son respondidas cuando un objeto llega a la Tierra transportando una forma de vida que parece ser un bebé, el cúal adoptaron, pero ahora notan que se está volviendo malvado… y tiene superpoderes que comienza a usar sus poderes de forma siniestra...",
-    trailerUrl: sampleTrailer,
+    trailerUrl: "trailers/brightburn.mp4",
     keywords:[
-    "bright burn"
+    "bright burn",
+    "brightburn"
     ],
     image: "images/bright-burn.webp",
     post: "posters/bright-burn.webp",
@@ -1058,9 +1062,9 @@ const MOVIES = [
     year: 2019,
     duration: "1h 50m",
     rating: "PG-13",
-    genres: ["Acción", "Crimen"],
+    genres: ["Acción", "Crimen", "Suspenso"],
     description:"Un despiadado jefe de una organización criminal sobrevive a un ataque por parte de un asesino en serie. Para vengarse y capturar al criminal, forma una inusual alianza con un detective de policía.",
-    trailerUrl: sampleTrailer,
+    trailerUrl: "trailers/mafioso-policia-diablo.mp4",
     image: "images/The_Gangster_The_Cop_The_Devil.jpg",
     post: "posters/The_Gangster_The_Cop_The_Devil.webp",
     movie: "https://drive.google.com/file/d/1uGJlaD3Fo3nXcufUrIK_Ntym-H9EiUnC/preview"
@@ -1221,7 +1225,8 @@ const MOVIES = [
     trailerUrl: sampleTrailer,
     image: "https://lumiere-a.akamaihd.net/v1/images/toy_story_c00b8d79.jpeg?region=0,0,1080,1350",
     post: "posters/toy-story-5.webp",
-    movie: "https://drive.google.com/file/d/1dpCvmTc6mRO38j9leJkY1s4Z6d-Pf5b4/preview"
+    movie: "https://drive.google.com/file/d/1jpjpgs6uTEoa7JSdVwoEO_Pc2QulQ2Cv/preview",
+    estreno:"maraton"
   },
   {
     id: "guardians-of-the-galaxy",
@@ -1708,7 +1713,7 @@ const MOVIES = [
 },
 {
     id: "a-wild-robot",
-    title: "Robot Salvaje",
+    title: "Robot Salvaje | No Disponible",
     year: 2024,
     duration: "1h 42m",
     rating: "PG-13",
@@ -2985,7 +2990,7 @@ const MOVIES = [
     "denji",
     "reze"
     ],
-    image: image,
+    image: "images/chainsaw-man-arco-de-reze.webp",
     post: "posters/chainsaw-man-arco-de-reze.webp",
     movie: "https://drive.google.com/file/d/1ZExdDZPZ6Dh4eJ7CnT2jaEH4p89Vh5qa/preview"
 },
@@ -3006,7 +3011,7 @@ const MOVIES = [
     "denji",
     "reze"
     ],
-    image: image,
+    image: "images/chainsaw-man-arco-de-reze.webp",
     post: "posters/chainsaw-man-arco-de-reze.webp",
     movie: "https://drive.google.com/file/d/1bz_9jKz7Ko-yIl07zRlzMfiQI9-d8OWO/preview"
 },
@@ -3027,7 +3032,7 @@ const MOVIES = [
     "denji",
     "reze"
     ],
-    image: image,
+    image: "images/chainsaw-man-arco-de-reze.webp",
     post: "posters/chainsaw-man-arco-de-reze.jpg",
     movie: "https://drive.google.com/file/d/1RuAAICpX5bXmT6Oqcshjn-QI9pI6QrcR/preview"
 },
@@ -3115,7 +3120,7 @@ const MOVIES = [
     "el poder de la esperanza"
     ],
     description:"Un jugador de béisbol profesional, cuya carrera ha sido truncada por problemas personales, se ve repentinamente fortalecido por un joven con síndrome de Down que trabaja en el almacén local.",
-    trailerUrl: "trailers/",
+    trailerUrl: "trailers/el-poder-de-la-esperanza.mp4",
     image: image,
     post: "posters/where-hope-grows.webp",
     movie: "https://drive.google.com/file/d/1e2hRpDECb77HHVmEVR0lx9qb5xHaM9Y-/preview"
@@ -3147,6 +3152,21 @@ const MOVIES = [
     image: image,
     post: "posters/master-of-universe.webp",
     movie: "..."
+},
+{
+    id: "movie-62_jeepers-creepers",
+    title: "Jeepers Creepers | Próximamente",
+    year: 2001,
+    duration: "0h",
+    rating: "B",
+    calidad: "720p",
+    genres: ["..."],
+    description:"...",
+    trailerUrl: "trailers/",
+    image: image,
+    post: "posters/no-disponible-cat.png",
+    movie: "...",
+    estreno:"maraton"
 }
 ];
 

@@ -6,6 +6,7 @@ const ep = params.get("ep");
 let content = null;
 let videoUrl = "";
 let episodioIndividual = false;
+let serieOriginal = null;
 
 // ===========================
 // SELECCIONAR TRÁILER ALEATORIO
@@ -41,13 +42,20 @@ if (type === "movie") {
 } else if (type === "series") {
 
     content = window.SERIES?.find(s => s.id === id);
+    serieOriginal = content;
 
 } else {
 
     content = window.SERIES?.find(s => s.id === id);
 
-    if (!content) {
+    if (content) {
+
+        serieOriginal = content;
+
+    } else {
+
         content = window.MOVIES?.find(m => m.id === id);
+
     }
 
 }
@@ -152,7 +160,13 @@ if (!content || !videoUrl) {
     video.muted = true;
     video.volume = 1;
 
-    title.textContent = content.title || content.name;
+    // TÍTULO DEL CONTENIDO
+
+    title.textContent = episodioIndividual
+        ? serieOriginal.title
+        : content.title || content.name;
+
+    // SUBTÍTULO
 
     if (episodioIndividual) {
 
@@ -191,7 +205,7 @@ if (!content || !videoUrl) {
                 subtitle.innerHTML = "";
 
                 subtitle.append(
-                    descripcion.substring(0, limite) + "... ",
+                    descripcion.substring(0, limite) + "... "
                 );
 
                 const boton = document.createElement("span");
@@ -290,7 +304,10 @@ if (shareBtn) {
         if (!content) return;
 
         const shareUrl = getShareUrl();
-        const shareTitle = content.title || content.name;
+
+        const shareTitle = episodioIndividual
+            ? serieOriginal.title
+            : content.title || content.name;
 
         if (navigator.share) {
 

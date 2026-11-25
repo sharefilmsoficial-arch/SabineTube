@@ -2496,7 +2496,7 @@ const MOVIES = [
     trailerUrl: "trailers/",
     image: image,
     post: "posters/the-proposal.webp",
-    movie: "",
+    movie: "https://drive.google.com/file/d/1Ty3Txn_Vx-7m37MnRMRP8_JJ2ggcgKgW/preview",
     estreno:"maraton"
 },
 {
@@ -2582,19 +2582,19 @@ const MOVIES = [
     movie: "https://drive.google.com/file/d/1jDVBJCskPOH3p3cct7kJX52d3wlRxw16/preview"
 },
 {
-    id: "movie-32-1_the-devil-wears-prada-2",
-    title: "Muy Proximamente | El Diablo Viste a la Moda 2",
+    id: "the-devil-wears-prada-2",
+    title: "El Diablo Viste a la Moda 2",
     year: 2026,
-    duration: "1h ",
+    duration: "2h 1m",
     rating: "B",
     calidad: "360p",
-    genres: ["..."],
-    description:"No comparta este enlace ahora, este enlace dejará de existir al actualizarse la info de la pelicula.",
+    genres: ["Drama","Comedia"],
+    description:"Andy Sachs regresa a Runway mientras Miranda Priestly explora un nuevo panorama mediático y el lugar que ocupa Runway en él. Se reencuentran con otra ex asistente, Emily, quien ahora dirige una marca de lujo con los fondos necesarios para asegurar la supervivencia de Runway.",
     trailerUrl: "trailers/",
     image: image,
     post: "posters/the-devil-wears-prada-2.webp",
-    movie: "",
-    estreno: "Próximamente"
+    movie: "https://drive.google.com/file/d/1Il49GBj3wNwqactN52bsGTNC_1XdI90O/preview",
+    estreno: "maraton"
 },
 {
     id: "movie-33-the-mandalorian-&-grogu",
@@ -3154,18 +3154,21 @@ const MOVIES = [
     movie: "..."
 },
 {
-    id: "movie-62_jeepers-creepers",
-    title: "Jeepers Creepers | Próximamente",
+    id: "jeepers-creepers",
+    title: "Jeepers Creepers",
     year: 2001,
-    duration: "0h",
-    rating: "B",
+    duration: "1h 30m",
+    rating: "C",
     calidad: "720p",
-    genres: ["..."],
-    description:"...",
+    genres: ["Terror","Misterio"],
+    description:"Trish y Darry, dos hermanos universitarios, viajan por carretera para ir a visitar a sus padres. Por el camino sintonizan una canción que anuncia la presencia de una criatura aterradora, un ser demencial que quiere algo de ellos.",
+    keywords:[
+      "El Demonio"
+    ],
     trailerUrl: "trailers/",
-    image: image,
-    post: "posters/no-disponible-cat.png",
-    movie: "...",
+    image: "images/jeepers-creepers.webp",
+    post: "posters/jeepers-creepers.webp",
+    movie: "https://drive.google.com/file/d/1bjwD_wXros0Gp07L5sKCNDCOMYeNBBT5/preview",
     estreno:"maraton"
 }
 ];
